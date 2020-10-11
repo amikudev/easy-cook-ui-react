@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Header from "./components/Header";
+import RecipeSearch from "./components/recipe-search/RecipeSearch";
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <header className="App-header">
           <Header appName="Easy Cooking"></Header>
       </header>
+        <RecipeSearch></RecipeSearch>
     </div>
   );
 }
