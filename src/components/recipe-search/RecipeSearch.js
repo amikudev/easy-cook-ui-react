@@ -21,7 +21,7 @@ export default class RecipeSearch extends React.Component {
             .then((response) => {
                 console.log(response);
                 this.updateAllRecipes(response.data);
-                this.updateFilteredRecipes();
+                this.updateFilteredRecipes(this.state.searchText);
             });
     }
 
