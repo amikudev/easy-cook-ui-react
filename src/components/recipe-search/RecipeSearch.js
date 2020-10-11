@@ -1,6 +1,10 @@
 import React from "react";
 import './RecipeSearch.css';
 import axios from 'axios';
+import TextField from '@material-ui/core/TextField';
+
+import Button from '@material-ui/core/Button';
+
 
 import RecipeSmallCard from "../recipe-small-card/RecipeSmallCard";
 
@@ -19,7 +23,7 @@ export default class RecipeSearch extends React.Component {
         //get the data
         axios.get('https://easy-cooking-services.herokuapp.com/recipe')
             .then((response) => {
-                console.log(response);
+                console.log('recipes:', response.data);
                 this.updateAllRecipes(response.data);
                 this.updateFilteredRecipes(this.state.searchText);
             });
@@ -57,10 +61,15 @@ export default class RecipeSearch extends React.Component {
         return (
             <div>
                 <h1>Recipe list</h1>
-                <input type="text" value={this.state.searchText} onChange={this.handleSearchInputChange}/>
-                <button type="button">Search Recipes</button>
+                <input type="text" value={this.state.searchText}
+                       onChange={this.handleSearchInputChange}/>
+                <Button variant="contained" color="primary">
+                    Search Recipes
+                </Button>
                 {
-                    this.state.filteredRecipes.map(recipe => <RecipeSmallCard recipe={recipe}/>)
+                    this.state.filteredRecipes.map(recipe => {
+                        return <RecipeSmallCard key={recipe._id} recipe={recipe}/>
+                    })
                 }
             </div>
         )
