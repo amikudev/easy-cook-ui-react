@@ -22,7 +22,8 @@ export default class App extends React.Component {
             console.log('recipes retrieved from localstorage', recipes);
             console.log('typeof recipes' , typeof recipes);
             setTimeout(() => this.setState({
-                allRecipes: recipes
+                allRecipes: recipes,
+                selectedRecipeList: [recipes[0]]
             }), 500);
         }
 
