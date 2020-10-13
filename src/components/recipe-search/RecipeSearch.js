@@ -3,7 +3,7 @@ import './RecipeSearch.css';
 
 import Button from '@material-ui/core/Button';
 
-import RecipeSmallCard from "../recipe-small-card/RecipeSmallCard";
+import RecipeSummary from "../recipe-summary/RecipeSummary";
 
 
 export default class RecipeSearch extends React.Component {
@@ -21,7 +21,7 @@ export default class RecipeSearch extends React.Component {
         let recipes = this.getFilteredRecipes();
 
         let recipeListUI = recipes.map(recipe => {
-            return <RecipeSmallCard key={recipe._id} recipe={recipe} recipeClickHandler={this.props.recipeClickHandler}/>
+            return <RecipeSummary key={recipe._id} recipe={recipe} recipeClickHandler={this.props.recipeClickHandler}/>
         });
         return (
             <div>

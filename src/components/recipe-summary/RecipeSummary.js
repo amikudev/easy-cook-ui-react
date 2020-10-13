@@ -1,7 +1,7 @@
 import React from 'react';
-import './RecipeSmallCard.css'
+import './RecipeSummary.css'
 
-export default class RecipeSmallCard extends React.Component {
+export default class RecipeSummary extends React.Component {
     render(props) {
         return (
             <div className="recipe-small-card" onClick={() => this.props.recipeClickHandler(this.props.recipe._id)}>
