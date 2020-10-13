@@ -1,6 +1,5 @@
 import React from "react";
 import './RecipeSearch.css';
-import axios from 'axios';
 
 import Button from '@material-ui/core/Button';
 
@@ -22,7 +21,7 @@ export default class RecipeSearch extends React.Component {
         let recipes = this.getFilteredRecipes();
 
         let recipeListUI = recipes.map(recipe => {
-            return <RecipeSmallCard key={recipe._id} recipe={recipe}/>
+            return <RecipeSmallCard key={recipe._id} recipe={recipe} recipeClickHandler={this.props.recipeClickHandler}/>
         });
         return (
             <div>

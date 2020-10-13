@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from "./components/Header";
 import RecipeSearch from "./components/recipe-search/RecipeSearch";
-import Recipe from "./components/recipe/Recipe";
+import SelectedRecipeList from "./components/recipe/SelectedRecipeList";
 import axios from "axios";
 
 export default class App extends React.Component {
@@ -11,6 +11,7 @@ export default class App extends React.Component {
         this.state = {
             searchText: '',
             allRecipes: [],
+            selectedRecipeList: []
         };
     }
 
@@ -30,6 +31,26 @@ export default class App extends React.Component {
         });
     }
 
+    recipeClickHandler = recipeId => {
+        console.log('recipe click handler fired');
+        let filteredRecipeList = this.state.allRecipes.filter(recipe => recipe._id === recipeId);
+        let selectedRecipe;
+        if(filteredRecipeList.length === 1) {
+            selectedRecipe = filteredRecipeList[0];
+        }
+        else {
+            console.error('log error here');
+            return;
+        }
+
+        this.setState(state => {
+            let selectedRecipeList = JSON.parse(JSON.stringify(state.selectedRecipeList));
+            return {
+                selectedRecipeList: [...selectedRecipeList, selectedRecipe]
+            }
+        });
+    }
+
     render = () => {
         return (
             <div className="App">
@@ -41,8 +62,9 @@ export default class App extends React.Component {
                         searchText={this.state.searchText}
                         allRecipes={this.state.allRecipes}
                         recipeSearchTextChangeHandler={this.recipeSearchTextChangeHandler}
+                        recipeClickHandler={this.recipeClickHandler}
                     ></RecipeSearch>
-                    <Recipe></Recipe>
+                    <SelectedRecipeList selectedRecipeList={this.state.selectedRecipeList}></SelectedRecipeList>
                 </main>
             </div>
         )
