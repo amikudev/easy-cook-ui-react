@@ -4,7 +4,6 @@ import axios from 'axios';
 
 import Button from '@material-ui/core/Button';
 
-
 import RecipeSmallCard from "../recipe-small-card/RecipeSmallCard";
 
 
@@ -14,17 +13,14 @@ export default class RecipeSearch extends React.Component {
         this.state = {
             searchText: '',
             allRecipes: [],
-            filteredRecipes: []
         };
     }
 
     componentDidMount() {
-        //get the data
         axios.get('https://easy-cooking-services.herokuapp.com/recipe')
             .then((response) => {
                 console.log('recipes:', response.data);
                 this.updateAllRecipes(response.data);
-                this.updateFilteredRecipes(this.state.searchText);
             });
     }
 
@@ -34,29 +30,26 @@ export default class RecipeSearch extends React.Component {
         });
     };
 
-    updateFilteredRecipes = (searchText = '') => {
-        this.setState((state, props) => {
-            let filteredRecipes = searchText === '' ?
-                state.allRecipes :
-                state.allRecipes.filter(recipe => {
-                    console.log(recipe.title);
-                    return recipe.title.toLowerCase().indexOf(searchText.toLowerCase()) >= 0;
-                });
-            return {
-                filteredRecipes: filteredRecipes
-            };
-        });
-    };
+    getFilteredRecipes = () => {
+        let searchText = this.state.searchText;
+        let filteredRecipes = searchText === '' ?
+            this.state.allRecipes :
+            this.state.allRecipes.filter(recipe => {
+                console.log(recipe.title);
+                return recipe.title.toLowerCase().indexOf(searchText.toLowerCase()) >= 0;
+            });
+        return filteredRecipes;
+    }
 
     handleSearchInputChange = (event) => {
         let searchString = event.target.value;
         this.setState({
             searchText: searchString
         });
-        this.updateFilteredRecipes(searchString);
     }
 
     render() {
+        let recipes = this.getFilteredRecipes();
         return (
             <div>
                 <h1>Recipe list</h1>
@@ -66,7 +59,7 @@ export default class RecipeSearch extends React.Component {
                     Search Recipes
                 </Button>
                 {
-                    this.state.filteredRecipes.map(recipe => {
+                    recipes.map(recipe => {
                         return <RecipeSmallCard key={recipe._id} recipe={recipe}/>
                     })
                 }
