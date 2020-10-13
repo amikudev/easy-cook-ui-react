@@ -16,9 +16,20 @@ export default class App extends React.Component {
     }
 
     componentDidMount = () => {
+        let recipesString = localStorage.getItem('recipes')
+        if  (recipesString !== null) {
+            let recipes = JSON.parse(recipesString);
+            console.log('recipes retrieved from localstorage', recipes);
+            console.log('typeof recipes' , typeof recipes);
+            setTimeout(() => this.setState({
+                allRecipes: recipes
+            }), 500);
+        }
+
         axios.get('https://easy-cooking-services.herokuapp.com/recipe')
             .then((response) => {
-                console.log('recipes:', response.data);
+                console.log('recipes fetched from server:', response.data);
+                localStorage.setItem('recipes', JSON.stringify(response.data));
                 this.setState({
                     allRecipes: response.data
                 });
