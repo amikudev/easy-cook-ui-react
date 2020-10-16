@@ -1,12 +1,12 @@
-import React from 'react';
-import './Header.css';
+import React from "react";
+import "./Header.css";
 
 export default class Header extends React.Component {
-    render() {
-        return (
-            <div className='app-header'>
-                <h1>{this.props.appName}</h1>
-            </div>
-        )
-    }
+  render() {
+    return (
+      <div className="app-header">
+        <h1>{this.props.appName}</h1>
+      </div>
+    );
+  }
 }

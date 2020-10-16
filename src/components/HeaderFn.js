@@ -1,4 +1,4 @@
-import './Header.css';
+import "./Header.css";
 import React from "react";
 
 /**
@@ -7,9 +7,9 @@ import React from "react";
  * @returns {JSX.Element}
  */
 export default function (props) {
-    return (
-        <div className='app-header'>
-            <h1>{props.appName}</h1>
-        </div>
-    )
-};
+  return (
+    <div className="app-header">
+      <h1>{props.appName}</h1>
+    </div>
+  );
+}
