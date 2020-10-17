@@ -44,7 +44,7 @@ export default class RecipeSearch extends React.Component {
       );
     });
     return (
-      <div>
+      <div className={classes.recipeSearchSection}>
         <input
           ref={this.searchBoxRef}
           className={cn(["form", "form-control", classes.searchInput])}
