@@ -4,6 +4,20 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+## Compulsory features before releasing to production.
+
+* Auto height adjustment according to size of the screen.
+* Recipe adjustment should happen correctly.
+    * should take care that some recipes original quanitity is text
+    * Base recipe quantity 
+* Title should display recipe name.
+* Show only 1 recipe, or show recipe in tags.
+* optional
+* localstorage should store and retrieve.
+    * selected recipes.
+    * selected quantities in those recipes.
+
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
