@@ -1,11 +1,11 @@
 import React from "react";
-import "./RecipeSummary.scss";
+import styles from "./RecipeSummary.module.scss";
 
 export default class RecipeSummary extends React.Component {
   render(props) {
     return (
       <div
-        className="recipe-small-card"
+        className={styles.recipeSmallCard}
         onClick={() => this.props.recipeClickHandler(this.props.recipe._id)}
       >
         {this.props.recipe.title}
