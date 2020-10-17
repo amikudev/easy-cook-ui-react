@@ -10,7 +10,7 @@ export default class Recipe extends React.Component {
     // const rowData =
     return (
       <React.Fragment>
-        <h1>{this.props.recipe.title}</h1>
+        <h5>{this.props.recipe.title}</h5>
         <div className="ag-theme-alpine" style={{ height: 400, width: 600 }}>
           <AgGridReact rowData={this.props.recipe.ingredients}>
             <AgGridColumn
