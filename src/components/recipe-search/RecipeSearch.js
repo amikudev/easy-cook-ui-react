@@ -7,6 +7,14 @@ import cn from "classnames";
 import RecipeSummary from "../recipe-summary/RecipeSummary";
 
 export default class RecipeSearch extends React.Component {
+  constructor(props) {
+    super(props);
+    this.searchBoxRef = React.createRef();
+  }
+  componentDidMount() {
+    this.searchBoxRef.current.focus();
+  }
+
   getFilteredRecipes = () => {
     let searchText = this.props.searchText;
     let filteredRecipes =
@@ -17,6 +25,9 @@ export default class RecipeSearch extends React.Component {
               recipe.title.toLowerCase().indexOf(searchText.toLowerCase()) >= 0
             );
           });
+    if (this.searchBoxRef.current) {
+      this.searchBoxRef.current.focus();
+    }
     return filteredRecipes;
   };
 
@@ -35,6 +46,7 @@ export default class RecipeSearch extends React.Component {
     return (
       <div>
         <input
+          ref={this.searchBoxRef}
           className={cn(["form", "form-control", classes.searchInput])}
           type="text"
           value={this.props.searchText}
