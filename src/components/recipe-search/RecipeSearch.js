@@ -1,7 +1,8 @@
 import React from "react";
-import "./RecipeSearch.module.scss";
+import classes from "./RecipeSearch.module.scss";
 
 import Button from "@material-ui/core/Button";
+import cn from "classnames";
 
 import RecipeSummary from "../recipe-summary/RecipeSummary";
 
@@ -33,15 +34,15 @@ export default class RecipeSearch extends React.Component {
     });
     return (
       <div>
-        <h1>Recipe list</h1>
         <input
+          className={cn(["form", "form-control", classes.searchInput])}
           type="text"
           value={this.props.searchText}
           onChange={this.props.recipeSearchTextChangeHandler}
         />
-        <Button variant="contained" color="primary">
-          Search Recipes
-        </Button>
+        {/*<Button variant="contained" color="primary">*/}
+        {/*  Search Recipes*/}
+        {/*</Button>*/}
         {recipeListUI}
       </div>
     );
