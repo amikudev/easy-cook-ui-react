@@ -1,5 +1,5 @@
 import React from "react";
-import "./RecipeSearch.css";
+import "./RecipeSearch.scss";
 
 import Button from "@material-ui/core/Button";
 

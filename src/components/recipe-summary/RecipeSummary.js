@@ -1,5 +1,5 @@
 import React from "react";
-import "./RecipeSummary.css";
+import "./RecipeSummary.scss";
 
 export default class RecipeSummary extends React.Component {
   render(props) {
