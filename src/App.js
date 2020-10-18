@@ -27,7 +27,7 @@ export default class App extends React.Component {
             allRecipes: recipes,
             selectedRecipeList: [recipes[0]],
           }),
-        500
+        0
       );
     }
 
