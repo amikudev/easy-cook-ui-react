@@ -1,22 +1,46 @@
 import React from "react";
+import { connect } from "react-redux";
 import classes from "./RecipeSearch.module.scss";
+import { addRecipeToSelectedList, updateRecipeList } from "../../redux/actions";
 
-import Button from "@material-ui/core/Button";
 import cn from "classnames";
 
 import RecipeSummary from "../recipe-summary/RecipeSummary";
+import axios from "axios";
 
-export default class RecipeSearch extends React.Component {
+class RecipeSearch extends React.Component {
   constructor(props) {
     super(props);
+    this.state = {
+      searchText: "",
+    };
     this.searchBoxRef = React.createRef();
   }
+
   componentDidMount() {
     this.searchBoxRef.current.focus();
+
+    //get recipes from localstorage and set them
+    let recipesString = localStorage.getItem("recipes");
+    if (recipesString !== null) {
+      let recipes = JSON.parse(recipesString);
+      console.log("recipes retrieved from localstorage", recipes);
+      console.log("typeof recipes", typeof recipes);
+      this.props.updateRecipeList(recipes);
+    }
+
+    axios
+      .get("https://easy-cooking-services.herokuapp.com/recipe")
+      .then((response) => {
+        let recipes = response.data;
+        console.log("recipes fetched from server:", recipes);
+        localStorage.setItem("recipes", JSON.stringify(recipes));
+        this.props.updateRecipeList(recipes);
+      });
   }
 
   getFilteredRecipes = () => {
-    let searchText = this.props.searchText;
+    let searchText = this.state.searchText;
     let filteredRecipes =
       searchText === ""
         ? this.props.allRecipes
@@ -31,6 +55,12 @@ export default class RecipeSearch extends React.Component {
     return filteredRecipes;
   };
 
+  recipeSearchTextChangeHandler = (event) => {
+    this.setState({
+      searchText: event.target.value,
+    });
+  };
+
   render() {
     let recipes = this.getFilteredRecipes();
 
@@ -39,7 +69,7 @@ export default class RecipeSearch extends React.Component {
         <RecipeSummary
           key={recipe._id}
           recipe={recipe}
-          recipeClickHandler={this.props.recipeClickHandler}
+          recipeClickHandler={() => this.props.addRecipeToSelectedList(recipe)}
         />
       );
     });
@@ -49,14 +79,23 @@ export default class RecipeSearch extends React.Component {
           ref={this.searchBoxRef}
           className={cn(["form", "form-control", classes.searchInput])}
           type="text"
-          value={this.props.searchText}
-          onChange={this.props.recipeSearchTextChangeHandler}
+          value={this.state.searchText}
+          onChange={this.recipeSearchTextChangeHandler}
         />
-        {/*<Button variant="contained" color="primary">*/}
-        {/*  Search Recipes*/}
-        {/*</Button>*/}
         {recipeListUI}
       </div>
     );
   }
 }
+
+const mapStateToProps = (state) => {
+  const recipeList = state.recipeList.recipeList;
+  return {
+    allRecipes: recipeList,
+  };
+};
+
+export default connect(mapStateToProps, {
+  addRecipeToSelectedList,
+  updateRecipeList,
+})(RecipeSearch);

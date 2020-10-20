@@ -1,8 +1,9 @@
 import React from "react";
+import { connect } from "react-redux";
 import Recipe from "./Recipe";
 import classes from "./SelectedRecipeList.module.scss";
 
-export default class SelectedRecipeList extends React.Component {
+class SelectedRecipeList extends React.Component {
   render() {
     return (
       <div className={classes.selectedRecipes}>
@@ -13,3 +14,12 @@ export default class SelectedRecipeList extends React.Component {
     );
   }
 }
+
+const mapStateToProps = (state) => {
+  const selectedRecipeList = state.selectedRecipe.selectedRecipeList;
+  return {
+    selectedRecipeList,
+  };
+};
+
+export default connect(mapStateToProps)(SelectedRecipeList);
