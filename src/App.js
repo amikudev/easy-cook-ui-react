@@ -3,7 +3,6 @@ import "./App.css";
 import Header from "./components/Header";
 import RecipeSearch from "./components/recipe-search/RecipeSearch";
 import SelectedRecipeList from "./components/recipe/SelectedRecipeList";
-import axios from "axios";
 
 export default class App extends React.Component {
   render = () => {
