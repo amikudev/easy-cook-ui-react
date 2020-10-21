@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import Recipe from "./Recipe";
+import RecipeSummary from "../recipe-search/recipe-summary/RecipeSummary";
 import classes from "./SelectedRecipeList.module.scss";
 
 class SelectedRecipeList extends React.Component {
@@ -8,7 +8,7 @@ class SelectedRecipeList extends React.Component {
     return (
       <div className={classes.selectedRecipes}>
         {this.props.selectedRecipeList.map((recipe) => (
-          <Recipe recipe={recipe} />
+          <RecipeSummary recipe={recipe} />
         ))}
       </div>
     );

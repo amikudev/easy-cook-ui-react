@@ -1,11 +1,14 @@
 import React from "react";
 import { connect } from "react-redux";
 import classes from "./RecipeSearch.module.scss";
-import { addRecipeToSelectedList, updateRecipeList } from "../../redux/actions";
+import {
+  addRecipeToSelectedList,
+  updateRecipeList,
+} from "../../../../../redux/actions";
 
 import cn from "classnames";
 
-import RecipeSummary from "../recipe-summary/RecipeSummary";
+import RecipeSummary from "./recipe-summary/RecipeSummary";
 import axios from "axios";
 
 class RecipeSearch extends React.Component {
@@ -74,7 +77,7 @@ class RecipeSearch extends React.Component {
       );
     });
     return (
-      <div className={classes.recipeSearchSection}>
+      <div>
         <input
           ref={this.searchBoxRef}
           className={cn(["form", "form-control", classes.searchInput])}
