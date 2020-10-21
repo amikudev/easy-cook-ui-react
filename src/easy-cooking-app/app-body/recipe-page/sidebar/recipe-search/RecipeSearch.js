@@ -64,16 +64,23 @@ class RecipeSearch extends React.Component {
     });
   };
 
+  recipeClickHandler = (recipe) => {
+    console.log("clicked on a recipe named: " + recipe.title);
+    this.props.addRecipeToSelectedList(recipe);
+  };
+
   render() {
     let recipes = this.getFilteredRecipes();
 
     let recipeListUI = recipes.map((recipe) => {
       return (
-        <RecipeSummary
+        <div
           key={recipe._id}
           recipe={recipe}
-          recipeClickHandler={() => this.props.addRecipeToSelectedList(recipe)}
-        />
+          onClick={this.recipeClickHandler.bind(this, recipe)}
+        >
+          <RecipeSummary recipe={recipe}></RecipeSummary>
+        </div>
       );
     });
     return (

@@ -8,7 +8,9 @@ class SelectedRecipeList extends React.Component {
     return (
       <div className={classes.selectedRecipes}>
         {this.props.selectedRecipeList.map((recipe) => (
-          <RecipeSummary recipe={recipe} />
+          <div key={recipe._id}>
+            <RecipeSummary recipe={recipe} />
+          </div>
         ))}
       </div>
     );
