@@ -12,10 +12,17 @@ export default function (state = initialState, action) {
   switch (action.type) {
     case ADD_RECIPE_TO_SELECTED_LIST: {
       const { recipe } = action.payload;
+      const isRecipeAlreadySelected =
+        state.selectedRecipeList.filter(
+          (arrRecipe) => arrRecipe._id === recipe._id
+        ).length > 0;
+      const selectedRecipeList = isRecipeAlreadySelected
+        ? state.selectedRecipeList
+        : [...state.selectedRecipeList, recipe];
       return {
         ...state,
         selectedRecipeId: recipe._id,
-        selectedRecipeList: [...state.selectedRecipeList, recipe],
+        selectedRecipeList,
       };
     }
     case REMOVE_RECIPE_FROM_SELECTED_LIST: {
