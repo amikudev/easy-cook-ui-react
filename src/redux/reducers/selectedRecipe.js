@@ -1,6 +1,7 @@
 import {
   ADD_RECIPE_TO_SELECTED_LIST,
   REMOVE_RECIPE_FROM_SELECTED_LIST,
+  SELECT_RECIPE,
 } from "../actionTypes";
 
 const initialState = {
@@ -23,6 +24,12 @@ export default function (state = initialState, action) {
         ...state,
         selectedRecipeId: recipe._id,
         selectedRecipeList,
+      };
+    }
+    case SELECT_RECIPE: {
+      return {
+        ...state,
+        selectedRecipeId: action.payload,
       };
     }
     case REMOVE_RECIPE_FROM_SELECTED_LIST: {

@@ -1,5 +1,6 @@
 import {
   ADD_RECIPE_TO_SELECTED_LIST,
+  SELECT_RECIPE,
   REMOVE_RECIPE_FROM_SELECTED_LIST,
   UPDATE_RECIPE_LIST,
 } from "./actionTypes";
@@ -7,6 +8,11 @@ import {
 export const addRecipeToSelectedList = (recipe) => ({
   type: ADD_RECIPE_TO_SELECTED_LIST,
   payload: { recipe },
+});
+
+export const selectRecipe = (recipeId) => ({
+  type: SELECT_RECIPE,
+  payload: recipeId,
 });
 
 export const removeRecipeFromSelectedList = (recipeId) => ({
