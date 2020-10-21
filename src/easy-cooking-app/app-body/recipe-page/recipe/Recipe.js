@@ -4,14 +4,54 @@ import { AgGridColumn, AgGridReact } from "ag-grid-react";
 
 import "ag-grid-community/dist/styles/ag-grid.css";
 import "ag-grid-community/dist/styles/ag-theme-alpine.css";
-import "./Recipe.module.scss";
+import classes from "./Recipe.module.scss";
 
 class Recipe extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      desiredQuantity: "",
+    };
+  }
+
+  desiredQuantityUpdateHandler = (event) => {
+    this.setState({
+      desiredQuantity: event.target.value,
+    });
+  };
+
+  componentDidUpdate(prevProps, prevState, snapshot) {
+    //todo: reset recipe desired quantity if a different recipe has been loaded
+  }
+
   render() {
-    // const rowData =
+    if (this.props.recipe && this.props.recipe.targetRecipe === null) {
+      this.props.recipe.targetRecipe = "";
+    }
+
     return this.props.selectedRecipeId ? (
-      <React.Fragment>
-        <h5>{this.props.recipe.title}</h5>
+      <div className={classes.recipe}>
+        <div className={classes.recipeLeftcol}>
+          <h5>{this.props.recipe.title}</h5>
+          <div className={classes.recipeTextData}>
+            <label>Recipe Quantity</label>
+            <input
+              type="text"
+              className="form form-control"
+              value={this.props.recipe.baseRecipe}
+              disabled
+            />
+          </div>
+          <div className={classes.recipeTextData}>
+            <label>Desired Quantity</label>
+            <input
+              type="number"
+              className="form form-control"
+              value={this.state.desiredQuantity}
+              onChange={this.desiredQuantityUpdateHandler}
+            />
+          </div>
+        </div>
         <div className="ag-theme-alpine" style={{ height: 400, width: 600 }}>
           <AgGridReact rowData={this.props.recipe.ingredients}>
             <AgGridColumn
@@ -22,7 +62,7 @@ class Recipe extends React.Component {
             <AgGridColumn field="uom" headerName="Unit"></AgGridColumn>
           </AgGridReact>
         </div>
-      </React.Fragment>
+      </div>
     ) : null;
   }
 }

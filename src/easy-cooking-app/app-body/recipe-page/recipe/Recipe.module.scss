@@ -1,0 +1,13 @@
+.recipe {
+  display: flex;
+  margin: 0px 30px;
+
+  .recipeLeftcol {
+    margin-right: 30px;
+    width: 300px;
+
+    .recipeTextData {
+      display: flex;
+    }
+  }
+}
