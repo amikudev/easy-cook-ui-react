@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import classes from "./AppHeader.module.scss";
 
 export default class AppHeader extends React.Component {
@@ -10,3 +11,7 @@ export default class AppHeader extends React.Component {
     );
   }
 }
+
+AppHeader.propTypes = {
+  appName: PropTypes.string,
+};
