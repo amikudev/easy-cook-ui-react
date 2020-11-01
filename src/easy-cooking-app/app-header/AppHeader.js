@@ -13,5 +13,5 @@ export default class AppHeader extends React.Component {
 }
 
 AppHeader.propTypes = {
-  appName: PropTypes.string,
+  appName: PropTypes.string.isRequired,
 };
