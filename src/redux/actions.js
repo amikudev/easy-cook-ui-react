@@ -5,11 +5,19 @@ import {
   UPDATE_RECIPE_LIST,
 } from "./actionTypes";
 import axios from "axios";
+import produce from "immer";
 
-export const addRecipeToSelectedList = (recipe) => ({
-  type: ADD_RECIPE_TO_SELECTED_LIST,
-  payload: { recipe },
-});
+export const addRecipeToSelectedList = (recipe) => {
+  recipe = produce(recipe, (draftRecipe) => {
+    if (draftRecipe && draftRecipe.targetRecipe === null) {
+      draftRecipe.targetRecipe = "";
+    }
+  });
+  return {
+    type: ADD_RECIPE_TO_SELECTED_LIST,
+    payload: { recipe },
+  };
+};
 
 export const selectRecipe = (recipeId) => ({
   type: SELECT_RECIPE,
@@ -30,6 +38,7 @@ export const fetchRecipeList = () => {
         console.log("recipes fetched from server:", recipes);
         localStorage.setItem("recipes", JSON.stringify(recipes));
         dispatch(updateRecipeList(recipes));
+        dispatch(addRecipeToSelectedList(recipes[0]));
       });
   };
 };

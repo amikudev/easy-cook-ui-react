@@ -25,10 +25,6 @@ class Recipe extends React.Component {
   }
 
   render() {
-    if (this.props.recipe && this.props.recipe.targetRecipe === null) {
-      this.props.recipe.targetRecipe = "";
-    }
-
     return this.props.selectedRecipeId ? (
       <div className={classes.recipe}>
         <div className={classes.recipeLeftcol}>

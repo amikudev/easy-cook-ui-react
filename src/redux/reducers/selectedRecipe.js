@@ -4,6 +4,8 @@ import {
   SELECT_RECIPE,
 } from "../actionTypes";
 
+import produce from "immer";
+
 const initialState = {
   selectedRecipeList: [],
   selectedRecipeId: null,
@@ -20,17 +22,16 @@ export default function (state = initialState, action) {
       const selectedRecipeList = isRecipeAlreadySelected
         ? state.selectedRecipeList
         : [...state.selectedRecipeList, recipe];
-      return {
-        ...state,
-        selectedRecipeId: recipe._id,
-        selectedRecipeList,
-      };
+
+      return produce(state, (draft) => {
+        draft.selectedRecipeId = recipe._id;
+        draft.selectedRecipeList = selectedRecipeList;
+      });
     }
     case SELECT_RECIPE: {
-      return {
-        ...state,
-        selectedRecipeId: action.payload,
-      };
+      return produce(state, (draft) => {
+        draft.selectedRecipeId = action.payload;
+      });
     }
     case REMOVE_RECIPE_FROM_SELECTED_LIST: {
       return state;
