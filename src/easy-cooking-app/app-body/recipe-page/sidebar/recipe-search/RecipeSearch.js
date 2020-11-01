@@ -4,12 +4,13 @@ import classes from "./RecipeSearch.module.scss";
 import {
   addRecipeToSelectedList,
   updateRecipeList,
+  fetchRecipeList,
+  fetchRecipesFromLocalStorage,
 } from "../../../../../redux/actions";
 
 import cn from "classnames";
 
 import RecipeSummary from "./recipe-summary/RecipeSummary";
-import axios from "axios";
 
 class RecipeSearch extends React.Component {
   constructor(props) {
@@ -22,24 +23,8 @@ class RecipeSearch extends React.Component {
 
   componentDidMount() {
     this.searchBoxRef.current.focus();
-
-    //get recipes from localstorage and set them
-    let recipesString = localStorage.getItem("recipes");
-    if (recipesString !== null) {
-      let recipes = JSON.parse(recipesString);
-      console.log("recipes retrieved from localstorage", recipes);
-      console.log("typeof recipes", typeof recipes);
-      this.props.updateRecipeList(recipes);
-    }
-
-    axios
-      .get("https://easy-cooking-services.herokuapp.com/recipe")
-      .then((response) => {
-        let recipes = response.data;
-        console.log("recipes fetched from server:", recipes);
-        localStorage.setItem("recipes", JSON.stringify(recipes));
-        this.props.updateRecipeList(recipes);
-      });
+    this.props.fetchRecipesFromLocalStorage();
+    this.props.fetchRecipeList();
   }
 
   getFilteredRecipes = () => {
@@ -108,4 +93,6 @@ const mapStateToProps = (state) => {
 export default connect(mapStateToProps, {
   addRecipeToSelectedList,
   updateRecipeList,
+  fetchRecipeList,
+  fetchRecipesFromLocalStorage,
 })(RecipeSearch);
