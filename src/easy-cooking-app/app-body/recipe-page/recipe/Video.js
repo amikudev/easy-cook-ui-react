@@ -1,8 +1,17 @@
 import React from "react";
 import YouTube from "react-youtube";
+import { getYoutubeVideoId } from "../../../../utils/videoCalculations";
 
 export default class Video extends React.Component {
   render() {
+    console.log("this.props.url", this.props.url);
+
+    //check if it is a youtube url
+    const videoId = getYoutubeVideoId(this.props.url);
+    if (!videoId) {
+      return null;
+    }
+
     const opts = {
       height: "190",
       width: "320",
@@ -12,7 +21,11 @@ export default class Video extends React.Component {
       },
     };
     return (
-      <YouTube videoId="2g811Eo7K8U" opts={opts} onReady={this._onReady} />
+      <React.Fragment>
+        <YouTube videoId="videoId" opts={opts} onReady={this._onReady} />
+        <p>{this.props.url}</p>
+        <p>{videoId}</p>
+      </React.Fragment>
     );
   }
 

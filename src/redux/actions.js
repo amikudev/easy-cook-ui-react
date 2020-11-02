@@ -8,6 +8,8 @@ import {
 import axios from "axios";
 import produce from "immer";
 
+import { printAllRecipies } from "../utils/videoCalculations";
+
 export const addRecipeToSelectedList = (recipe) => {
   recipe = produce(recipe, (draftRecipe) => {
     if (draftRecipe && draftRecipe.targetRecipe === null) {
@@ -50,6 +52,7 @@ export const fetchRecipesFromLocalStorage = () => {
     if (recipesString !== null) {
       let recipes = JSON.parse(recipesString);
       console.log("recipes retrieved from localstorage", recipes);
+      printAllRecipies(recipes);
       dispatch(updateRecipeList(recipes));
       dispatch(addRecipeToSelectedList(recipes[0]));
     }
