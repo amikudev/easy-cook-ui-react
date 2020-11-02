@@ -2,6 +2,7 @@ import {
   ADD_RECIPE_TO_SELECTED_LIST,
   REMOVE_RECIPE_FROM_SELECTED_LIST,
   SELECT_RECIPE,
+  UPDATE_RECIPE_QUANTITY,
 } from "../actionTypes";
 
 import produce from "immer";
@@ -28,11 +29,27 @@ export default function (state = initialState, action) {
         draft.selectedRecipeList = selectedRecipeList;
       });
     }
+
+    case UPDATE_RECIPE_QUANTITY: {
+      const { recipeId, recipeQuantity } = action.payload;
+      return produce(state, (draft) => {
+        let recipeList = draft.selectedRecipeList.filter(
+          (recipe) => recipe._id === recipeId
+        );
+        if (recipeList.length !== 1) {
+          console.error("recipe list length should be 1 here, but it is not");
+        }
+        let recipe = recipeList[0];
+        recipe.targetRecipe = recipeQuantity;
+      });
+    }
+
     case SELECT_RECIPE: {
       return produce(state, (draft) => {
         draft.selectedRecipeId = action.payload;
       });
     }
+
     case REMOVE_RECIPE_FROM_SELECTED_LIST: {
       return state;
     }

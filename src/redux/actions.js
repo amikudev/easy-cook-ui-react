@@ -3,6 +3,7 @@ import {
   SELECT_RECIPE,
   REMOVE_RECIPE_FROM_SELECTED_LIST,
   UPDATE_RECIPE_LIST,
+  UPDATE_RECIPE_QUANTITY,
 } from "./actionTypes";
 import axios from "axios";
 import produce from "immer";
@@ -58,4 +59,12 @@ export const fetchRecipesFromLocalStorage = () => {
 export const updateRecipeList = (recipeList) => ({
   type: UPDATE_RECIPE_LIST,
   payload: { recipeList },
+});
+
+export const updateRecipeQuantity = (recipeId, recipeQuantity) => ({
+  type: UPDATE_RECIPE_QUANTITY,
+  payload: {
+    recipeId,
+    recipeQuantity,
+  },
 });
