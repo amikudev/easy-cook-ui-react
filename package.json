@@ -32,7 +32,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "netlify deploy --prod",
+    "deploy": "netlify deploy --open --prod --dir=build",
     "deploy:staging": "netlify deploy",
     "start": "react-scripts start",
     "build": "react-scripts build",
