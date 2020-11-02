@@ -22,7 +22,7 @@ export default class Video extends React.Component {
     };
     return (
       <React.Fragment>
-        <YouTube videoId="videoId" opts={opts} onReady={this._onReady} />
+        <YouTube videoId={videoId} opts={opts} onReady={this._onReady} />
         <p>{this.props.url}</p>
         <p>{videoId}</p>
       </React.Fragment>
