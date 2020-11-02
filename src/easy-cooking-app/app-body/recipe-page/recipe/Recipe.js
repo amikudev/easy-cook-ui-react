@@ -45,6 +45,7 @@ class Recipe extends React.Component {
               }
             />
           </div>
+          <Video></Video>
         </div>
         <div className="ag-theme-alpine" style={{ height: 400, width: 600 }}>
           <AgGridReact rowData={recipe.ingredients}>
