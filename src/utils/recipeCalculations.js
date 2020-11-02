@@ -32,7 +32,9 @@ const updateIngredientsInRecipe = (recipe) => {
 
   recipe.ingredients.map((ingredient) => {
     if (ingredient.quantity) {
-      ingredient.displayQuantity = ingredient.quantity * multiplicationRatio;
+      ingredient.displayQuantity = (
+        ingredient.quantity * multiplicationRatio
+      ).toFixed(2);
     }
   });
 };
