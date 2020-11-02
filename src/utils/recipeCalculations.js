@@ -30,7 +30,7 @@ const updateIngredientsInRecipe = (recipe) => {
   }
   console.log("multiplication ratio is: ", multiplicationRatio);
 
-  recipe.ingredients.map((ingredient) => {
+  recipe.ingredients.forEach((ingredient) => {
     if (ingredient.quantity) {
       ingredient.displayQuantity = (
         ingredient.quantity * multiplicationRatio
@@ -39,4 +39,4 @@ const updateIngredientsInRecipe = (recipe) => {
   });
 };
 
-export { getRecipeQuantityNumber, updateIngredientsInRecipe };
+export { updateIngredientsInRecipe };

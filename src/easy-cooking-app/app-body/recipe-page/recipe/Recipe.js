@@ -1,11 +1,9 @@
 import React from "react";
 import { connect } from "react-redux";
 import { AgGridColumn, AgGridReact } from "ag-grid-react";
+import Video from "./Video";
 
-import {
-  getRecipeQuantityNumber,
-  updateIngredientsInRecipe,
-} from "../../../../utils/recipeCalculations";
+import { updateIngredientsInRecipe } from "../../../../utils/recipeCalculations";
 
 import "ag-grid-community/dist/styles/ag-grid.css";
 import "ag-grid-community/dist/styles/ag-theme-alpine.css";
@@ -14,10 +12,6 @@ import classes from "./Recipe.module.scss";
 import { updateRecipeQuantity } from "../../../../redux/actions";
 
 class Recipe extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     // return if selectedRecipeId is not defined
     if (this.props.selectedRecipeId === null) {
