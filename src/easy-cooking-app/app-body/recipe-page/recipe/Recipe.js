@@ -2,6 +2,7 @@ import React from "react";
 import { connect } from "react-redux";
 import { AgGridColumn, AgGridReact } from "ag-grid-react";
 import Video from "./Video";
+import { getGridHeight } from "../../../../utils/layoutCalculations";
 
 import { updateIngredientsInRecipe } from "../../../../utils/recipeCalculations";
 
@@ -10,6 +11,7 @@ import "ag-grid-community/dist/styles/ag-theme-alpine.css";
 import classes from "./Recipe.module.scss";
 
 import { updateRecipeQuantity } from "../../../../redux/actions";
+import { constants } from "../../../../utils/Constants";
 
 class Recipe extends React.Component {
   render() {
@@ -20,6 +22,11 @@ class Recipe extends React.Component {
 
     let recipe = JSON.parse(JSON.stringify(this.props.recipe));
     updateIngredientsInRecipe(recipe);
+    let gridHeight = getGridHeight(recipe);
+    let gridStyle = {
+      height: gridHeight,
+      width: 500,
+    };
 
     return (
       <div className={classes.recipe}>
@@ -47,8 +54,13 @@ class Recipe extends React.Component {
           </div>
           <Video url={recipe.source.url}></Video>
         </div>
-        <div className="ag-theme-alpine" style={{ height: 400, width: 600 }}>
-          <AgGridReact rowData={recipe.ingredients}>
+
+        <div className="ag-theme-alpine" style={gridStyle}>
+          <AgGridReact
+            rowData={recipe.ingredients}
+            rowSelection="multiple"
+            rowHeight={constants.gridRowHeight}
+          >
             <AgGridColumn
               field="name"
               headerName="Ingredient name"
