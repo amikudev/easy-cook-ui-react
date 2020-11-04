@@ -35,8 +35,44 @@ const updateIngredientsInRecipe = (recipe) => {
       ingredient.displayQuantity = (
         ingredient.quantity * multiplicationRatio
       ).toFixed(2);
+      let roundedOffQuantity = formatQuantityNumber(ingredient.displayQuantity);
+      ingredient.displayQuantity = roundedOffQuantity;
+
+      //error checkup.
+      let changePercentage = Math.abs(
+        (roundedOffQuantity - ingredient.quantity) / ingredient.quantity
+      );
+      if (changePercentage > 10) {
+        console.log(
+          "Quantity rounding off from: " +
+            ingredient.displayQuantity +
+            " to: " +
+            roundedOffQuantity
+        );
+        console.error(
+          `Ingredient ${ingredient.name} has changed by ${changePercentage}, which is not acceptable`
+        );
+      }
     }
   });
+};
+
+const formatQuantityNumber = (quantity) => {
+  if (quantity < 1) {
+    return Number(quantity).toPrecision(1);
+  } else if (quantity < 7) {
+    let result = Number(quantity).toPrecision(2);
+
+    //in next line, i have converted it to a float and back to string, why?
+    //Ans. Because when we convert a number to string, it does not shows the trainling zero's
+    //e.g.  3.40 becomes '3.4', this was required to look good in the the application
+    return parseFloat(result).toString();
+  } else if (quantity < 1000) {
+    return Number(quantity).toPrecision(Math.floor(Math.log10(quantity)) + 1);
+  } else {
+    //todo: show only 3 significant digits here.
+    return Number(quantity).toPrecision(Math.floor(Math.log10(quantity)) + 1);
+  }
 };
 
 export { updateIngredientsInRecipe };
