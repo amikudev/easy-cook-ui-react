@@ -13,7 +13,6 @@ export default function (state = initialState, action) {
       const newState = produce(state, (draftState) => {
         draftState.recipeList = recipeList;
       });
-      console.log("newState", newState);
       return newState;
     }
     default:
