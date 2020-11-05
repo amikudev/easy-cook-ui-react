@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 import RecipeSummary from "../recipe-search/recipe-summary/RecipeSummary";
 import classes from "./SelectedRecipeList.module.scss";
 import { selectRecipe } from "../../../../../redux/actions";
+import { getSelectedRecipeList } from "../../../../../redux/selectors";
 
 class SelectedRecipeList extends React.Component {
   render() {
@@ -22,7 +23,7 @@ class SelectedRecipeList extends React.Component {
 }
 
 const mapStateToProps = (state) => {
-  const selectedRecipeList = state.selectedRecipe.selectedRecipeList;
+  const selectedRecipeList = getSelectedRecipeList(state);
   return {
     selectedRecipeList,
   };

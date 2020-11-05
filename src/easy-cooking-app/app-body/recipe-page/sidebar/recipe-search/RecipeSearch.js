@@ -37,9 +37,6 @@ class RecipeSearch extends React.Component {
               recipe.title.toLowerCase().indexOf(searchText.toLowerCase()) >= 0
             );
           });
-    if (this.searchBoxRef.current) {
-      this.searchBoxRef.current.focus();
-    }
     return filteredRecipes;
   };
 
@@ -51,7 +48,7 @@ class RecipeSearch extends React.Component {
 
   recipeClickHandler = (recipe) => {
     console.log("clicked on a recipe named: " + recipe.title);
-    this.props.addRecipeToSelectedList(recipe);
+    this.props.addRecipeToSelectedList(recipe._id);
   };
 
   render() {

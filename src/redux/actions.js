@@ -10,15 +10,10 @@ import produce from "immer";
 
 // import { printAllRecipies } from "../utils/videoCalculations";
 
-export const addRecipeToSelectedList = (recipe) => {
-  recipe = produce(recipe, (draftRecipe) => {
-    if (draftRecipe && draftRecipe.targetRecipe === null) {
-      draftRecipe.targetRecipe = "";
-    }
-  });
+export const addRecipeToSelectedList = (recipeId) => {
   return {
     type: ADD_RECIPE_TO_SELECTED_LIST,
-    payload: { recipe },
+    payload: { recipeId },
   };
 };
 

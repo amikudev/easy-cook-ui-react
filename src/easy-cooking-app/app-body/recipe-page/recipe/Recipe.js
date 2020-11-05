@@ -10,15 +10,22 @@ import classes from "./Recipe.module.scss";
 
 import { updateRecipeQuantity } from "../../../../redux/actions";
 import IngredientGrid from "./IngredientGrid";
+import { getSelectedRecipe } from "../../../../redux/selectors";
 
 class Recipe extends React.Component {
   render() {
-    // return if selectedRecipeId is not defined
-    if (this.props.selectedRecipeId === null) {
+    // return if recipe props is not initialized yet
+    if (this.props.recipe === null) {
       return null;
     }
 
     let recipe = JSON.parse(JSON.stringify(this.props.recipe));
+
+    // update recipe target value to empty string, which a requirement for controlled components
+    if (recipe.targetRecipe === null || recipe.targetRecipe === undefined) {
+      recipe.targetRecipe = "";
+    }
+
     updateIngredientsInRecipe(recipe);
 
     return (
@@ -56,15 +63,9 @@ class Recipe extends React.Component {
 }
 
 let mapStateToProps = (state) => {
-  let selectedRecipeList = state.selectedRecipe.selectedRecipeList;
-  let selectedRecipeId = state.selectedRecipe.selectedRecipeId;
-
-  const recipeList = selectedRecipeList.filter(
-    (recipe) => recipe._id === selectedRecipeId
-  );
+  const recipe = getSelectedRecipe(state);
   return {
-    recipe: recipeList[0],
-    selectedRecipeId,
+    recipe,
   };
 };
 
