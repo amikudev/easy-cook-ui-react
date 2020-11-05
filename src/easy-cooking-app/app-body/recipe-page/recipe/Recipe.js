@@ -10,7 +10,10 @@ import classes from "./Recipe.module.scss";
 
 import { updateRecipeQuantity } from "../../../../redux/actions";
 import IngredientGrid from "./IngredientGrid";
-import { getSelectedRecipe } from "../../../../redux/selectors";
+import {
+  getSelectedRecipe,
+  getSelectedRecipePreferences,
+} from "../../../../redux/selectors";
 
 class Recipe extends React.Component {
   render() {
@@ -20,13 +23,16 @@ class Recipe extends React.Component {
     }
 
     let recipe = JSON.parse(JSON.stringify(this.props.recipe));
+    let recipePreferences = JSON.parse(
+      JSON.stringify(this.props.recipePreferences)
+    );
 
     // update recipe target value to empty string, which a requirement for controlled components
     if (recipe.targetRecipe === null || recipe.targetRecipe === undefined) {
       recipe.targetRecipe = "";
     }
 
-    updateIngredientsInRecipe(recipe);
+    updateIngredientsInRecipe(recipe, recipePreferences);
 
     return (
       <div className={classes.recipe}>
@@ -46,7 +52,7 @@ class Recipe extends React.Component {
             <input
               type="number"
               className="form form-control"
-              value={recipe.targetRecipe}
+              value={recipePreferences.targetRecipe}
               onChange={(event) =>
                 this.props.updateRecipeQuantity(recipe._id, event.target.value)
               }
@@ -64,8 +70,10 @@ class Recipe extends React.Component {
 
 let mapStateToProps = (state) => {
   const recipe = getSelectedRecipe(state);
+  const recipePreferences = getSelectedRecipePreferences(state);
   return {
     recipe,
+    recipePreferences,
   };
 };
 

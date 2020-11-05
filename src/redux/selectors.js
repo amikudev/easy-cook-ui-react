@@ -12,8 +12,20 @@ export const getSelectedRecipe = (store) => {
   }
 };
 
+export const getSelectedRecipePreferences = (store) => {
+  if (store.selectedRecipe.selectedRecipeId) {
+    return store.selectedRecipe.selectedRecipes[
+      store.selectedRecipe.selectedRecipeId
+    ];
+  } else {
+    return null;
+  }
+};
+
 export const getSelectedRecipeList = (store) => {
-  const selectedRecipeIdList = store.selectedRecipe.selectedRecipeIdList;
+  const selectedRecipeIdList = Object.keys(
+    store.selectedRecipe.selectedRecipes
+  );
   const recipeList = store.recipeList.recipeList;
 
   let selectedRecipeList = recipeList.filter((recipe) =>

@@ -17,9 +17,11 @@ const getRecipeQuantityNumber = (quantity) => {
   }
 };
 
-const updateIngredientsInRecipe = (recipe) => {
+const updateIngredientsInRecipe = (recipe, recipePreferences) => {
   const baseRecipeQuantity = getRecipeQuantityNumber(recipe.baseRecipe);
-  const recipeTargetQuantity = getRecipeQuantityNumber(recipe.targetRecipe);
+  const recipeTargetQuantity = getRecipeQuantityNumber(
+    recipePreferences.targetRecipe
+  );
 
   let multiplicationRatio = 1;
   if (
