@@ -20,4 +20,22 @@ const getGridHeight = (recipe) => {
   return gridHeight;
 };
 
-export { getGridHeight };
+const getGridColumns = (gridWidth) => {
+  //todo: Show the columns width based on width of available text in the columns
+  return [
+    {
+      headerName: "Item",
+      field: "name",
+      width: 250,
+      checkboxSelection: true,
+      filter: true,
+    },
+    {
+      headerName: "Quantity",
+      field: "quantityAndUom",
+      width: 131,
+    },
+  ];
+};
+
+export { getGridHeight, getGridColumns };

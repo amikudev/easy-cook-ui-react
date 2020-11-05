@@ -53,6 +53,10 @@ const updateIngredientsInRecipe = (recipe) => {
           `Ingredient ${ingredient.name} has changed by ${changePercentage}, which is not acceptable`
         );
       }
+
+      //create one field from Quantity and UOM
+      const formattedUom = ingredient.uom ? ` ${ingredient.uom}` : "";
+      ingredient.quantityAndUom = `${ingredient.displayQuantity}${formattedUom}`;
     }
   });
 };
