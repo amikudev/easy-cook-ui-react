@@ -1,0 +1,7198 @@
+[
+  {
+    "ingredients": [
+      {
+        "name": "Flour Preparation",
+        "quantity": null
+      },
+      {
+        "name": "Wheat flour",
+        "quantity": "2",
+        "uom": "cup"
+      },
+      {
+        "quantity": "300",
+        "uom": "grams"
+      },
+      {
+        "name": "Salt",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "oil",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": " Stuffing preparation",
+        "quantity": null
+      },
+      {
+        "name": "aloo",
+        "quantity": "600",
+        "uom": "grams"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Red chilli powder",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Green chilli (finely chopped)",
+        "quantity": "4"
+      },
+      {
+        "name": "Coriander powder",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": " Mango powder (amchoor)",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "grated ginger",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "coriander (finely chopped)",
+        "quantity": "4",
+        "uom": "TBSP"
+      }
+    ],
+    "_id": "5f2ff2940e9e69978ffea576",
+    "title": "Aloo paratha - Punjabi Dhaba style",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=0ReqxB_gEo0",
+      "page": null
+    },
+    "healthRating": null,
+    "tasteRating": null,
+    "baseRecipe": "8 parathas",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Sabut hari moong",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": null,
+        "quantity": "100 ",
+        "uom": "gram"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "65 ",
+        "uom": "grams"
+      },
+      {
+        "quantity": "1",
+        "uom": "count"
+      },
+      {
+        "name": "Green chilly",
+        "quantity": "2",
+        "uom": "count"
+      },
+      {
+        "name": "Ghee",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Coriander leave",
+        "quantity": "2.5",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Cumin seed",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Heeng",
+        "quantity": "1",
+        "uom": "pinch"
+      },
+      {
+        "name": "Haldi powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Dhania Powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Ginger paste",
+        "quantity": "1 ",
+        "uom": "tsp"
+      },
+      {
+        "name": "Red chilli powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Dry red chilli",
+        "quantity": "2",
+        "uom": "count"
+      },
+      {
+        "name": "Laung",
+        "quantity": "2",
+        "uom": "count"
+      },
+      {
+        "name": "Black pepper",
+        "quantity": "6",
+        "uom": "count"
+      },
+      {
+        "name": "Garam Masala",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5f2ffa240e9e69978f0043e9",
+    "title": "Sabut moong dal",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=8vMYERpXP8c",
+      "page": null
+    },
+    "healthRating": 5,
+    "tasteRating": 5,
+    "baseRecipe": "2.5 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Water",
+        "quantity": "1",
+        "uom": "liter"
+      },
+      {
+        "name": "Haldi powder",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Ginger",
+        "quantity": "1",
+        "uom": "inch"
+      },
+      {
+        "name": "Black Pepper",
+        "quantity": "8",
+        "uom": "count"
+      },
+      {
+        "name": "Amla",
+        "quantity": "1",
+        "uom": "small"
+      },
+      {
+        "name": "Mishri",
+        "quantity": "25 ",
+        "uom": "grams"
+      },
+      {
+        "name": "Boil till water becomes",
+        "quantity": "3.5",
+        "uom": "cup"
+      }
+    ],
+    "_id": "5f2ffd5b0e9e69978f00eb9e",
+    "title": "Ghar ka Easy Kadha",
+    "source": {
+      "cook": "Nandini Gaurangi DD",
+      "book": null,
+      "url": null,
+      "page": null
+    },
+    "healthRating": 5,
+    "tasteRating": 5,
+    "baseRecipe": "3.5 cups",
+    "targetRecipe": "3.5"
+  },
+  {
+    "ingredients": [
+      {
+        "name": "water",
+        "quantity": "2",
+        "uom": "cup"
+      },
+      {
+        "name": "adrak",
+        "quantity": "1",
+        "uom": "inch"
+      },
+      {
+        "name": "munakka/kishmish (cut in 2 parts)",
+        "quantity": "4",
+        "uom": "count"
+      },
+      {
+        "name": "ilaichi (opened)",
+        "quantity": "2",
+        "uom": "count"
+      },
+      {
+        "name": "black pepper",
+        "quantity": "8",
+        "uom": " count"
+      },
+      {
+        "name": "laung",
+        "quantity": "4",
+        "uom": "count"
+      },
+      {
+        "name": "tejpatta",
+        "quantity": "1",
+        "uom": "count"
+      },
+      {
+        "name": "dalchini",
+        "quantity": "2",
+        "uom": "inch"
+      },
+      {
+        "name": "Boil and half the quantity",
+        "quantity": "",
+        "uom": ""
+      },
+      {
+        "name": "Gud",
+        "quantity": "1 ",
+        "uom": "inch"
+      }
+    ],
+    "_id": "5f2ffd790e9e69978f00f30f",
+    "title": "Kadha (from Ayush Ministry of India for Covid)",
+    "source": {
+      "cook": "Ayush Minishtry",
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=Kj8UcLAQiwo",
+      "page": null
+    },
+    "healthRating": 5,
+    "tasteRating": 5,
+    "baseRecipe": "1 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Curd",
+        "quantity": "2.5",
+        "uom": "cup"
+      },
+      {
+        "name": "Water",
+        "quantity": "5.5",
+        "uom": "cup"
+      },
+      {
+        "name": "Tadka",
+        "quantity": null
+      },
+      {
+        "name": "Ghee",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Ginger grated",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "turmeric",
+        "quantity": ".8",
+        "uom": "tsp"
+      },
+      {
+        "name": "Black pepper",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Curry leaves paste",
+        "quantity": "12",
+        "uom": "count"
+      },
+      {
+        "name": "Black salt",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Rock salt",
+        "quantity": "1.8",
+        "uom": "tsp"
+      },
+      {
+        "name": "Heeng",
+        "quantity": "2",
+        "uom": "pinch"
+      },
+      {
+        "name": "Jeera powder",
+        "quantity": ".5",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5f2ffd9a0e9e69978f00fc31",
+    "title": "Golden chaas",
+    "source": {
+      "cook": null,
+      "book": null,
+      "url": null,
+      "page": null
+    },
+    "healthRating": 5,
+    "tasteRating": 5,
+    "baseRecipe": "2 liter",
+    "targetRecipe": "2"
+  },
+  {
+    "ingredients": [
+      {
+        "name": "rice",
+        "quantity": 1.33,
+        "uom": "cup"
+      },
+      {
+        "name": "",
+        "quantity": 300,
+        "uom": "grams"
+      },
+      {
+        "name": "Boiling hot water",
+        "quantity": 3,
+        "uom": "cup"
+      },
+      {
+        "name": "Total veg",
+        "quantity": 4.25,
+        "uom": "cup"
+      },
+      {
+        "name": "Beans",
+        "quantity": 0.75,
+        "uom": "cup"
+      },
+      {
+        "name": "Carrot",
+        "quantity": 0.75,
+        "uom": "cup"
+      },
+      {
+        "name": "Cauliflower",
+        "quantity": 1,
+        "uom": "cup"
+      },
+      {
+        "name": "Potato",
+        "quantity": 1,
+        "uom": "cup"
+      },
+      {
+        "name": "Peas",
+        "quantity": 0.75,
+        "uom": "cup"
+      },
+      {
+        "name": "Tadka",
+        "quantity": null,
+        "uom": ""
+      },
+      {
+        "name": "Ghee",
+        "quantity": 0.5,
+        "uom": "cup"
+      },
+      {
+        "name": "",
+        "quantity": 8,
+        "uom": "TBSP"
+      },
+      {
+        "name": "Jeera",
+        "quantity": 1.33,
+        "uom": "tsp"
+      },
+      {
+        "name": "Cashew",
+        "quantity": 0.33,
+        "uom": "cup"
+      },
+      {
+        "name": "Hari Mirch",
+        "quantity": 1.33,
+        "uom": "count"
+      },
+      {
+        "name": "Peeled and chopped tomato",
+        "quantity": 0.5,
+        "uom": "kg"
+      },
+      {
+        "name": "kashmiri lal mirch",
+        "quantity": 1.5,
+        "uom": "tsp"
+      },
+      {
+        "name": "Everest Biryani Masala",
+        "quantity": 3,
+        "uom": "TBSP"
+      },
+      {
+        "name": "Haldi",
+        "quantity": 1,
+        "quantityOriginal": 0.66,
+        "comments": "changing quantity to better handle corona",
+        "uom": "tsp"
+      },
+      {
+        "name": "Dhania leaves",
+        "quantity": 0.5,
+        "uom": "cup"
+      },
+      {
+        "name": "Pudina leaves",
+        "quantity": 1,
+        "uom": "cup"
+      },
+      {
+        "name": "Salt",
+        "quantity": 5.75,
+        "uom": "tsp"
+      },
+      {
+        "name": null,
+        "quantity": 1.66,
+        "uom": "TBSP"
+      },
+      {
+        "name": "Pot size",
+        "quantity": 3.5,
+        "uom": "liter"
+      }
+    ],
+    "_id": "5f2ffdbe0e9e69978f01039d",
+    "title": "Rice Biryani",
+    "source": {
+      "cook": "Gauranga prabhu",
+      "book": "Bhajan se Bhojan",
+      "url": "https://food.radhagopinath.com/rice/biryani",
+      "page": 12
+    },
+    "healthRating": 4.5,
+    "tasteRating": 4.5,
+    "baseRecipe": "11 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Dalia rawa",
+        "quantity": "2",
+        "uom": "cup"
+      },
+      {
+        "name": "Cabbage",
+        "quantity": "1 ",
+        "uom": "cup"
+      },
+      {
+        "name": "Beans",
+        "quantity": "1",
+        "uom": "cup"
+      },
+      {
+        "name": "Carrot",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "1",
+        "uom": "cup"
+      },
+      {
+        "name": "Oil/Ghee",
+        "quantity": "8",
+        "uom": "TBSP"
+      },
+      {
+        "name": null,
+        "quantity": "125",
+        "uom": "ml"
+      },
+      {
+        "name": "mustard seeds",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Chana Dal",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "Urad Dal",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "Hing",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Green Chilli",
+        "quantity": "2",
+        "uom": "count"
+      },
+      {
+        "name": "Curry leaves",
+        "quantity": "8 ",
+        "uom": "count"
+      },
+      {
+        "name": "Coriander leaves",
+        "quantity": "1",
+        "uom": "cup"
+      },
+      {
+        "name": "Everest Biryani Masala",
+        "nameOrigianl": "Everest Pulao Masala",
+        "quantity": "2",
+        "quantityOrigianl": "2.25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Lime Juice",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": "3",
+        "uom": "tsp"
+      },
+      {
+        "name": "Water",
+        "quantity": "8.5",
+        "uom": "cup"
+      }
+    ],
+    "_id": "5f2ffde00e9e69978f0112b0",
+    "title": "Dalia upma",
+    "source": {
+      "cook": "Gauranga Prabhu",
+      "book": "Bhajan se Bhojan",
+      "url": "https://food.radhagopinath.com/break-fast/dalia-upma",
+      "page": "6"
+    },
+    "healthRating": 4.5,
+    "tasteRating": 4.5,
+    "baseRecipe": "10 cups",
+    "targetRecipe": ""
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Rice",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Yellow moong dal",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "carrot",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "beans",
+        "quantity": "1.25",
+        "uom": "cup"
+      },
+      {
+        "name": "peas",
+        "quantity": "1",
+        "uom": "cup"
+      },
+      {
+        "name": "pumpkin",
+        "quantity": "1.5",
+        "uom": "cup"
+      },
+      {
+        "name": "doodhi",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "cauliflower",
+        "quantity": "2.25",
+        "uom": "cup"
+      },
+      {
+        "name": "total veg from above items",
+        "quantity": "7 ",
+        "uom": "cup"
+      },
+      {
+        "name": "palak",
+        "quantity": "4",
+        "uom": "cup"
+      },
+      {
+        "name": "Tadka details below",
+        "quantity": ""
+      },
+      {
+        "name": "Ghee",
+        "quantity": ".4",
+        "uom": "cup"
+      },
+      {
+        "quantity": "9",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Panch podan",
+        "quantity": "2.25",
+        "uom": "tsp"
+      },
+      {
+        "name": "heeng",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "curry leaves",
+        "quantity": "8",
+        "uom": "count"
+      },
+      {
+        "name": "green chilly",
+        "quantity": "2",
+        "uom": "count"
+      },
+      {
+        "name": "ginger",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "tomato",
+        "quantity": "300",
+        "uom": "gram"
+      },
+      {
+        "name": "haldi",
+        "quantity": "1.5",
+        "uom": "tsp"
+      },
+      {
+        "name": "salt",
+        "quantity": "3.33",
+        "uom": "tsp"
+      },
+      {
+        "name": "water",
+        "quantity": "6.75",
+        "uom": "cup"
+      },
+      {
+        "name": "Coriander leaves garnish",
+        "quantity": "2",
+        "uom": "cup"
+      }
+    ],
+    "_id": "5f2ffe080e9e69978f011f55",
+    "title": "Dwadshi Khichdi",
+    "source": {
+      "cook": "Gauranga Prabhu",
+      "book": null,
+      "url": "https://food.radhagopinath.com/rice/dwadashi-khichdi",
+      "page": null
+    },
+    "healthRating": 4.5,
+    "tasteRating": 4.5,
+    "baseRecipe": "11 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Tur(Arhar) dal",
+        "quantity": 0.5,
+        "uom": "cup"
+      },
+      {
+        "name": "Imli",
+        "quantity": 20,
+        "uom": "grams"
+      },
+      {
+        "name": "Salt",
+        "quantity": 3,
+        "uom": "tsp"
+      },
+      {
+        "name": "Turmeric",
+        "quantity": 0.5,
+        "uom": "tsp"
+      },
+      {
+        "name": "Hing powder",
+        "quantity": 0.25,
+        "uom": "tsp"
+      },
+      {
+        "name": "Vegetables",
+        "quantity": 0,
+        "uom": ""
+      },
+      {
+        "name": "Tomato paste",
+        "quantity": 2,
+        "uom": "medium size"
+      },
+      {
+        "name": "Drum sticks",
+        "quantity": 1,
+        "uom": "normal size"
+      },
+      {
+        "name": "Pumpkin",
+        "quantity": 1,
+        "uom": "cup"
+      },
+      {
+        "name": "Shimla mirchi",
+        "quantity": 0.75,
+        "uom": "cup"
+      },
+      {
+        "name": "Bhindi",
+        "quantity": 0.75,
+        "uom": "cup"
+      },
+      {
+        "name": "Potatos",
+        "quantity": 0.5,
+        "uom": "cup"
+      },
+      {
+        "name": "Total vegetables",
+        "quantity": 3,
+        "uom": "cup"
+      },
+      {
+        "name": "Shakti Sambar Masala",
+        "quantity": 4,
+        "uom": "tsp"
+      },
+      {
+        "name": "Coconut",
+        "quantity": 0.5,
+        "uom": "big sized"
+      },
+      {
+        "name": "Gur",
+        "quantity": 25,
+        "uom": "gram"
+      },
+      {
+        "name": "Curry leaves",
+        "quantity": 15,
+        "uom": "number"
+      },
+      {
+        "name": "Tadka",
+        "quantity": 0,
+        "uom": ""
+      },
+      {
+        "name": "Ghee",
+        "quantity": 2,
+        "uom": "TBSP"
+      },
+      {
+        "name": "Mustard seeds",
+        "quantity": 1,
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5f2ffe160e9e69978f0123d9",
+    "title": "Instant Sambar",
+    "source": {
+      "cook": "Gauranga prabhu",
+      "book": "Bhajan se Bhojan",
+      "url": "https://food.radhagopinath.com/dal-items/instant-sambar",
+      "page": 12
+    },
+    "healthRating": 4.5,
+    "tasteRating": 4.5,
+    "baseRecipe": "8 cups",
+    "targetRecipe": 8
+  },
+  {
+    "ingredients": [
+      {
+        "name": "water",
+        "quantity": "6",
+        "uom": "liter"
+      },
+      {
+        "name": "Rice noodles",
+        "quantity": "600",
+        "uom": "gram"
+      },
+      {
+        "name": "Turmeric",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "For Tadka",
+        "quantity": null,
+        "uom": null
+      },
+      {
+        "name": "Oil",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "quantity": "8",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Mustard seeds",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "urad dal",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "red chilli (madrasi)",
+        "quantity": "2",
+        "uom": "count"
+      },
+      {
+        "name": "curry leaves",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "green chilli (chopped)",
+        "quantity": "1.5",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Salt",
+        "quantity": "4.25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Lemon",
+        "quantity": "5",
+        "uom": "TBSP"
+      },
+      {
+        "quantity": ".3",
+        "uom": "cup"
+      }
+    ],
+    "_id": "5f2ffe300e9e69978f012ec4",
+    "title": "Rice Noodles",
+    "source": {
+      "cook": "Gauranga Prabhu",
+      "book": null,
+      "url": "https://food.radhagopinath.com/break-fast/rice-noodles",
+      "page": null
+    },
+    "healthRating": 4,
+    "tasteRating": 4,
+    "baseRecipe": "15 cups",
+    "recipeQuantityMeasurement": "cups",
+    "QuantitySufficientFor1serving": 2,
+    "targetRecipe": null,
+    "steps": [
+      "boil the water and add rice noodles in it",
+      "cook on high flames for minutes, stir gently in later stages if water is finished",
+      "Allow to cool down a little and then remove extra water by filtering",
+      "Tadka"
+    ]
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Water",
+        "quantity": "1.5",
+        "uom": "cup"
+      },
+      {
+        "name": "Basmati rice",
+        "quantity": ".25",
+        "uom": "kg"
+      },
+      {
+        "name": "Gajar",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Beans",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Peas",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Potatos",
+        "quantity": ".75",
+        "uom": "cup"
+      },
+      {
+        "name": "Cabbage",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Toal vegetables",
+        "quantity": "2.75",
+        "uom": "cup"
+      },
+      {
+        "name": "Capsicum (medium size)",
+        "quantity": "1",
+        "uom": "count"
+      },
+      {
+        "name": "Half Cashew ",
+        "quantity": "25",
+        "uom": "gram"
+      },
+      {
+        "name": "Desi Ghee",
+        "quantity": "3 ",
+        "uom": "TBS"
+      },
+      {
+        "name": "Whole spices",
+        "quantity": null,
+        "uom": null
+      },
+      {
+        "name": "Tej patta leaves",
+        "quantity": "2"
+      },
+      {
+        "name": "Star phal",
+        "quantity": "5",
+        "uom": ""
+      },
+      {
+        "name": "Green elaichi",
+        "quantity": "3",
+        "uom": ""
+      },
+      {
+        "name": "Lavang",
+        "quantity": "5",
+        "uom": ""
+      },
+      {
+        "name": "Kali Elaichi",
+        "quantity": "3",
+        "uom": ""
+      },
+      {
+        "name": "Dalchini",
+        "quantity": "3",
+        "uom": ""
+      },
+      {
+        "name": "Jeera",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "Turmeric (optional)",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Badshah pulao masala",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "Sugar (optional)",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": "3",
+        "uom": "tsp"
+      },
+      {
+        "name": "Coriander leaves",
+        "quantity": ".5",
+        "uom": "cup"
+      }
+    ],
+    "_id": "5f2ffe480e9e69978f01337e",
+    "title": "Rice Pulav",
+    "source": {
+      "cook": "Gauranga Prabhu",
+      "book": null,
+      "url": "https://food.radhagopinath.com/rice/pulav",
+      "page": null
+    },
+    "healthRating": 4,
+    "tasteRating": 4,
+    "baseRecipe": "5 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Rice",
+        "quantity": "2",
+        "uom": "cup"
+      },
+      {
+        "name": "Water",
+        "quantity": "4.5",
+        "uom": "cup"
+      },
+      {
+        "name": "Chana Dal",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Urad Dal",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "Dry red chilli",
+        "quantity": "3"
+      },
+      {
+        "name": "Dhania seed",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "Dal chini stick",
+        "quantity": "1.5",
+        "uom": "inch"
+      },
+      {
+        "name": "Desiccated Coconut",
+        "quantity": "2.5",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Oil/Ghee",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Heeng",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Haldi powder",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Eggplant (cut into 2cm cubes)",
+        "quantity": "700",
+        "uom": "gm"
+      },
+      {
+        "name": "salt",
+        "quantity": "2",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5f2ffe560e9e69978f013559",
+    "title": "Vangi Bhath (Brinjal rice)",
+    "source": {
+      "cook": "Anand Lila Devi Dasi",
+      "book": null,
+      "url": "http://recipe.iskcondesiretree.com/05_-_Rice_Dishes/Vangi_bhat.pdf",
+      "page": null
+    },
+    "healthRating": null,
+    "tasteRating": null,
+    "baseRecipe": "16 cups",
+    "targetRecipe": 5
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Dhania powder",
+        "quantity": "1",
+        "uom": "cup"
+      },
+      {
+        "name": "Suger/mishri powder",
+        "quantity": "1",
+        "uom": "cup"
+      },
+      {
+        "name": "makhane",
+        "quantity": "1",
+        "uom": "cup"
+      },
+      {
+        "name": "Dry coconut",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Ghee",
+        "quantity": ".25",
+        "uom": "cup"
+      },
+      {
+        "name": "Kaju",
+        "quantity": "8",
+        "uom": "count"
+      },
+      {
+        "name": "Badam",
+        "quantity": "10",
+        "uom": "count"
+      },
+      {
+        "name": "Chironji",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Elaichi",
+        "quantity": "4",
+        "uom": null
+      }
+    ],
+    "_id": "5f2ffe950e9e69978f01457c",
+    "title": "Dhania panjiri",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=bab-HkHqw6c",
+      "page": null
+    },
+    "healthRating": 4.5,
+    "tasteRating": 4.5,
+    "baseRecipe": "3 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "MIlk",
+        "quantity": 2,
+        "uom": "liter"
+      },
+      {
+        "name": "Dahi",
+        "quantity": 1,
+        "uom": "liter"
+      },
+      {
+        "name": "ghee",
+        "quantity": 50,
+        "uom": "ml"
+      },
+      {
+        "name": "honey",
+        "quantity": 100,
+        "uom": "ml"
+      },
+      {
+        "name": "Suger",
+        "quantity": 2,
+        "uom": "kg"
+      },
+      {
+        "name": "Water for making suger water",
+        "quantity": 2,
+        "uom": "liter"
+      }
+    ],
+    "_id": "5f338c660e9e69978fc3c0f8",
+    "title": "Panchamrit (charanamrit)",
+    "source": {
+      "cook": "Iskcon pune",
+      "book": null,
+      "url": null,
+      "page": null
+    },
+    "healthRating": 5,
+    "tasteRating": 5,
+    "baseRecipe": "28 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Arbi",
+        "quantity": "250",
+        "uom": "gm"
+      },
+      {
+        "name": "tomato",
+        "quantity": "3",
+        "uom": "count"
+      },
+      {
+        "name": "-",
+        "quantity": "200",
+        "uom": "gram"
+      },
+      {
+        "name": "ginger",
+        "quantity": "1",
+        "uom": "inch"
+      },
+      {
+        "name": "chilli",
+        "quantity": "1"
+      },
+      {
+        "name": "lotus seed (makhane)",
+        "quantity": "12",
+        "uom": "count"
+      },
+      {
+        "name": "ghee",
+        "quantity": "4",
+        "uom": "TBSP"
+      },
+      {
+        "name": "dhania leaves",
+        "quantity": "3",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Ajwain",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "heeng",
+        "quantity": "1",
+        "uom": "pinch"
+      },
+      {
+        "name": "haldi powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "dhania powder",
+        "quantity": "1 ",
+        "uom": "tsp"
+      },
+      {
+        "name": "kasturi methi",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "garam masala",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "red chilli powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "salt",
+        "quantity": ".85",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5f4fb886f34d7eeb69320615",
+    "title": "Arbi Jhol",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=KeM_hNoijS8",
+      "page": null
+    },
+    "healthRating": 4.5,
+    "tasteRating": 4.5,
+    "baseRecipe": "3 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "besan",
+        "quantity": "250",
+        "uom": "gram"
+      },
+      {
+        "name": "maida",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Baking soda",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Mustard oil",
+        "quantity": ".25",
+        "uom": "cup"
+      },
+      {
+        "name": "black pepper",
+        "quantity": "12",
+        "uom": ""
+      },
+      {
+        "name": "laung",
+        "quantity": "12"
+      },
+      {
+        "name": "salt",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "tsp",
+        "quantity": "1",
+        "uom": "TSP"
+      },
+      {
+        "name": "Ajwain",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "haldi",
+        "quantity": ".5",
+        "uom": null
+      }
+    ],
+    "_id": "5f5103d1c0e12ff34649bbbb",
+    "title": "Ratlami sev (like haldiram)",
+    "source": {
+      "cook": null,
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=jYJiiuBtRN4",
+      "page": null
+    },
+    "healthRating": null,
+    "tasteRating": null,
+    "baseRecipe": "10 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Moong Dal",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Ghee",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Green Coriander",
+        "quantity": "2.5",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Cumin seeds",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Asafetida",
+        "quantity": "2",
+        "uom": "pinch"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "1"
+      },
+      {
+        "name": "Curry leaves",
+        "quantity": "7"
+      },
+      {
+        "name": "Coriander powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "red chilly powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "turmeric powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Green chilly",
+        "quantity": "1"
+      },
+      {
+        "name": "Red chilly",
+        "quantity": "1"
+      },
+      {
+        "name": "Ginger paste",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": ".75 ",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5f524a64c0e12ff3468c796c",
+    "title": "Moong Dal Tadka",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=LWZL0muolsE",
+      "page": null
+    },
+    "healthRating": null,
+    "tasteRating": null,
+    "baseRecipe": "4 cups",
+    "targetRecipe": ""
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Ghee",
+        "quantity": "6",
+        "uom": "TBSP"
+      },
+      {
+        "quantity": ".35",
+        "uom": "cup"
+      },
+      {
+        "name": "Besan",
+        "quantity": "1",
+        "uom": "cup"
+      },
+      {
+        "name": "sugar",
+        "quantity": ".55",
+        "uom": "cup"
+      },
+      {
+        "name": "milk/water",
+        "quantity": "4",
+        "uom": "cup"
+      },
+      {
+        "name": "badam (chopped)",
+        "quantity": "7",
+        "uom": "count"
+      },
+      {
+        "name": "kaju (chopped)",
+        "quantity": "6",
+        "uom": "count"
+      },
+      {
+        "name": "ilaichi powder",
+        "quantity": "2",
+        "uom": "pinch"
+      }
+    ],
+    "_id": "5f52525ec0e12ff3468dd605",
+    "title": "Besan ka Halwa ",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=k-UH_fmup8A",
+      "page": null
+    },
+    "healthRating": null,
+    "tasteRating": null,
+    "baseRecipe": "3 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Cow milk",
+        "quantity": "2",
+        "uom": "liter"
+      },
+      {
+        "name": "Rice",
+        "quantity": "80",
+        "uom": "gram"
+      },
+      {
+        "quantity": "90",
+        "uom": "ml"
+      },
+      {
+        "name": "Sugar",
+        "quantity": "180",
+        "uom": "gram"
+      },
+      {
+        "name": "Almonds (long slice)",
+        "quantity": "25",
+        "uom": "gram"
+      },
+      {
+        "name": "Cashew",
+        "quantity": "50",
+        "uom": "gram"
+      },
+      {
+        "name": "Cardamom (Ealichi) powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Saffron (Kesar)",
+        "quantity": ".25",
+        "uom": "gram"
+      },
+      {
+        "name": "Pot size",
+        "quantity": "3",
+        "uom": "liter"
+      }
+    ],
+    "_id": "5f5f7f15f093a3f5c1e4b691",
+    "title": "Kesar kheer - Kesar sweet rice",
+    "source": {
+      "cook": "Gauranga Prabhu",
+      "book": null,
+      "url": "https://food.radhagopinath.com/sweets/kesar-sweet-rice",
+      "page": null
+    },
+    "healthRating": 4,
+    "tasteRating": 5,
+    "baseRecipe": "6 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Masala"
+      },
+      {
+        "name": "Tamatar",
+        "quantity": "2"
+      },
+      {
+        "quantity": "100",
+        "uom": "grams"
+      },
+      {
+        "name": "Green chilly",
+        "quantity": "2",
+        "uom": ""
+      },
+      {
+        "name": "Ginger",
+        "quantity": "1 ",
+        "uom": "inch"
+      },
+      {
+        "name": " ",
+        "quantity": null,
+        "uom": null
+      },
+      {
+        "name": "Oil/Ghee",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Aloo",
+        "quantity": "500",
+        "uom": "gram"
+      },
+      {
+        "quantity": "6",
+        "uom": "count"
+      },
+      {
+        "name": "Jeera",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "heeng",
+        "quantity": "1",
+        "uom": "pinch"
+      },
+      {
+        "name": "turmeric",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Coriander powder",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "red chilli",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": " Amchoor powder",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "water",
+        "quantity": "1.5",
+        "uom": "cup"
+      },
+      {
+        "name": "garam masala",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Green coriander",
+        "quantity": "3",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5f5f86f6f093a3f5c1e654b5",
+    "title": "Bhandara style aloo sabji",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=n5_aJ4OAx44",
+      "page": null
+    },
+    "healthRating": 4,
+    "tasteRating": 4,
+    "baseRecipe": "5 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Kakdi (¼” cubes)",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Tomato(½” cubes)",
+        "quantity": ".25",
+        "uom": "cup"
+      },
+      {
+        "name": "Carrot (grated)",
+        "quantity": ".25",
+        "uom": "cup"
+      },
+      {
+        "name": "Coriander leaves",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Green chilli (finely chopped)",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "salt",
+        "quantity": ".75",
+        "uom": "tsp"
+      },
+      {
+        "name": "Sugar",
+        "quantity": "1.5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Roasted Jeera Powder",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Roasted Black pepper powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Curd",
+        "quantity": "2",
+        "uom": "cup"
+      },
+      {
+        "name": "Water",
+        "quantity": "1",
+        "uom": "cup"
+      }
+    ],
+    "_id": "5f5f88a4f093a3f5c1e6af2c",
+    "title": "Raita (Kakdi Tomato)",
+    "source": {
+      "cook": "Gauranga Prabhu",
+      "book": null,
+      "url": "https://food.radhagopinath.com/side-dishes/raita-kakdi-tomato",
+      "page": null
+    },
+    "healthRating": null,
+    "tasteRating": null,
+    "baseRecipe": "4 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Aloo",
+        "quantity": "4"
+      },
+      {
+        "quantity": "400",
+        "uom": "gram"
+      },
+      {
+        "name": "Tamatar",
+        "quantity": "250",
+        "uom": "gram"
+      },
+      {
+        "name": "Jeera",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Heeng",
+        "quantity": "1",
+        "uom": "pinch"
+      },
+      {
+        "name": "Red chilli powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "salt",
+        "quantity": "1.2",
+        "uom": "tsp"
+      },
+      {
+        "name": "Haldi",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Dhania powder",
+        "quantity": "1.5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Amchoor powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "garam masala",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "adrak",
+        "quantity": "1",
+        "uom": "inch"
+      },
+      {
+        "name": "dhania leaves",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Green chilli",
+        "quantity": "2"
+      },
+      {
+        "name": "Oil/Ghee",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "water",
+        "quantity": "3",
+        "uom": "cup"
+      },
+      {
+        "name": "Paneer",
+        "quantity": "150",
+        "uom": "gram"
+      },
+      {
+        "name": "Pot size",
+        "quantity": "1.25",
+        "uom": "liter"
+      }
+    ],
+    "_id": "5f603f62f093a3f5c10bc0e5",
+    "title": "Aloo tamatar curry (Aloo masala recipe)",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": null,
+      "page": null
+    },
+    "healthRating": 3,
+    "tasteRating": 4.5,
+    "baseRecipe": "4 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Gram Flour (Besan)",
+        "quantity": "125",
+        "uom": "grams"
+      },
+      {
+        "quantity": "1",
+        "uom": "cup"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "250",
+        "uom": "grams"
+      },
+      {
+        "quantity": "4",
+        "uom": "count"
+      },
+      {
+        "name": "Ginger",
+        "quantity": "1",
+        "uom": "inch"
+      },
+      {
+        "name": "Chilly",
+        "quantity": "2",
+        "uom": "count"
+      },
+      {
+        "name": "Curd",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "quantity": "125",
+        "uom": "grams"
+      },
+      {
+        "name": "oil",
+        "quantity": "2.5",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Green coriander",
+        "quantity": "3",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Dry fenugreek leaves",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Cumin seed",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Asafetida",
+        "quantity": "1",
+        "uom": "pinch"
+      },
+      {
+        "name": "Baking soda",
+        "quantity": "1",
+        "uom": "pinch"
+      },
+      {
+        "name": "Ajwain",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Turmeric powder",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Coriander powder",
+        "quantity": "1 ",
+        "uom": "tsp"
+      },
+      {
+        "name": "Red chilli powder",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Garam masala",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "salt",
+        "quantity": "1.25",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5f65c80e00136c968ae97562",
+    "title": "Besan Gatte ki subji",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=mVwjjnwAIXY",
+      "page": null
+    },
+    "healthRating": 4,
+    "tasteRating": 4,
+    "baseRecipe": "4 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Toor (Arhar) Dal",
+        "quantity": "300",
+        "uom": "gram"
+      },
+      {
+        "name": "Tomato paste ---->"
+      },
+      {
+        "name": "Ghee",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Jeera",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Green chilly",
+        "quantity": "2",
+        "uom": "pieces"
+      },
+      {
+        "name": "Ginger paste",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "3",
+        "uom": "medium size"
+      },
+      {
+        "name": "red chilli powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Jeera powder",
+        "quantity": "1.5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Dhania powder",
+        "quantity": "1.5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Turmeric",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1.5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Tadka ------->"
+      },
+      {
+        "name": "Ghee ",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Mustard seed",
+        "quantity": "2 ",
+        "uom": "tsp"
+      },
+      {
+        "name": "Dry chilli",
+        "quantity": "2",
+        "uom": "pieces"
+      },
+      {
+        "name": "Heeng",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Curry leaves",
+        "quantity": "5",
+        "uom": "pieces"
+      },
+      {
+        "name": "Coriander leaves",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Water (6 times of dal)",
+        "quantity": null,
+        "uom": null
+      }
+    ],
+    "_id": "5f65ca1200136c968ae9da55",
+    "title": "Toor dal tadka",
+    "source": {
+      "cook": "Gauranga Prabhu",
+      "book": null,
+      "url": "https://food.radhagopinath.com/",
+      "page": null
+    },
+    "healthRating": 4.5,
+    "tasteRating": 4.5,
+    "baseRecipe": "8 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Raw papaya",
+        "quantity": "600",
+        "uom": "gram"
+      },
+      {
+        "name": "Oil",
+        "quantity": "2.5",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Cumin seeds",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Turmeric powder",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Coriander powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "2"
+      },
+      {
+        "name": "Green chilli",
+        "quantity": "2"
+      },
+      {
+        "name": "Ginger",
+        "quantity": ".5",
+        "uom": "inch"
+      },
+      {
+        "name": "Kashmiri chilli powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": ".75",
+        "uom": "tsp"
+      },
+      {
+        "name": "Garam masala",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Green Coriander",
+        "quantity": "1",
+        "uom": "TBSP"
+      }
+    ],
+    "_id": "5f65cc2100136c968aea4dd5",
+    "title": "Raw Papaya Curry",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=cw_n5YPKlSY",
+      "page": null
+    },
+    "healthRating": 5,
+    "tasteRating": 4.5,
+    "baseRecipe": "4 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Curry leaves",
+        "quantity": "2.5",
+        "uom": "cup"
+      },
+      {
+        "name": "Grated coconut",
+        "quantity": ".25",
+        "uom": "cup"
+      },
+      {
+        "name": "Oil",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": " Green chilly",
+        "quantity": "3"
+      },
+      {
+        "name": "Red chilli",
+        "quantity": "2"
+      },
+      {
+        "name": "Tamrind pulp",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Jaggary",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Chana dal",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "urad dal",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "rye",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Cumin (Jeera)",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Heeng",
+        "quantity": "2",
+        "uom": "pinch"
+      },
+      {
+        "name": "Salt",
+        "quantity": ".75",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5f65cedf00136c968aeadddf",
+    "title": "Curry leaves chutney",
+    "source": {
+      "cook": "Nisha madhulika",
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=pvalfzBu_cc",
+      "page": null
+    },
+    "healthRating": 4.5,
+    "tasteRating": 4.5,
+    "baseRecipe": "1.5 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Steamed leave items ------->"
+      },
+      {
+        "name": "Arbi leaves",
+        "quantity": "250",
+        "uom": "gram"
+      },
+      {
+        "quantity": "11",
+        "uom": "count"
+      },
+      {
+        "name": "Besan",
+        "quantity": "200",
+        "uom": "gram"
+      },
+      {
+        "quantity": "2",
+        "uom": "cup"
+      },
+      {
+        "name": "salt",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Coriander powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Red chilly",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "For Frying"
+      },
+      {
+        "name": "Jeera",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Heeng",
+        "quantity": "2",
+        "uom": "pinch"
+      },
+      {
+        "name": "mustard seeds",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Ajwain ",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Haldi powder",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Red chilli",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Coriander powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Amchoor powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Garam masala",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Green chilli (finely chopped)",
+        "quantity": "2"
+      },
+      {
+        "name": "Green Coriander (finely chopped)",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Oil",
+        "quantity": "2",
+        "uom": "TBSP"
+      }
+    ],
+    "_id": "5f65f64b00136c968af3916d",
+    "title": "Arbi leave rolls (Patra/Patode/Patrode)",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=OXtQsRw8L2Y",
+      "page": null
+    },
+    "healthRating": 5,
+    "tasteRating": 4.5,
+    "baseRecipe": "5 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Tamrind pulp",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Sugar",
+        "quantity": "1",
+        "uom": "cup"
+      },
+      {
+        "name": "Raisins",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Dates (finely chipped)",
+        "quantity": "2",
+        "uom": "count"
+      },
+      {
+        "name": "Muskmelon seeds",
+        "quantity": "1",
+        "uom": "tbsp"
+      },
+      {
+        "name": "Garam masala",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Ginger powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Roasted Cumin Powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Red chilli powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Black salt",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": ".5",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5f65fca900136c968af4e867",
+    "title": "Sweet Tamrid Chutney (Imli ki meethi chutney)",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=rYWN3uFpAg4",
+      "page": null
+    },
+    "healthRating": 3,
+    "tasteRating": 4,
+    "baseRecipe": "2 cups",
+    "targetRecipe": ""
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Besan ",
+        "quantity": "1",
+        "uom": "cup"
+      },
+      {
+        "name": "Tomato (finely chopped) ",
+        "quantity": "1"
+      },
+      {
+        "name": "Oil",
+        "quantity": "2.5",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Green coriander (finely chopped)",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Ginger (grated)",
+        "quantity": ".5",
+        "uom": "inch"
+      },
+      {
+        "name": "Salt",
+        "quantity": ".33",
+        "uom": "tsp"
+      },
+      {
+        "name": "Red chilli",
+        "quantity": "2",
+        "uom": "pinch"
+      },
+      {
+        "name": "Green chilly (finely chopped)",
+        "quantity": "1",
+        "uom": "count"
+      }
+    ],
+    "_id": "5f66020c00136c968af6119d",
+    "title": "Besan Chilla - (Besan Cheela)",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=lxRR5-gpKz4",
+      "page": null
+    },
+    "healthRating": 4,
+    "tasteRating": 4.5,
+    "baseRecipe": "3 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Turai",
+        "quantity": "1",
+        "uom": "kg"
+      },
+      {
+        "name": "Heeng",
+        "quantity": "2",
+        "uom": "pinch"
+      },
+      {
+        "name": "Jeera",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Haldi powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Dhania powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Ginger (grated)",
+        "quantity": "1",
+        "uom": "inch"
+      },
+      {
+        "name": "Salt",
+        "quantity": ".75",
+        "uom": "tsp"
+      },
+      {
+        "name": "Green chilli (finely chopped)",
+        "quantity": "1.5",
+        "uom": "count"
+      },
+      {
+        "name": "Coriander (finely chopped)",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Ghee",
+        "quantity": "1.5",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Lemon",
+        "quantity": ".5",
+        "uom": "count"
+      }
+    ],
+    "_id": "5f66f40100136c968a1e247c",
+    "title": "Turai Curry - Turai Subji",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=TAzuho8bLE0",
+      "page": null
+    },
+    "healthRating": null,
+    "tasteRating": null,
+    "baseRecipe": "5 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Basmati Rice",
+        "quantity": "1",
+        "uom": "cup"
+      },
+      {
+        "name": "Ghee",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Green Coriander",
+        "quantity": "2.5",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Jeera",
+        "quantity": "1.5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Lemon",
+        "quantity": "1",
+        "uom": "count"
+      },
+      {
+        "name": "Cinammon (Dalchini)",
+        "quantity": "1",
+        "uom": "inch"
+      },
+      {
+        "name": "Big Ilaichi",
+        "quantity": "1 ",
+        "uom": "count"
+      },
+      {
+        "name": "Laung",
+        "quantity": "4",
+        "uom": "count"
+      },
+      {
+        "name": "Black pepper",
+        "quantity": "8",
+        "uom": "count"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Water",
+        "quantity": "2.25",
+        "uom": "cup"
+      }
+    ],
+    "_id": "5f6773b000136c968a33dcab",
+    "title": "Jeera rice restaurent style",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=BuBvuquLfAc",
+      "page": null
+    },
+    "healthRating": 4.5,
+    "tasteRating": 4.5,
+    "baseRecipe": "5 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Turai",
+        "quantity": "700",
+        "uom": "gram"
+      },
+      {
+        "name": "Moong dal",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "2",
+        "uom": "count"
+      },
+      {
+        "name": "Green chilli",
+        "quantity": "1.5",
+        "uom": "count"
+      },
+      {
+        "name": "Green coriander ",
+        "quantity": "2.5",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Ghee",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Heeng",
+        "quantity": "1",
+        "uom": "pinch"
+      },
+      {
+        "name": "Jeera",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Haldi powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Red chilli",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Coriander powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5f677e7c00136c968a35aaa2",
+    "title": "Turai Moong dal",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=RcL4BSYxhWk",
+      "page": null
+    },
+    "healthRating": 5,
+    "tasteRating": 5,
+    "baseRecipe": "5 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Lauki",
+        "quantity": "1",
+        "uom": "medium size"
+      },
+      {
+        "name": "Black pepper whole",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Kalonji / Jeera / Methi",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Coconut",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Curry leaves",
+        "quantity": "10",
+        "uom": "leaves"
+      },
+      {
+        "name": "Chana dal",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "Water",
+        "quantity": "1",
+        "uom": "cup"
+      }
+    ],
+    "_id": "5f67801e00136c968a35eb78",
+    "title": "Lauki ki sattvik subji",
+    "source": {
+      "cook": "My mast kitchen youtube channel",
+      "book": null,
+      "url": "https://youtu.be/b1wGt-L6Xbc?t=95",
+      "page": null
+    },
+    "healthRating": 5,
+    "tasteRating": 4.5,
+    "baseRecipe": "5 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Turai (after cutting)",
+        "quantity": "215",
+        "uom": "gm"
+      },
+      {
+        "name": "Ghee",
+        "quantity": "3",
+        "uom": "tsp"
+      },
+      {
+        "name": "mustard seed ",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Jeera seed",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Heeng",
+        "quantity": "1",
+        "uom": "pinch"
+      },
+      {
+        "name": "Curry leaves",
+        "quantity": "7 ",
+        "uom": "count"
+      },
+      {
+        "name": "Haldi",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": " Adrak",
+        "quantity": "1",
+        "uom": "inch"
+      },
+      {
+        "name": "Kokum leaves",
+        "quantity": "3",
+        "uom": "count"
+      },
+      {
+        "name": "Dhania powder",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Jeera powder",
+        "quantity": ".4",
+        "uom": "tsp"
+      },
+      {
+        "name": "saunf powder",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "salt",
+        "quantity": ".9",
+        "uom": "tsp"
+      },
+      {
+        "name": "Water (for dry subji)",
+        "quantity": "0",
+        "uom": "cup"
+      },
+      {
+        "name": "Water (for wet subji)",
+        "quantity": "1",
+        "uom": "cup"
+      }
+    ],
+    "_id": "5f7342b400136c968ad7dbd4",
+    "title": "Satvik Turai subji",
+    "source": {
+      "cook": "Nandini Gaurangi DD",
+      "book": null,
+      "url": null,
+      "page": null
+    },
+    "healthRating": 5,
+    "tasteRating": 4.5,
+    "baseRecipe": "1.5 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Yellow moong dal",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Ghee",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "Jeera seeds",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Mustard seeds",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Heeng",
+        "quantity": "1",
+        "uom": "pinch"
+      },
+      {
+        "name": "curry leaves",
+        "quantity": "6",
+        "uom": "count"
+      },
+      {
+        "name": "coconut",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "turmeric",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "salt",
+        "quantity": "1.05",
+        "uom": "tsp"
+      },
+      {
+        "name": "Coriander leaves",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "water",
+        "quantity": "1.5",
+        "uom": "cup"
+      },
+      {
+        "name": "Chopped tomatoes (optional)",
+        "quantity": "1",
+        "uom": "mid size"
+      }
+    ],
+    "_id": "5f73483e00136c968ada673f",
+    "title": "Moong dal Varan (Satvik)",
+    "source": {
+      "cook": null,
+      "book": "Yoga point book from Aarti Mataji",
+      "url": null,
+      "page": "27"
+    },
+    "healthRating": 5,
+    "tasteRating": 4,
+    "baseRecipe": "3 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Chopped vegetables",
+        "quantity": "250",
+        "uom": "gm"
+      },
+      {
+        "name": "Oil",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Mustard seeds",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Jeera seeds",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Heeng",
+        "quantity": "1 ",
+        "uom": "pinch"
+      },
+      {
+        "name": "Curry leaves",
+        "quantity": "5",
+        "uom": "count"
+      },
+      {
+        "name": "Turmeric",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Coriander powder",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "chilli powder",
+        "quantity": "1",
+        "uom": "pinch"
+      },
+      {
+        "name": "Grated ginger",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Coriander leaves",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Suger/jaggery",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1.25",
+        "uom": null
+      },
+      {
+        "name": "Fresh coconut",
+        "quantity": "1",
+        "uom": "TBSP"
+      }
+    ],
+    "_id": "5f745f6a00136c968a590aab",
+    "title": "Basic vegetable curry (Satvik)",
+    "source": {
+      "cook": "",
+      "book": "Yoga point book",
+      "url": null,
+      "page": "44"
+    },
+    "healthRating": 5,
+    "tasteRating": 4,
+    "baseRecipe": "1.5 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Vegetables (cabbage, carrot, potato, broccoli, sweet corn, greem pepper, green beans, okra, tomato etc. )",
+        "quantity": "3",
+        "uom": "cup"
+      },
+      {
+        "name": "Oil",
+        "quantity": "3",
+        "uom": "tsp"
+      },
+      {
+        "name": "Heeng",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Ginger",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "Soya sauce",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Sugar",
+        "uom": "to taste"
+      },
+      {
+        "name": "Coriander/MInt leaves",
+        "quantity": "1",
+        "uom": "TBSP"
+      }
+    ],
+    "_id": "5f74985400136c968a6476b0",
+    "title": "Stir fry Vegetables - Satvik",
+    "source": {
+      "cook": null,
+      "book": "Yoga point recipe book",
+      "url": null,
+      "page": "55"
+    },
+    "healthRating": 5,
+    "tasteRating": 4,
+    "baseRecipe": "2 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Whole moong dal",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Ghee/Oil",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Mustared seeds",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Jeera seeds",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Heeng",
+        "quantity": "4",
+        "uom": "pinch"
+      },
+      {
+        "name": "Curry leaves",
+        "quantity": "6",
+        "uom": "count"
+      },
+      {
+        "name": "Ginger",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Turmeric powder",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "chopped tomotoes (optional)",
+        "quantity": "2",
+        "uom": "mid size"
+      },
+      {
+        "name": "Chopped potatoes (optional)",
+        "quantity": "1",
+        "uom": "mid size"
+      },
+      {
+        "name": "Water",
+        "quantity": "3",
+        "uom": "cup"
+      },
+      {
+        "name": "coriander leaves",
+        "quantity": "1",
+        "uom": "TBSP"
+      }
+    ],
+    "_id": "5f7499e600136c968a64b244",
+    "title": "Whole Moong Usal - Satvik",
+    "source": {
+      "cook": null,
+      "book": "Yoga point recipe book",
+      "url": null,
+      "page": "41"
+    },
+    "healthRating": 5,
+    "tasteRating": 4,
+    "baseRecipe": "4 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Moong dal",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Rice",
+        "quantity": ".25",
+        "uom": "cup"
+      },
+      {
+        "name": "Ghee",
+        "quantity": "1.5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Jeera",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Heeng",
+        "quantity": ".3",
+        "uom": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1.75",
+        "uom": "tsp"
+      },
+      {
+        "name": "Haldi",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Water",
+        "quantity": "5",
+        "uom": "cup"
+      }
+    ],
+    "_id": "5f771edd00136c968ad2b457",
+    "title": "Satvik khichri",
+    "source": {
+      "cook": "Nandini Gaurangi DD",
+      "book": "",
+      "url": null,
+      "page": null
+    },
+    "healthRating": 5,
+    "tasteRating": 4,
+    "baseRecipe": "5 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Ghee",
+        "quantity": "3",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Jeera",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Black pepper",
+        "quantity": "30",
+        "uom": "count"
+      },
+      {
+        "name": "Cinammon stick",
+        "quantity": "1",
+        "uom": "inch"
+      },
+      {
+        "name": "Laung",
+        "quantity": "4",
+        "uom": "count"
+      },
+      {
+        "name": "While red chillies",
+        "quantity": "2",
+        "uom": "count"
+      },
+      {
+        "name": "Heeng",
+        "quantity": ".4",
+        "uom": "tsp"
+      },
+      {
+        "name": "Curry leaves",
+        "quantity": "10 ",
+        "uom": "count"
+      },
+      {
+        "name": "Red rice",
+        "quantity": ".75",
+        "uom": "cup"
+      },
+      {
+        "name": "Dhuli moong dal",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Green chilli",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "Potatoes",
+        "quantity": "2 ",
+        "uom": "medium"
+      },
+      {
+        "name": "Salt",
+        "quantity": "2.5",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5f7959a500136c968a2f3751",
+    "title": "Red rice khichri",
+    "source": {
+      "cook": "Sanjeev kapoor",
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=6-eTpqB2Mhg",
+      "page": null
+    },
+    "healthRating": 5,
+    "tasteRating": null,
+    "baseRecipe": "8 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Green chilli",
+        "quantity": "100 ",
+        "uom": "gram"
+      },
+      {
+        "name": "Cumin seeds",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Fenugreek seeds - Methi",
+        "quantity": "1.5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Fennal seeds - Saunf",
+        "quantity": "3",
+        "uom": "tsp"
+      },
+      {
+        "name": "Black mustard seeds",
+        "quantity": "3",
+        "uom": "tsp"
+      },
+      {
+        "name": "roast these to remove moisture and then grind them together",
+        "quantity": null,
+        "uom": null
+      },
+      {
+        "name": "Sarso/Til oil",
+        "quantity": "4",
+        "uom": "tsp"
+      },
+      {
+        "name": "White vineger",
+        "quantity": "4",
+        "uom": "tsp"
+      },
+      {
+        "name": " salt",
+        "quantity": "1.5",
+        "uom": "tsp"
+      },
+      {
+        "name": "haldi powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Heeng powder",
+        "quantity": "1.5",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5f81346a1ccfc68055cf5497",
+    "title": "Instant Green Chilli Pickle - Instanct Mirchi Achar",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://youtu.be/hYGCaSoV33Q",
+      "page": null
+    },
+    "healthRating": 3.5,
+    "tasteRating": 4.5,
+    "baseRecipe": "1.5 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Yellow Moong dal",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Oil",
+        "quantity": "2.5",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Adrak",
+        "quantity": "1",
+        "uom": "inch"
+      },
+      {
+        "name": "salt",
+        "quantity": ".75",
+        "uom": "tsp"
+      },
+      {
+        "name": "Green coriander (finely chopped)",
+        "quantity": "3",
+        "uom": "TBSP"
+      }
+    ],
+    "_id": "5f8176061ccfc68055d9b38a",
+    "title": "Moong dal Cheela",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=c8uACnH-6d8",
+      "page": null
+    },
+    "healthRating": 4,
+    "tasteRating": 4,
+    "baseRecipe": "5 cheele",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Chutney recipe",
+        "quantity": null,
+        "uom": null
+      },
+      {
+        "name": "Tomatoes",
+        "quantity": "4",
+        "uom": "count"
+      },
+      {
+        "quantity": "250",
+        "uom": "grams"
+      },
+      {
+        "name": "Oil",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Methi seeds",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Jeera ",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "mustard seeds",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "heeng",
+        "quantity": "1",
+        "uom": "pinch"
+      },
+      {
+        "name": "Dhania powder",
+        "quantity": "1.5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1.5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Whole red chilly",
+        "quantity": "2",
+        "uom": "count"
+      },
+      {
+        "name": "Black pepper",
+        "quantity": "12",
+        "uom": "count"
+      },
+      {
+        "name": "Ginger",
+        "quantity": "1",
+        "uom": "inch"
+      },
+      {
+        "name": "Sugar (optional)",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Tadka"
+      },
+      {
+        "name": "oil",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "mustard seeds",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "red chilli",
+        "quantity": ".25",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5f817f5e1ccfc68055db24e6",
+    "title": "Tomoto chutney",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=R6M3Erx4s90",
+      "page": null
+    },
+    "healthRating": 3,
+    "tasteRating": 4.5,
+    "baseRecipe": "2 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Boiled potatoes",
+        "quantity": "11",
+        "uom": "count"
+      },
+      {
+        "quantity": "250",
+        "uom": "grams"
+      },
+      {
+        "name": "Green chilli",
+        "quantity": "1",
+        "uom": "count"
+      },
+      {
+        "name": "Ginger",
+        "quantity": ".5",
+        "uom": "inch"
+      },
+      {
+        "name": "Cashew",
+        "quantity": "10",
+        "uom": "count"
+      },
+      {
+        "name": "Coriander leaves",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Oil",
+        "quantity": "3",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Cumin seeds",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Heeng",
+        "quantity": ".5",
+        "uom": "pinch"
+      },
+      {
+        "name": "Cinammon stick",
+        "quantity": "1",
+        "uom": "count"
+      },
+      {
+        "name": "Brown cardamom",
+        "quantity": "1",
+        "uom": "count"
+      },
+      {
+        "name": "clove",
+        "quantity": "2"
+      },
+      {
+        "name": "black pepper",
+        "quantity": "5",
+        "uom": "count"
+      },
+      {
+        "name": "turmeric powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "red chilli powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Coriander powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Garam masala",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Dry fenugreek leaves",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5f8184c01ccfc68055dbf9cb",
+    "title": "Dum aloo - with easy gravy",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=VylXmj9L968",
+      "page": null
+    },
+    "healthRating": 3,
+    "tasteRating": 3.5,
+    "baseRecipe": "5 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Dink (Goond)",
+        "quantity": "200",
+        "uom": "gram"
+      },
+      {
+        "name": "Kharik - Chuara",
+        "quantity": "200",
+        "uom": "gram"
+      },
+      {
+        "name": "Dry grated coconut",
+        "quantity": "100",
+        "uom": "gram"
+      },
+      {
+        "name": "Khus khus (poppy seeds)",
+        "quantity": "100",
+        "uom": "gram"
+      },
+      {
+        "name": "Cashew nuts",
+        "quantity": "50",
+        "uom": "gram"
+      },
+      {
+        "name": "Almonds",
+        "quantity": "50 ",
+        "uom": "grams"
+      },
+      {
+        "name": "Pista",
+        "quantity": "50",
+        "uom": "grams"
+      },
+      {
+        "name": "Chiroji",
+        "quantity": "50",
+        "uom": "gram"
+      },
+      {
+        "name": "Jaggary",
+        "quantity": "300",
+        "uom": "gram"
+      },
+      {
+        "name": "Sugar",
+        "quantity": "200",
+        "uom": "gram"
+      },
+      {
+        "name": "Saunth powder",
+        "quantity": "25",
+        "uom": "grams"
+      },
+      {
+        "name": "Pimpli powder",
+        "quantity": "25",
+        "uom": "grams"
+      },
+      {
+        "name": "Nutmeg powder",
+        "quantity": "6",
+        "uom": "grams"
+      },
+      {
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "Saffron powder",
+        "quantity": ".5",
+        "uom": "gram"
+      },
+      {
+        "name": "Milk",
+        "quantity": "2",
+        "uom": "TBSP"
+      }
+    ],
+    "_id": "5f81869d1ccfc68055dc4f34",
+    "title": "Dink Laddu - Goond Laddu",
+    "source": {
+      "cook": "Balaji Tambe",
+      "book": "Ayurvedic garbha sanskar: The art and science of pregnency",
+      "url": "",
+      "page": "In the book end appendix"
+    },
+    "healthRating": 5,
+    "tasteRating": 5,
+    "baseRecipe": "35 laddus",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Grated bottle guard",
+        "quantity": "100",
+        "uom": "gm"
+      },
+      {
+        "name": "Grated carrot",
+        "quantity": "100",
+        "uom": "gm"
+      },
+      {
+        "name": "Wheat flour",
+        "quantity": "250",
+        "uom": "gm"
+      },
+      {
+        "name": "chopped coriander",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Grated ginger",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Chilli powder",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Heeng",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Haldi",
+        "quantity": ".5",
+        "uom": "gram"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1.5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Sugar",
+        "quantity": "1.5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Curd",
+        "quantity": "3",
+        "uom": "tsp"
+      },
+      {
+        "name": "Ghee",
+        "uom": "as required"
+      }
+    ],
+    "_id": "5f8188741ccfc68055dcaca9",
+    "title": "Mixed veg thepla",
+    "source": {
+      "cook": "Balaji Tambe",
+      "book": "Ayurvedic garbha sanskar: The art and science of pregnency",
+      "url": null,
+      "page": "In the book end appendix"
+    },
+    "healthRating": 5,
+    "tasteRating": 4.5,
+    "baseRecipe": "8 theplas",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Fine semolina",
+        "quantity": "50",
+        "uom": "gm"
+      },
+      {
+        "name": "Ghee",
+        "quantity": "10",
+        "uom": "gm"
+      },
+      {
+        "name": "Sugar",
+        "quantity": "125",
+        "uom": "gm"
+      },
+      {
+        "name": "Saffrom powder",
+        "quantity": "1",
+        "uom": "pinch"
+      },
+      {
+        "name": "Milk",
+        "quantity": "1",
+        "uom": "liter"
+      }
+    ],
+    "_id": "5f8189881ccfc68055dce074",
+    "title": "Semolina Kheer",
+    "source": {
+      "cook": "Balaji Tambe",
+      "book": "Ayurvedic garbha sanskar: The art and science of pregnency",
+      "url": null,
+      "page": "In the book end appendix"
+    },
+    "healthRating": 5,
+    "tasteRating": 4,
+    "baseRecipe": "4 cup",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Semolina",
+        "quantity": "125",
+        "uom": "gm"
+      },
+      {
+        "name": "Ghee",
+        "quantity": "125",
+        "uom": "gm"
+      },
+      {
+        "name": "Sugar",
+        "quantity": "125",
+        "uom": "gm"
+      },
+      {
+        "name": "Milk",
+        "quantity": ".5",
+        "uom": "liter"
+      },
+      {
+        "name": "Almonds",
+        "quantity": "25",
+        "uom": "gm"
+      },
+      {
+        "name": "Cardamom powder",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Raisins",
+        "quantity": "25",
+        "uom": "gm"
+      },
+      {
+        "name": "Saffron powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Banana (sliced)",
+        "quantity": "1",
+        "uom": "count"
+      }
+    ],
+    "_id": "5f818a5b1ccfc68055dd0017",
+    "title": "Narayan sheera - Sooji halwa",
+    "source": {
+      "cook": "Balaji Tambe",
+      "book": "Ayurvedic garbha sanskar: The art and science of pregnency",
+      "url": null,
+      "page": "In the book end appendix"
+    },
+    "healthRating": 5,
+    "tasteRating": 5,
+    "baseRecipe": "4 cups",
+    "targetRecipe": ""
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Lauki",
+        "quantity": "300",
+        "uom": "gram"
+      },
+      {
+        "name": "tamatar",
+        "quantity": "2",
+        "uom": "count"
+      },
+      {
+        "name": "hari mirch for tomato puree",
+        "quantity": "1",
+        "uom": "count"
+      },
+      {
+        "name": "Ginger for tomator puree",
+        "quantity": ".5",
+        "uom": "inch"
+      },
+      {
+        "name": "Chana dal (soak for 4-5 hours)",
+        "quantity": ".25",
+        "uom": "cup"
+      },
+      {
+        "name": "Coriander",
+        "quantity": "3",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Ghee or oil",
+        "quantity": "1.5",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Coriander powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Haldi powder",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "red chilli powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Jeera",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Heeng",
+        "quantity": "2",
+        "uom": "pinch"
+      }
+    ],
+    "_id": "5f8279201ccfc6805502b80c",
+    "title": "Lauki chane ki dal - Lauki chana dal",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=OWaVt9-NcyQ",
+      "page": null
+    },
+    "healthRating": 5,
+    "tasteRating": 4,
+    "baseRecipe": "4 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Karela - Bitter gourd",
+        "quantity": "250",
+        "uom": "gm"
+      },
+      {
+        "name": "aamchur",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Haldi powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Dhania powder",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "Jeera powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Besan",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Grated Jaggery",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "Roasted groundnut (crushed)",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "Dhania leaves",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Tempering"
+      },
+      {
+        "name": "Ghee",
+        "quantity": "4",
+        "uom": "tsp"
+      },
+      {
+        "name": "Jeera seeds",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Heeng",
+        "quantity": "1",
+        "uom": "pinch"
+      }
+    ],
+    "_id": "5f827cea1ccfc68055034867",
+    "title": "Tangy Bitter Gourd - Khatta Karela",
+    "source": {
+      "cook": "Jigyasa Giri, Pratibha Jain",
+      "book": "Sukham Ayu",
+      "url": "https://www.amazon.in/Sukham-Ayu-Ayurvedic-Insights-Researched/dp/8183283128/ref=sr_1_1",
+      "page": "47"
+    },
+    "healthRating": null,
+    "tasteRating": null,
+    "baseRecipe": "250 gram",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Beetroot chopped",
+        "quantity": "2",
+        "uom": "cup"
+      },
+      {
+        "name": "Mustard seed",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Black gram dal",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Turmeric powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "cumin seeds",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "asfatida powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Green chilli",
+        "quantity": "2",
+        "uom": "count"
+      },
+      {
+        "name": "Curry leaves",
+        "quantity": "10",
+        "uom": "count"
+      },
+      {
+        "name": "Fresh grated coconut",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Salt",
+        "quantity": ".75",
+        "uom": "tsp"
+      },
+      {
+        "name": "Ghee",
+        "quantity": "4",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5f827e3a1ccfc6805503786c",
+    "title": "Beetroot Upkari - chukandar ki sookhi subji",
+    "source": {
+      "cook": "Bhaktin Archana Mataji",
+      "book": null,
+      "url": "http://recipe.iskcondesiretree.com/04_-_Vegetable_dishes/Beetroot_Upkari.pdf",
+      "page": null
+    },
+    "healthRating": 5,
+    "tasteRating": 4,
+    "baseRecipe": "2 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Sooji - Roasted",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Vegetables"
+      },
+      {
+        "name": "Cabbage - pattagobhi",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Beans",
+        "quantity": "3",
+        "uom": "TBSP"
+      },
+      {
+        "name": "carrot",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Green Pea",
+        "quantity": "125",
+        "uom": "gram"
+      },
+      {
+        "name": "Others",
+        "quantity": null,
+        "uom": null
+      },
+      {
+        "name": "Amla",
+        "quantity": "1",
+        "uom": "piece"
+      },
+      {
+        "name": "curry leaves",
+        "quantity": "12",
+        "uom": "count"
+      },
+      {
+        "name": "Green chilly",
+        "quantity": "1",
+        "uom": "big"
+      },
+      {
+        "name": "Coriander leaves",
+        "quantity": "3",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Lime juice",
+        "quantity": ".75",
+        "uom": "cup"
+      },
+      {
+        "name": "Tadka"
+      },
+      {
+        "name": "Ghee",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Rai",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Black pepper",
+        "quantity": ".33",
+        "uom": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1.5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Heeng",
+        "quantity": "2",
+        "uom": "pinch"
+      },
+      {
+        "name": "Coriander powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Kokum",
+        "quantity": "1",
+        "uom": "leave"
+      },
+      {
+        "name": "nutmeg",
+        "quantity": "2",
+        "uom": "pinch"
+      },
+      {
+        "name": "water",
+        "quantity": "2",
+        "uom": "cup"
+      },
+      {
+        "name": "Ghee",
+        "quantity": ".75 ",
+        "uom": "TBSP"
+      }
+    ],
+    "_id": "5f8282581ccfc68055041532",
+    "title": "Veg upma",
+    "source": {
+      "cook": "Gauranga Prabhu",
+      "book": "Bhajan se Bhojan",
+      "url": "https://food.radhagopinath.com/break-fast/veg-upma",
+      "page": null
+    },
+    "healthRating": 4,
+    "tasteRating": 4,
+    "baseRecipe": "4 cups - 2.5cups/head",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Ridge gourd (after cutting)",
+        "quantity": "1",
+        "uom": "cup"
+      },
+      {
+        "name": "Ghee or oil",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Dhuli chana dal - Split bengal gram",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Dhuli urad dal - split bengal gram",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "red chillies",
+        "quantity": "3",
+        "uom": "count"
+      },
+      {
+        "name": "Grated coconut",
+        "quantity": ".5",
+        "uom": "count"
+      },
+      {
+        "name": "Grated ginger",
+        "quantity": ".5",
+        "uom": "inch"
+      },
+      {
+        "name": "Tamrid",
+        "quantity": "1",
+        "uom": "small ball"
+      },
+      {
+        "name": "Salt",
+        "quantity": ".5",
+        "uom": "tsp~"
+      }
+    ],
+    "_id": "5f8285711ccfc6805504900d",
+    "title": "Turai chutney - Ridge gourd chutney",
+    "source": {
+      "cook": "Sadhguru Jaggi Vasudev",
+      "book": "A taste of well being",
+      "url": "https://www.amazon.in/gp/product/9351363783/ref=ppx_yo_dt_b_search_asin_title?ie=",
+      "page": "131"
+    },
+    "healthRating": 5,
+    "tasteRating": 5,
+    "baseRecipe": "2 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Sama rice",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Water",
+        "quantity": "1.75",
+        "uom": "cup"
+      },
+      {
+        "name": "Peanutes (Coarsely roasted and pounded)",
+        "quantity": ".2",
+        "uom": "cup"
+      },
+      {
+        "name": "Ghee",
+        "quantity": "3",
+        "uom": "tsp"
+      },
+      {
+        "name": "Jeera seeds",
+        "quantity": ".4",
+        "uom": "tsp"
+      },
+      {
+        "name": "Green chilli",
+        "quantity": "1",
+        "uom": "count"
+      },
+      {
+        "name": "Curry leaves",
+        "quantity": "8",
+        "uom": "count"
+      },
+      {
+        "name": "Salt",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Fresh Greated coconut",
+        "quantity": ".125",
+        "uom": "cup"
+      },
+      {
+        "name": "Suger",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "lemon juice",
+        "quantity": ".75",
+        "uom": "tsp"
+      },
+      {
+        "name": "Dhania leaves",
+        "quantity": ".5",
+        "uom": "TBSP"
+      }
+    ],
+    "_id": "5f8454681ccfc680554fd89f",
+    "title": "Sama rice khichri - Sama rice khichri - Fasting",
+    "source": {
+      "cook": "Anand Lila Devi Dasi",
+      "book": null,
+      "url": "http://recipe.iskcondesiretree.com/10_-_Ekadasi/Samo_khichari.pdf",
+      "page": null
+    },
+    "healthRating": 5,
+    "tasteRating": 4,
+    "baseRecipe": "3 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Sabudana",
+        "quantity": "1.5",
+        "uom": "cup"
+      },
+      {
+        "name": "Ghee",
+        "quantity": "4",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Cumin seeds",
+        "quantity": "1",
+        "uom": "TSP"
+      },
+      {
+        "name": "Curry leaves",
+        "quantity": "8",
+        "uom": "count"
+      },
+      {
+        "name": "Green chilli",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Ekadashi heeng",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Potatoes (boiled and cut coarsely)",
+        "quantity": "1.5",
+        "uom": "cup"
+      },
+      {
+        "name": "Coarsely powdered roasted peanuts",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Freshly shredded coconut",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1.25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Sugar",
+        "quantity": "1",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5f84566c1ccfc68055502ba6",
+    "title": "Sabudana Upma - Fasting",
+    "source": {
+      "cook": "Anand Lila Devi Dasi",
+      "book": null,
+      "url": "http://recipe.iskcondesiretree.com/10_-_Ekadasi/Sabudana_upma.pdf",
+      "page": null
+    },
+    "healthRating": 3,
+    "tasteRating": 3.5,
+    "baseRecipe": "4 people",
+    "targetRecipe": ""
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Soaked samo rice",
+        "quantity": "1",
+        "uom": "cup"
+      },
+      {
+        "quantity": "200",
+        "uom": "grams"
+      },
+      {
+        "name": "Freshly grated coconut",
+        "quantity": ".25",
+        "uom": "cup"
+      },
+      {
+        "name": "Ghee in batter",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "Sendha salt",
+        "quantity": "1.75",
+        "uom": "tsp"
+      },
+      {
+        "name": "Green chilli (Very finely chopped)",
+        "quantity": "2",
+        "uom": "count"
+      },
+      {
+        "name": "Adrak (shredded)",
+        "quantity": "1",
+        "uom": "inch"
+      },
+      {
+        "name": "Green coriander",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Curry leaf paste",
+        "quantity": "1.5",
+        "uom": "sprigs"
+      },
+      {
+        "name": "Ghee for frying",
+        "quantity": "6",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5f845b2b1ccfc6805550eef1",
+    "title": "Neer dosa - Fasting",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=Vrr1isA-5Mg",
+      "page": null
+    },
+    "healthRating": 5,
+    "tasteRating": 4,
+    "baseRecipe": "5 dosa's - 2/person",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Potato",
+        "quantity": "400",
+        "uom": "gram"
+      },
+      {
+        "name": "Ghee/oil",
+        "quantity": "2.5",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Green coriander",
+        "quantity": "3",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Jeera",
+        "quantity": "1.25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Ginger",
+        "quantity": "1",
+        "uom": "inch"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1.25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Green chilli",
+        "quantity": "2",
+        "uom": "count"
+      }
+    ],
+    "_id": "5f845ec61ccfc68055518115",
+    "title": "Jeera Aloo - fasting",
+    "source": {
+      "cook": "Nisha madhulika",
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=PU8SRVD4QbU",
+      "page": null
+    },
+    "healthRating": 3,
+    "tasteRating": 4.5,
+    "baseRecipe": "6 cup",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Cow milk / coconut milk / almond milk",
+        "quantity": "500",
+        "uom": "ml"
+      },
+      {
+        "name": "Grated wet turmeric",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Cardamom powder",
+        "quantity": "1",
+        "uom": "pinch"
+      },
+      {
+        "name": "Sugar",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "Dressing"
+      },
+      {
+        "name": "Cinnamon powder per cup",
+        "quantity": "1",
+        "uom": "pinch"
+      },
+      {
+        "name": "nutmeg powder per cup",
+        "quantity": "1",
+        "uom": "pinch"
+      }
+    ],
+    "_id": "5f851b3f1ccfc680556e788d",
+    "title": "Golden milk - Haldi doodh - turmeric latte",
+    "source": {
+      "cook": "Nisha madhulika",
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=MZMc2f2xCvQ",
+      "page": null
+    },
+    "healthRating": 5,
+    "tasteRating": 5,
+    "baseRecipe": "2 cup",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Sooji",
+        "quantity": "3",
+        "uom": "TBSP"
+      },
+      {
+        "name": "milk",
+        "quantity": "3",
+        "uom": "cup"
+      },
+      {
+        "name": "Cardamom - Ilaichi",
+        "quantity": "4",
+        "uom": "count"
+      },
+      {
+        "name": "Cashews",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Raisins",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Chironji",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Sugar",
+        "quantity": "4",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Cow ghee",
+        "quantity": "1",
+        "uom": null
+      }
+    ],
+    "_id": "5f89b2dd1ccfc68055475402",
+    "title": "Sooji kheer",
+    "source": {
+      "cook": "Veg recipes of india",
+      "book": null,
+      "url": "https://www.vegrecipesofindia.com/sooji-kheer-recipe-rava-kheer-recipe/",
+      "page": null
+    },
+    "healthRating": 5,
+    "tasteRating": 4,
+    "baseRecipe": "3 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Tur Dal",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Imli",
+        "quantity": "20",
+        "uom": "gram"
+      },
+      {
+        "name": "Curry leaves",
+        "quantity": "15",
+        "uom": "count"
+      },
+      {
+        "name": "Vegetables"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "2",
+        "uom": "mid size"
+      },
+      {
+        "name": "Drumsticks",
+        "quantity": "1",
+        "uom": "number"
+      },
+      {
+        "name": "Pumpkin",
+        "quantity": "1",
+        "uom": "cup"
+      },
+      {
+        "name": "Simla mirch",
+        "quantity": ".75",
+        "uom": "cup"
+      },
+      {
+        "name": "Bhindi",
+        "quantity": ".75",
+        "uom": "cup"
+      },
+      {
+        "name": "Potatoes",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "--Total veggies",
+        "quantity": "3",
+        "uom": "cup"
+      },
+      {
+        "name": "Salt",
+        "quantity": "3",
+        "uom": "tsp"
+      },
+      {
+        "name": "Turmeric",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Melkote Sambar Masala",
+        "quantity": "2",
+        "uom": "TBS"
+      },
+      {
+        "name": "Masala Wet"
+      },
+      {
+        "name": "Ghee",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Dhania",
+        "quantity": "3.5",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Methi",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Red chilli",
+        "quantity": "1",
+        "uom": "count"
+      },
+      {
+        "name": "Kashmiri mirch",
+        "quantity": "3",
+        "uom": "pieces"
+      },
+      {
+        "name": "Chana dal",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "LG heeng (solid compound)",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Coconuts",
+        "quantity": ".5",
+        "uom": "mid size"
+      },
+      {
+        "name": "Gud",
+        "quantity": "25",
+        "uom": "gm"
+      },
+      {
+        "name": "Tadka",
+        "quantity": ""
+      },
+      {
+        "name": "Ghee",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Mustard seeds",
+        "quantity": "1",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5f8a697f1ccfc68055651c25",
+    "title": "Traditional sambar",
+    "source": {
+      "cook": "Gauranga Prabhu",
+      "book": null,
+      "url": "https://food.radhagopinath.com/dal-items/traditional-sambar",
+      "page": null
+    },
+    "healthRating": 4,
+    "tasteRating": 5,
+    "baseRecipe": "8 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Turmeric stick",
+        "quantity": "200",
+        "uom": "gm"
+      },
+      {
+        "name": "Chana dal",
+        "quantity": "250",
+        "uom": "gm"
+      },
+      {
+        "name": "Urad dal",
+        "quantity": "100",
+        "uom": "gm"
+      },
+      {
+        "name": "Dalchini sticks",
+        "quantity": "50",
+        "uom": "gm"
+      },
+      {
+        "name": "Khas khas",
+        "quantity": "250",
+        "uom": "gm"
+      },
+      {
+        "name": "Sabut Dhania",
+        "quantity": "1",
+        "uom": "kg"
+      },
+      {
+        "name": "Methi",
+        "quantity": "100",
+        "uom": "gm"
+      },
+      {
+        "name": "Jeera",
+        "quantity": "250",
+        "uom": "gm"
+      },
+      {
+        "name": "Black pepper",
+        "quantity": "250",
+        "uom": "gm"
+      },
+      {
+        "name": "Heeng",
+        "quantity": "50",
+        "uom": "gm"
+      },
+      {
+        "name": "Curry leaves",
+        "quantity": ".5",
+        "uom": "liter"
+      },
+      {
+        "name": "Red chilli",
+        "quantity": "1",
+        "uom": "kg"
+      },
+      {
+        "name": "Kashmiri chilli",
+        "quantity": ".5",
+        "uom": "kg"
+      }
+    ],
+    "_id": "5f8a6b561ccfc68055656e5e",
+    "title": "Melkote sambar masala",
+    "source": {
+      "cook": "Gauranga Pr",
+      "book": null,
+      "url": "https://food.radhagopinath.com/dal-items/traditional-sambar",
+      "page": null
+    },
+    "healthRating": 4.5,
+    "tasteRating": 4.5,
+    "baseRecipe": "4.2 kg - 7 liter",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Soaked rice",
+        "quantity": "1",
+        "uom": "Cup"
+      },
+      {
+        "name": "Grated coconut",
+        "quantity": "3",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Water",
+        "quantity": "1.5",
+        "uom": "Cup"
+      },
+      {
+        "name": "Ghee in batter",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1.25",
+        "uom": "tsp"
+      },
+      {
+        "name": "1 tsp per dosa for frying"
+      }
+    ],
+    "_id": "5f8a73951ccfc6805566d570",
+    "title": "Neer Dosa",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=kS0_uAJL5SU",
+      "page": null
+    },
+    "healthRating": 4.5,
+    "tasteRating": 4.5,
+    "baseRecipe": "5 neer dosas",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Tomato",
+        "quantity": "5",
+        "uom": "count"
+      },
+      {
+        "name": "Green chilli",
+        "quantity": "1",
+        "uom": "count"
+      },
+      {
+        "name": "Adrak",
+        "quantity": "1",
+        "uom": "inch"
+      },
+      {
+        "name": "Curry leaves",
+        "quantity": "1",
+        "uom": "twig"
+      },
+      {
+        "name": "Green coriander",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Oil / Ghee",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Rasam powder",
+        "quantity": "1.25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Rai (black mustard seeds)",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Heeng",
+        "quantity": "2",
+        "uom": "pinch"
+      }
+    ],
+    "_id": "5f8a74e11ccfc6805567096a",
+    "title": "Tomato rasam",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=LDaCx81MjMM",
+      "page": null
+    },
+    "healthRating": 4,
+    "tasteRating": 4.5,
+    "baseRecipe": "3 cup - 2.5/head",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Wheat flour",
+        "quantity": "1.5",
+        "uom": "cup"
+      },
+      {
+        "name": "Paneer",
+        "quantity": "100",
+        "uom": "gram"
+      },
+      {
+        "name": "adrak",
+        "quantity": ".5",
+        "uom": "inch"
+      },
+      {
+        "name": "Dhania powder",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "red chilli",
+        "quantity": "3",
+        "uom": "pinch"
+      },
+      {
+        "name": "amchoor powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": " Salt",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Green chilli",
+        "quantity": "1",
+        "uom": "cut"
+      },
+      {
+        "name": "Garam masala",
+        "quantity": ".1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Finely chopped green coriander",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Oil/Ghee for dough",
+        "quantity": "1",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5f8bacad9a3a7e7d051324a6",
+    "title": "Paneer Paratha - Punjabi paneer paratha",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=W_CDvaxvfhI",
+      "page": null
+    },
+    "healthRating": 3.5,
+    "tasteRating": 4.5,
+    "baseRecipe": "4 parathe",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Potatoes",
+        "quantity": ".5",
+        "uom": "kg"
+      },
+      {
+        "name": "Cauliflower",
+        "quantity": "2",
+        "uom": "kg"
+      },
+      {
+        "name": "For tadka"
+      },
+      {
+        "name": "Oil/Ghee",
+        "quantity": ".8",
+        "uom": "cup"
+      },
+      {
+        "name": "mustard seeds",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Jeera",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "green chilli",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Turmeric",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Jeera powder",
+        "quantity": "1.5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Dhania powder",
+        "quantity": "3",
+        "uom": "tsp"
+      },
+      {
+        "name": "Chilli powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "MDH Garam Masala",
+        "quantity": "4",
+        "uom": "tsp"
+      },
+      {
+        "name": "Aamchur powder",
+        "quantity": "4",
+        "uom": "tsp"
+      },
+      {
+        "name": "Coriander leaves",
+        "quantity": "1",
+        "uom": "TBSP"
+      }
+    ],
+    "_id": "5f8c00ea9a3a7e7d05219aa5",
+    "title": "Alu Gobi Dry - Aloo Gobhi Dry",
+    "source": {
+      "cook": "Gauranga Pr",
+      "book": null,
+      "url": "https://food.radhagopinath.com/sabji/alu-gobi-dry",
+      "page": null
+    },
+    "healthRating": 3.5,
+    "tasteRating": 4.5,
+    "baseRecipe": "8 cup",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Udal dal ",
+        "quantity": "1 ",
+        "uom": "cup"
+      },
+      {
+        "name": "Chana dal",
+        "quantity": "1",
+        "uom": "cup"
+      },
+      {
+        "name": "Dry red chilli",
+        "quantity": "1",
+        "uom": "cup"
+      },
+      {
+        "name": "Heeng",
+        "quantity": "1.75",
+        "uom": "tsp"
+      },
+      {
+        "name": "Til seeds",
+        "quantity": "3",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Jaggary",
+        "quantity": "5",
+        "uom": "gram"
+      },
+      {
+        "name": "Salt",
+        "quantity": "2.25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Til oil",
+        "quantity": "2",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5f8c01f89a3a7e7d0521c42b",
+    "title": "Malga pudi - Dry powder chutney",
+    "source": {
+      "cook": "Gauranga Pr",
+      "book": null,
+      "url": "https://food.radhagopinath.com/chutneys/malga-pudi-dry-powder-chutney",
+      "page": null
+    },
+    "healthRating": 3.5,
+    "tasteRating": 4.5,
+    "baseRecipe": "1 cup",
+    "targetRecipe": ""
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Carrot (red juice ones)",
+        "quantity": "350",
+        "uom": "gram"
+      },
+      {
+        "name": "Dry powder"
+      },
+      {
+        "name": "Urad dal",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Red chilli (dry)",
+        "quantity": "2",
+        "uom": "mid size"
+      },
+      {
+        "name": "Heeng",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "White til",
+        "quantity": "1.5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Oil to grease",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Wet grid"
+      },
+      {
+        "name": "Curry leaves",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Green chilli",
+        "quantity": "1",
+        "uom": "count"
+      },
+      {
+        "name": "Gud",
+        "quantity": "10",
+        "uom": "gram"
+      },
+      {
+        "name": "Imli",
+        "quantity": "10",
+        "uom": "gram"
+      },
+      {
+        "name": "Coriander leaves",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Ginger (whole)",
+        "quantity": ".5",
+        "uom": "inch"
+      },
+      {
+        "name": "Salt",
+        "quantity": "2",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5f8c035e9a3a7e7d0521fcab",
+    "title": "Carrot Chutney",
+    "source": {
+      "cook": "Gauranga Pr",
+      "book": null,
+      "url": "https://food.radhagopinath.com/chutneys/carrot-chutney",
+      "page": null
+    },
+    "healthRating": 4,
+    "tasteRating": 4.5,
+    "baseRecipe": "1.25 cup - 65 ml per head",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Moong dal",
+        "quantity": "500",
+        "uom": "gram"
+      },
+      {
+        "name": "Mawa",
+        "quantity": "200",
+        "uom": "gram"
+      },
+      {
+        "name": "Milk",
+        "quantity": "400",
+        "uom": "ml"
+      },
+      {
+        "name": "Elaichi (Cardamom) powder",
+        "quantity": "6",
+        "uom": "tsp"
+      },
+      {
+        "name": "Ealichi (Nutmeg) powder",
+        "quantity": "1.5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Ghee",
+        "quantity": "500",
+        "uom": "ml"
+      },
+      {
+        "name": "Sugar",
+        "quantity": "650",
+        "uom": "gram"
+      },
+      {
+        "name": "Kaju",
+        "quantity": "50",
+        "uom": "gram"
+      },
+      {
+        "name": "Badam",
+        "quantity": "30",
+        "uom": "gram"
+      }
+    ],
+    "_id": "5f8c04119a3a7e7d05222083",
+    "title": "Moong dal Halwa",
+    "source": {
+      "cook": "Gauranga Pr",
+      "book": null,
+      "url": "https://food.radhagopinath.com/sweets/mung-dal-halwa",
+      "page": null
+    },
+    "healthRating": 3.5,
+    "tasteRating": 4.5,
+    "baseRecipe": "20 persons",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Karela",
+        "quantity": "250",
+        "uom": "gram"
+      },
+      {
+        "name": "Karela slices",
+        "quantity": "2.15",
+        "uom": "cup"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Ginger paster",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "Turmeric",
+        "quantity": ".75",
+        "uom": "tsp"
+      },
+      {
+        "name": "Green chilli paster",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Dhania powder",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "Jeera powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Heeng",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Besan",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "rice powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Oil for frying",
+        "quantity": "300",
+        "uom": "ml"
+      }
+    ],
+    "_id": "5f8c05339a3a7e7d05224ecd",
+    "title": "Karela (Bitter Gourd) Chips",
+    "source": {
+      "cook": "Gauranga Pr",
+      "book": null,
+      "url": "https://food.radhagopinath.com/veg-pakoras/karela-bitter-gourd-chips",
+      "page": null
+    },
+    "healthRating": 4.5,
+    "tasteRating": 4.5,
+    "baseRecipe": "2 cup",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Butter",
+        "quantity": "425",
+        "uom": "gram"
+      },
+      {
+        "name": "Sooji (Rawa/Semolina)",
+        "quantity": "500",
+        "uom": "gram"
+      },
+      {
+        "name": "Sugar",
+        "quantity": "750",
+        "uom": "gram"
+      },
+      {
+        "name": "Water",
+        "quantity": "1.75",
+        "uom": "liter"
+      },
+      {
+        "name": "Pineapple",
+        "quantity": "1",
+        "uom": "small size"
+      }
+    ],
+    "_id": "5f8c072b9a3a7e7d05229fc6",
+    "title": "Pineapple halwa",
+    "source": {
+      "cook": "Gauranga Pr",
+      "book": null,
+      "url": "https://food.radhagopinath.com/sweets/pineapple-halwa",
+      "page": null
+    },
+    "healthRating": null,
+    "tasteRating": null,
+    "baseRecipe": "12 cups",
+    "targetRecipe": ""
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Coconut",
+        "quantity": ".5",
+        "uom": "mid size"
+      },
+      {
+        "name": "Dalia (roasted)",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Ginger paste",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "Imli (seedless)",
+        "quantity": "6",
+        "uom": "gram"
+      },
+      {
+        "name": "Coriander leaves",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Curry leaves",
+        "quantity": "5",
+        "uom": "count"
+      },
+      {
+        "name": "Green chilli",
+        "quantity": "2",
+        "uom": "count"
+      },
+      {
+        "name": "Pudina leaves",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Salt",
+        "quantity": "3",
+        "uom": "tsp"
+      },
+      {
+        "name": "Water for grinding",
+        "uom": "as required"
+      },
+      {
+        "name": "Tadka"
+      },
+      {
+        "name": "Coconut oil",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "Mustard seeds",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Curry Leaves",
+        "quantity": "5",
+        "uom": "leaves"
+      }
+    ],
+    "_id": "5f8c0c489a3a7e7d05236f51",
+    "title": "Coconut Chutney with Pudina",
+    "source": {
+      "cook": "Gauranga Pr",
+      "book": null,
+      "url": "https://food.radhagopinath.com/chutneys/coconut-chutney",
+      "page": null
+    },
+    "healthRating": 4,
+    "tasteRating": 4.5,
+    "baseRecipe": "2.5 cups - 5 persons",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Tomato",
+        "quantity": "1",
+        "uom": "kg"
+      },
+      {
+        "name": "Chilli powder",
+        "quantity": "1.5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Sugar",
+        "quantity": "4.5",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Salt",
+        "quantity": "3",
+        "uom": "tsp"
+      },
+      {
+        "name": "Black pepper powder",
+        "quantity": "1.25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Black elaichi powder",
+        "quantity": "4",
+        "uom": "pieces"
+      },
+      {
+        "name": "Corn flour (optional)"
+      }
+    ],
+    "_id": "5f8c0f339a3a7e7d0523e7b0",
+    "title": "Tomato Sauce",
+    "source": {
+      "cook": "Gauranga Pr",
+      "book": null,
+      "url": "https://food.radhagopinath.com/chutneys/home-made-red-tomato-sauce",
+      "page": null
+    },
+    "healthRating": 3,
+    "tasteRating": 4.5,
+    "baseRecipe": "3.5 cup - 50ml/head",
+    "targetRecipe": ""
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Poha",
+        "quantity": ".5",
+        "uom": "kg"
+      },
+      {
+        "name": "Cabbage",
+        "quantity": "2",
+        "uom": "cups"
+      },
+      {
+        "name": "Potatoes",
+        "quantity": "3",
+        "uom": "mid size"
+      },
+      {
+        "name": "Green peas",
+        "quantity": ".75",
+        "uom": "cup"
+      },
+      {
+        "name": "Oil",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Mustard seeds",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "Jeera",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "Red chilli",
+        "quantity": "3",
+        "uom": "big"
+      },
+      {
+        "name": "Heeng",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Green chilli",
+        "quantity": "2",
+        "uom": "count"
+      },
+      {
+        "name": "Ginger paste",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Curry leaves",
+        "quantity": "8",
+        "uom": "count"
+      },
+      {
+        "name": "Turmeric",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Coriander leaves",
+        "quantity": ".33",
+        "uom": "cup"
+      },
+      {
+        "name": "Lemon juice",
+        "quantity": ".33",
+        "uom": "cup"
+      },
+      {
+        "name": "Salt",
+        "quantity": "4",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5f8c54ee9a3a7e7d052f8d51",
+    "title": "Poha",
+    "source": {
+      "cook": "Gauranga Pr",
+      "book": null,
+      "url": "https://food.radhagopinath.com/break-fast/poha",
+      "page": null
+    },
+    "healthRating": 2.5,
+    "tasteRating": 3,
+    "baseRecipe": "5 persons",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Karela (peeled and cut)",
+        "quantity": "3",
+        "uom": "cup"
+      },
+      {
+        "quantity": "500",
+        "uom": "gram"
+      },
+      {
+        "name": "Potato",
+        "quantity": "1",
+        "uom": "cup"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Oil",
+        "quantity": "4",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Cumin seeds",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Heeng",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Haldi powder",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Chopped coriander",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Broken kaju",
+        "quantity": ".25",
+        "uom": "cup"
+      },
+      {
+        "name": "Sesame seeds (til)",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Dhania jeera powder",
+        "quantity": "1.5",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Chilli powder",
+        "quantity": "1.75",
+        "uom": "tsp"
+      },
+      {
+        "name": "Sugar",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "aamchoor powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5f8c653b9a3a7e7d053221c4",
+    "title": "Karela aloo subji - Karela aloo ni bhaji",
+    "source": {
+      "cook": "Tarla Dalal",
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=y0OCTCAdnWM",
+      "page": null
+    },
+    "healthRating": 4.5,
+    "tasteRating": 4.5,
+    "baseRecipe": "3 cup",
+    "targetRecipe": null,
+    "notes": "Serve with kadhi. or serve with aamras in the season of mangoes."
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Lauki",
+        "quantity": "300",
+        "uom": "gram"
+      },
+      {
+        "quantity": "1",
+        "uom": "cup grated"
+      },
+      {
+        "name": "Wheat flour",
+        "quantity": "2",
+        "uom": "cups"
+      },
+      {
+        "quantity": "300",
+        "uom": "grams"
+      },
+      {
+        "name": "Fresh curd",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Oil",
+        "quantity": "3",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Green coriander",
+        "quantity": "3",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Green chilli",
+        "quantity": "2",
+        "uom": "count"
+      },
+      {
+        "name": "Ginger paster",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Cumin seeds",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Coriander powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Red chilly powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Turmeric powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Garam masala",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5f8c66ff9a3a7e7d05326e0d",
+    "title": "Gujrati thepla - Picnic special",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://www.youtube.com/watch?v=ehIhAoOVXLU",
+      "page": null
+    },
+    "healthRating": 4.5,
+    "tasteRating": 4.5,
+    "baseRecipe": "16 theplas",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Potatoes ",
+        "quantity": "800",
+        "uom": "gram"
+      },
+      {
+        "name": "",
+        "quantity": "1",
+        "uom": "liter after cutting"
+      },
+      {
+        "name": "Oil",
+        "quantity": "5",
+        "uom": "TBS"
+      },
+      {
+        "name": "Mustard seeds",
+        "quantity": "1.5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Heeng",
+        "quantity": ".75",
+        "uom": "tsp"
+      },
+      {
+        "name": "Turmeric",
+        "quantity": ".75",
+        "uom": "tsp"
+      },
+      {
+        "name": "Chilli powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1.25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Coriander leaves",
+        "quantity": "3",
+        "uom": "TBSP"
+      }
+    ],
+    "_id": "5f8cfea59a3a7e7d054ac1ed",
+    "title": "Aloo Chur Chruri",
+    "source": {
+      "cook": "Gauranga Pr",
+      "book": null,
+      "url": "https://food.radhagopinath.com/sabji/alu-chur-chruri",
+      "page": null
+    },
+    "healthRating": 3.5,
+    "tasteRating": 4.5,
+    "baseRecipe": "5 cups - 5 persons",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Arbi",
+        "quantity": "250",
+        "uom": "gram"
+      },
+      {
+        "name": "Smashed Arbi",
+        "quantity": "12",
+        "uom": "pieces"
+      },
+      {
+        "name": "Chaat Masala",
+        "quantity": "1.25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Black salt",
+        "quantity": "1.25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Black pepper",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Garam masala",
+        "quantity": ".5",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5f8d002e9a3a7e7d054afe4f",
+    "title": "Arbi Cutlet",
+    "source": {
+      "cook": "Gauranga Pr",
+      "book": null,
+      "url": "https://food.radhagopinath.com/veg-pakoras/arbi-cutlet",
+      "page": null
+    },
+    "healthRating": 4,
+    "tasteRating": 5,
+    "baseRecipe": "12 cutlets - 2 per person",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Special potatoes for cutlet",
+        "quantity": "250",
+        "uom": "gram"
+      },
+      {
+        "quantity": "2",
+        "uom": "mid size"
+      },
+      {
+        "name": "Carrot",
+        "quantity": ".25",
+        "uom": "cup"
+      },
+      {
+        "name": "Beans",
+        "quantity": ".25",
+        "uom": "cup"
+      },
+      {
+        "name": "Peas",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Corn flour",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Jeera powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Dhania powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Heeng",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Coriander leaves chopped",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Green chilli chopped",
+        "quantity": ".75",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Ginger paster",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": ".75",
+        "uom": "tsp"
+      },
+      {
+        "name": "MDH Garam masala",
+        "quantity": ".75",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5f8d04b49a3a7e7d054bb54b",
+    "title": "Veg cutlet - Veg pakoras",
+    "source": {
+      "cook": "Gauranga Pr",
+      "book": null,
+      "url": "https://food.radhagopinath.com/veg-pakoras/veg-cutlet",
+      "page": null
+    },
+    "healthRating": 3.5,
+    "tasteRating": 4.5,
+    "baseRecipe": "10 cutlets",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Ghee",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Gud",
+        "quantity": "200",
+        "uom": "gram"
+      },
+      {
+        "name": "Water",
+        "quantity": "2",
+        "uom": "tbsp"
+      },
+      {
+        "name": "Kishmish",
+        "quantity": "20",
+        "uom": "pieces"
+      },
+      {
+        "name": "Kaju",
+        "quantity": "10",
+        "uom": "pieces"
+      },
+      {
+        "name": "Badam",
+        "quantity": "15",
+        "uom": "pieces"
+      },
+      {
+        "name": "Popped Amarnath seeds",
+        "quantity": "3",
+        "uom": "cups"
+      }
+    ],
+    "_id": "5f8d65619a3a7e7d055cc54a",
+    "title": "Amarnath Laddu - Ramdana Laddu",
+    "source": {
+      "cook": "Self",
+      "book": null,
+      "url": null,
+      "page": null
+    },
+    "healthRating": 5,
+    "tasteRating": 4.5,
+    "baseRecipe": "10 laddus",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Water",
+        "quantity": ".75",
+        "uom": "cup"
+      },
+      {
+        "name": "Suran",
+        "quantity": "175",
+        "uom": "gram"
+      },
+      {
+        "name": "White bhopla",
+        "quantity": "250",
+        "uom": "gram"
+      },
+      {
+        "name": "Lal bhopla",
+        "quantity": "150",
+        "uom": "gram"
+      },
+      {
+        "name": "Beans",
+        "quantity": "125 ",
+        "uom": "gram"
+      },
+      {
+        "name": "Carrot",
+        "quantity": "80 ",
+        "uom": "gram"
+      },
+      {
+        "name": "Kaccha kela",
+        "quantity": "200",
+        "uom": "gram"
+      },
+      {
+        "name": "Total",
+        "quantity": "980",
+        "uom": "gram"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1.75",
+        "uom": "tsp"
+      },
+      {
+        "name": "Turmeric",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Curd (thickly set)",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Coconut paster",
+        "quantity": "1",
+        "uom": "cup"
+      },
+      {
+        "name": "Green chilli",
+        "quantity": "1.25",
+        "uom": "count"
+      },
+      {
+        "name": "Tadka"
+      },
+      {
+        "name": "Coconut oil",
+        "quantity": "1.5",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Curry leaves",
+        "quantity": "5",
+        "uom": "count"
+      }
+    ],
+    "_id": "5f8d66829a3a7e7d055cf77c",
+    "title": "Avial",
+    "source": {
+      "cook": "Gauranga Pr",
+      "book": null,
+      "url": "https://food.radhagopinath.com/sabji/avial",
+      "page": null
+    },
+    "healthRating": 4.5,
+    "tasteRating": 3.5,
+    "baseRecipe": "6 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Black ural dal",
+        "quantity": "100 ",
+        "uom": "gram"
+      },
+      {
+        "name": "Black chana",
+        "quantity": "50",
+        "uom": "gram"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "4",
+        "uom": "count"
+      },
+      {
+        "name": "Ginger",
+        "quantity": "1",
+        "uom": "inch"
+      },
+      {
+        "name": "Green  chilly",
+        "quantity": "2",
+        "uom": "count"
+      },
+      {
+        "name": "Food soda",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Haldi powder",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Jeera Powder",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Heeng",
+        "quantity": "1",
+        "uom": "pinch"
+      },
+      {
+        "name": "Methi daana",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Dhania powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Red chilli",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Ghee",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Whole garam masala",
+        "quantity": ""
+      },
+      {
+        "name": "Cardamom",
+        "quantity": "2",
+        "uom": "count"
+      },
+      {
+        "name": "Black pepper",
+        "quantity": "8",
+        "uom": "count"
+      },
+      {
+        "name": "Laung",
+        "quantity": "4",
+        "uom": "count"
+      },
+      {
+        "name": "Cinnamon stick",
+        "quantity": "1",
+        "uom": "inch"
+      },
+      {
+        "name": "Green coriander ",
+        "quantity": "1.5",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Butter",
+        "quantity": "1",
+        "uom": "TBSP"
+      }
+    ],
+    "_id": "5f981536633180bc79d0e1e9",
+    "title": "Dal Makhni - Dal Makhani",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://youtu.be/tQc4VSL0wME",
+      "page": null
+    },
+    "healthRating": 4.5,
+    "tasteRating": 4.5,
+    "baseRecipe": "5 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Doodh",
+        "quantity": "1 ",
+        "uom": "liter"
+      },
+      {
+        "name": "Makhane ",
+        "quantity": "2",
+        "uom": "cup"
+      },
+      {
+        "name": "Sugar",
+        "quantity": "80",
+        "uom": "gram"
+      },
+      {
+        "name": "Badam",
+        "quantity": "10",
+        "uom": "count"
+      },
+      {
+        "name": "Kishmish",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Ilaichi",
+        "quantity": "7",
+        "uom": "count"
+      }
+    ],
+    "_id": "5f9abf0c633180bc79473aff",
+    "title": "Makhana Kheer",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://youtu.be/2RZNLpVdfik",
+      "page": null
+    },
+    "healthRating": 5,
+    "tasteRating": 5,
+    "baseRecipe": "4 cups",
+    "targetRecipe": ""
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Palak",
+        "quantity": "500",
+        "uom": "gram"
+      },
+      {
+        "name": "Tomatoe paste",
+        "quantity": "2",
+        "uom": "tomatoes"
+      },
+      {
+        "name": "Green chilly paste",
+        "quantity": "2",
+        "uom": "chillies"
+      },
+      {
+        "name": "Ginger",
+        "quantity": "1",
+        "uom": "inch"
+      },
+      {
+        "name": "Green coriander",
+        "quantity": "3",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Makka atta ",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Oil",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Ghee",
+        "quantity": "1.5",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Heeng",
+        "quantity": "1",
+        "uom": "pinch"
+      },
+      {
+        "name": "Cumin seed",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Red chilly powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Coriander powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5f9c185c633180bc79825bc1",
+    "title": "Palak Saag",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://youtu.be/yRxMdZLr3IA",
+      "page": null
+    },
+    "healthRating": 5,
+    "tasteRating": 4,
+    "baseRecipe": "5 cups",
+    "targetRecipe": ""
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Karonda",
+        "quantity": "250",
+        "uom": "gram"
+      },
+      {
+        "name": "Sarso oil",
+        "quantity": ".33",
+        "uom": "cup"
+      },
+      {
+        "name": "Yello/black sarso seeds",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Salt",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "Red chilli powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Heeng powder",
+        "quantity": ".15",
+        "uom": "tsp"
+      },
+      {
+        "name": "Haldi powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Jeera seeds",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Ajwain",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Methi ke daane",
+        "quantity": "2",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5f9e45b1633180bc79dce2ff",
+    "title": "Karonde ka achaar - Karonda Pickle",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://youtu.be/N5vc23-O6ao",
+      "page": null
+    },
+    "healthRating": 4.5,
+    "tasteRating": 4.5,
+    "baseRecipe": "250 gram",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Tenti",
+        "quantity": "250",
+        "uom": "grams"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "----"
+      },
+      {
+        "name": "Sarso oil",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "Red chilli powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Saunf powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Black pepper powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Heeng",
+        "quantity": "2",
+        "uom": "pinch"
+      },
+      {
+        "name": "Haldi powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Yellow mustard powder",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Vinegar",
+        "quantity": "1",
+        "uom": "TBSP"
+      }
+    ],
+    "_id": "5f9e4774633180bc79dd2848",
+    "title": "Tenti ka achaar - Tenti pickle",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://youtu.be/BVjkpoKTUww",
+      "page": null
+    },
+    "healthRating": 4.5,
+    "tasteRating": 4.5,
+    "baseRecipe": "250 grams",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Kaddu",
+        "quantity": "500",
+        "uom": "gram"
+      },
+      {
+        "name": "Sarso oil",
+        "quantity": "2.5",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Chopped green coriander",
+        "quantity": "2.5",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Ginger paste",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Finely chopped Green chilly",
+        "quantity": "2",
+        "uom": "count"
+      },
+      {
+        "name": "Heeng",
+        "quantity": "1",
+        "uom": "pinch"
+      },
+      {
+        "name": "Methi daana",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Garam masala",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Haldi powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Red chilli powder",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Amchoor powder",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Dhania powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Sugar",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": "1",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5f9ea602633180bc79eca0ac",
+    "title": "Khatte meethe kaddu ki sabji",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://youtu.be/csKFuwcpuEk",
+      "page": null
+    },
+    "healthRating": 4.5,
+    "tasteRating": 4.5,
+    "baseRecipe": "3 cups",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Wheat flour",
+        "quantity": "2",
+        "uom": "cup"
+      },
+      {
+        "quantity": "300",
+        "uom": "grams"
+      },
+      {
+        "name": "Salt",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Oil",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "Filling preparation"
+      },
+      {
+        "name": "Gobhi (shredded)",
+        "quantity": "300",
+        "uom": "gram"
+      },
+      {
+        "name": "Oil",
+        "quantity": "2",
+        "uom": "tsp"
+      },
+      {
+        "name": "Jeera",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Heeng",
+        "quantity": "1",
+        "uom": "pinch"
+      },
+      {
+        "name": "Hali powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Dhania powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Green chilly (finely chopped)",
+        "quantity": "1",
+        "uom": "count"
+      },
+      {
+        "name": "Salt",
+        "quantity": ".75",
+        "uom": "tsp"
+      },
+      {
+        "name": "Red chilli powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Garam masala",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Aamchoor",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Hara Dhania",
+        "quantity": "2",
+        "uom": "TBSP"
+      }
+    ],
+    "_id": "5f9f7cde633180bc790f7e55",
+    "title": "Gobhi Paratha - Cauliflower paratha",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://youtu.be/jrp8F6Nm44U",
+      "page": null
+    },
+    "healthRating": 4,
+    "tasteRating": 5,
+    "baseRecipe": "4 paranthe",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Grated Lauki",
+        "quantity": "1",
+        "uom": "cup"
+      },
+      {
+        "name": "--- Lauki before grating",
+        "quantity": "300",
+        "uom": "grams"
+      },
+      {
+        "name": "Besan (min)",
+        "quantity": ".5",
+        "uom": "cup"
+      },
+      {
+        "name": "total",
+        "quantity": ".75",
+        "uom": "cup"
+      },
+      {
+        "name": "Green chilly",
+        "quantity": "1",
+        "uom": "count"
+      },
+      {
+        "name": "Ginger paste",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Haldi powder",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Dhania powder",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Red chilli powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Salt",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Ajwain (crushed)",
+        "quantity": ".2",
+        "uom": "tsp"
+      },
+      {
+        "name": "Green coriander",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Gravy"
+      },
+      {
+        "name": "Oil",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Jeera seeds",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Heeng",
+        "quantity": "1",
+        "uom": "pinch"
+      },
+      {
+        "name": "Adrak paste",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Dhania powder",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "haldi powder",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "3",
+        "uom": "count"
+      },
+      {
+        "name": "Green chilly",
+        "quantity": "1",
+        "uom": "count"
+      },
+      {
+        "name": "Lal mirch powder",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Kasturi methi",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Besan",
+        "quantity": "1",
+        "uom": "TBSP"
+      }
+    ],
+    "_id": "5fa0de2d633180bc794d1da2",
+    "title": "Lauki Kofta curry",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://youtu.be/soUKwdZS2zA",
+      "page": null
+    },
+    "healthRating": 3.5,
+    "tasteRating": 4.5,
+    "baseRecipe": "4 cups",
+    "targetRecipe": ""
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Mooli",
+        "quantity": "500",
+        "uom": "grams"
+      },
+      {
+        "name": "Aloo",
+        "quantity": "500",
+        "uom": "grams"
+      },
+      {
+        "name": "Adrak (shredded)",
+        "quantity": "1",
+        "uom": "inch"
+      },
+      {
+        "name": "Green chilly (finely chopped)",
+        "quantity": "2",
+        "uom": "count"
+      },
+      {
+        "name": "Jeera",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Haldi powder",
+        "quantity": ".25",
+        "uom": "tsp"
+      },
+      {
+        "name": "Garam Masala",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Heeng",
+        "quantity": "2",
+        "uom": "pinch"
+      },
+      {
+        "name": "Salt~",
+        "quantity": "1",
+        "uom": "tsp"
+      },
+      {
+        "name": "Oil",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Hara Dhania",
+        "quantity": "2",
+        "uom": "TBSP"
+      }
+    ],
+    "_id": "5fa21e77633180bc7983b86a",
+    "title": "Aloo Mooli ki Subji",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://cookpad.com/in-hi/recipes/11611321-%E0%A4%AE%E0%A5%82%E0%A4%B2%E0%A5%80-%E0%A4%86%E0%A4%B2%E0%A5%82-%E0%A4%95%E0%A5%80-%E0%A4%9F%E0%A5%87%E0%A4%B8%E0%A5%8D%E0%A4%9F%E0%A5%80-%E0%A4%B8%E0%A4%AC%E0%A5%8D%E0%A4%9C%E0%A5%80-mooli-aloo-ki-tasty-sabzi-recipe-in-hindi",
+      "page": null
+    },
+    "healthRating": 4.5,
+    "tasteRating": 4.5,
+    "baseRecipe": "4 servings",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Curd",
+        "quantity": "1",
+        "uom": "cup"
+      },
+      {
+        "name": "Water",
+        "quantity": "3",
+        "uom": "cup"
+      },
+      {
+        "name": "Dhania ke patte",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Pundina ke patte",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Kala Namak",
+        "quantity": ".75",
+        "uom": "tsp"
+      },
+      {
+        "name": "Jeera powder",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Hari Mirch",
+        "quantity": "1",
+        "uom": "count"
+      },
+      {
+        "name": "Kaali mirch",
+        "quantity": ".25",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5fa37093633180bc79be11c4",
+    "title": "Masala Chaas",
+    "source": {
+      "cook": "Nisha Madhulika",
+      "book": null,
+      "url": "https://youtu.be/iNT3b7D6Xoc",
+      "page": null
+    },
+    "healthRating": 5,
+    "tasteRating": 5,
+    "baseRecipe": "1 liter",
+    "targetRecipe": null
+  },
+  {
+    "ingredients": [
+      {
+        "name": "Cooked moong dal",
+        "quantity": "1",
+        "uom": "Cup"
+      },
+      {
+        "name": "Tomato",
+        "quantity": "1",
+        "uom": "Cup"
+      },
+      {
+        "name": "Rasam Powder",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Green chilli",
+        "quantity": "1.5",
+        "uom": ""
+      },
+      {
+        "name": "Lemon",
+        "quantity": "1"
+      },
+      {
+        "name": "Jaggery",
+        "quantity": "1",
+        "uom": "inch"
+      },
+      {
+        "name": "Grated coconot",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Dhania leaves",
+        "quantity": "2",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Curry leaves",
+        "quantity": "15"
+      },
+      {
+        "name": "Ghee",
+        "quantity": "1",
+        "uom": "TBSP"
+      },
+      {
+        "name": "Heeng",
+        "quantity": "1",
+        "uom": "pinch"
+      },
+      {
+        "name": "Mustard seeds",
+        "quantity": ".5",
+        "uom": "tsp"
+      },
+      {
+        "name": "Jeera Seeds",
+        "quantity": ".5",
+        "uom": "tsp"
+      }
+    ],
+    "_id": "5fa39667633180bc79c46a43",
+    "title": "Moong dal Rasam",
+    "source": {
+      "cook": "Gayatri Balaji (Cookpad)",
+      "book": null,
+      "url": "https://cookpad.com/in/recipes/7722222-moong-dal-rasam",
+      "page": null
+    },
+    "healthRating": null,
+    "tasteRating": null,
+    "baseRecipe": "4 cups~",
+    "targetRecipe": null
+  }
+]

@@ -6,6 +6,7 @@ import {
   UPDATE_RECIPE_QUANTITY,
 } from "./actionTypes";
 import axios from "axios";
+import { constants } from "../utils/Constants";
 
 // import { printAllRecipies } from "../utils/videoCalculations";
 
@@ -28,15 +29,13 @@ export const removeRecipeFromSelectedList = (recipeId) => ({
 
 export const fetchRecipeList = () => {
   return (dispatch) => {
-    axios
-      .get("https://easy-cooking-services.herokuapp.com/recipe")
-      .then((response) => {
-        let recipes = response.data;
-        console.log("recipes fetched from server:", recipes);
-        localStorage.setItem("recipes", JSON.stringify(recipes));
-        dispatch(updateRecipeList(recipes));
-        dispatch(addRecipeToSelectedList(recipes[0]));
-      });
+    axios.get(constants.serviceUrl).then((response) => {
+      let recipes = response.data;
+      console.log("recipes fetched from server:", recipes);
+      localStorage.setItem("recipes", JSON.stringify(recipes));
+      dispatch(updateRecipeList(recipes));
+      dispatch(addRecipeToSelectedList(recipes[0]));
+    });
   };
 };
 
