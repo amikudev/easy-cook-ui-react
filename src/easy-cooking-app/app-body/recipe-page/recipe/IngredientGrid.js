@@ -1,5 +1,5 @@
 import React from "react";
-import { AgGridColumn, AgGridReact } from "ag-grid-react";
+import { AgGridReact } from "ag-grid-react";
 import { constants } from "../../../../utils/Constants";
 import {
   getGridColumns,
