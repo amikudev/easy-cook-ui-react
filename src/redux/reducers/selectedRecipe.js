@@ -46,6 +46,14 @@ export default function (state = initialState, action) {
     }
 
     case REMOVE_RECIPE_FROM_SELECTED_LIST: {
+      const { recipeId } = action.payload;
+      return produce(state, (draft) => {
+        if (draft.selectedRecipeId === recipeId) {
+          draft.selectedRecipeId = null;
+        }
+        const selectedRecipes = draft.selectedRecipes;
+        delete selectedRecipes[recipeId];
+      });
       return state;
     }
     default:
