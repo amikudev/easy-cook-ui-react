@@ -17,7 +17,7 @@ export default class Video extends React.Component {
       width: "320",
       playerVars: {
         // https://developers.google.com/youtube/player_parameters
-        autoplay: 1,
+        autoplay: 0,
       },
     };
     return (
@@ -29,8 +29,9 @@ export default class Video extends React.Component {
     );
   }
 
-  _onReady(event) {
+  _onReady = (event) => {
+    console.log("_onReady fired");
     // access to player in all event handlers via event.target
     event.target.pauseVideo();
-  }
+  };
 }
