@@ -14,14 +14,19 @@ class SelectedRecipeList extends React.Component {
       <div className={classes.selectedRecipes}>
         {this.props.selectedRecipeList.map((recipe) => (
           <div className={classes.recipeHolder} key={recipe._id}>
-            <button
-              onClick={() =>
-                this.props.removeRecipeFromSelectedList(recipe._id)
-              }
+            <div
+              onClick={() => this.props.selectRecipe(recipe._id)}
+              className={classes.recipeRemoveButton}
             >
-              x
-            </button>
-            <div onClick={() => this.props.selectRecipe(recipe._id)}>
+              <button
+                className="form-control"
+                title="remove recipe from list of selected recipies"
+                onClick={() =>
+                  this.props.removeRecipeFromSelectedList(recipe._id)
+                }
+              >
+                x
+              </button>
               <RecipeSummary recipe={recipe} />
             </div>
           </div>
