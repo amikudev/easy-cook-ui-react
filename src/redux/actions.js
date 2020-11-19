@@ -31,6 +31,7 @@ export const fetchRecipeList = () => {
   return (dispatch) => {
     axios.get(constants.serviceUrl).then((response) => {
       let recipes = response.data;
+      recipes = recipes.reverse();
       console.log("recipes fetched from server:", recipes);
       dispatch(updateRecipeList(recipes));
     });
