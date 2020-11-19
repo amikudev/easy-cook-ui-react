@@ -1,3 +1,10 @@
+// import firebase from "@firebase/app";
+import "bootstrap/dist/css/bootstrap.css";
+import firebase from "@firebase/app";
+import "@firebase/firestore";
+import "@firebase/analytics";
+import "@firebase/auth";
+
 const firebaseConfig = {
   apiKey: "AIzaSyBej6_ybdqOeEDKK38bBwl9M4siRy_gGdw",
   authDomain: "easy-cooking-final.firebaseapp.com",
@@ -9,4 +16,24 @@ const firebaseConfig = {
   measurementId: "G-995WSZ8XYY",
 };
 
-export default firebaseConfig;
+firebase.initializeApp(firebaseConfig);
+firebase.analytics();
+
+// enable firestore configuration
+const db = firebase.firestore();
+// firebase.firestore.setLogLevel('debug');
+firebase.firestore().settings({ experimentalForceLongPolling: true });
+
+db.collection("tests")
+  .get()
+  .then((snapshot) => {
+    snapshot.forEach((test) => {
+      console.log(test.data());
+      console.log(test.id);
+    });
+  })
+  .catch((e) => {
+    console.error(e);
+  });
+
+export default firebase;
