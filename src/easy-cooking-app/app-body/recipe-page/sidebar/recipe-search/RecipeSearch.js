@@ -5,7 +5,6 @@ import {
   addRecipeToSelectedList,
   updateRecipeList,
   fetchRecipeList,
-  fetchRecipesFromLocalStorage,
 } from "../../../../../redux/actions";
 
 import cn from "classnames";
@@ -23,7 +22,6 @@ class RecipeSearch extends React.Component {
 
   componentDidMount() {
     this.searchBoxRef.current.focus();
-    this.props.fetchRecipesFromLocalStorage();
     this.props.fetchRecipeList();
   }
 
@@ -91,5 +89,4 @@ export default connect(mapStateToProps, {
   addRecipeToSelectedList,
   updateRecipeList,
   fetchRecipeList,
-  fetchRecipesFromLocalStorage,
 })(RecipeSearch);

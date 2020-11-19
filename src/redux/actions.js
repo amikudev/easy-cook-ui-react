@@ -32,23 +32,9 @@ export const fetchRecipeList = () => {
     axios.get(constants.serviceUrl).then((response) => {
       let recipes = response.data;
       console.log("recipes fetched from server:", recipes);
-      localStorage.setItem("recipes", JSON.stringify(recipes));
       dispatch(updateRecipeList(recipes));
       dispatch(addRecipeToSelectedList(recipes[0]));
     });
-  };
-};
-
-export const fetchRecipesFromLocalStorage = () => {
-  return (dispatch) => {
-    let recipesString = localStorage.getItem("recipes");
-    if (recipesString !== null) {
-      let recipes = JSON.parse(recipesString);
-      console.log("recipes retrieved from localstorage", recipes);
-      // printAllRecipies(recipes);
-      dispatch(updateRecipeList(recipes));
-      dispatch(addRecipeToSelectedList(recipes[0]));
-    }
   };
 };
 
