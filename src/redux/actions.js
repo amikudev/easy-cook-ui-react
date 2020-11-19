@@ -33,7 +33,6 @@ export const fetchRecipeList = () => {
       let recipes = response.data;
       console.log("recipes fetched from server:", recipes);
       dispatch(updateRecipeList(recipes));
-      dispatch(addRecipeToSelectedList(recipes[0]));
     });
   };
 };
