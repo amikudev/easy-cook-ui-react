@@ -8,6 +8,10 @@ import { Provider } from "react-redux";
 import store from "./redux/store";
 
 import "bootstrap/dist/css/bootstrap.css";
+import firebase from "@firebase/app";
+import "@firebase/firestore";
+import "@firebase/analytics";
+import firebaseConfig from "./utils/firebase";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -22,3 +26,5 @@ ReactDOM.render(
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+
+firebase.initializeApp(firebaseConfig);
