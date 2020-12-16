@@ -1,9 +1,9 @@
 .selectedRecipes {
-}
-
-.recipeHolder {
-  display: flex;
-  button {
-    margin-right: 10px;
+  margin-bottom: 20px;
+  .recipeHolder {
+    display: flex;
+    button {
+      margin-right: 10px;
+    }
   }
 }

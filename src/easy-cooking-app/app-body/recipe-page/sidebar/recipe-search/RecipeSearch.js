@@ -64,14 +64,16 @@ class RecipeSearch extends React.Component {
       );
     });
     return (
-      <div>
+      <div className={classes.recipeSearchBox}>
         <input
           ref={this.searchBoxRef}
           className={cn(["form", "form-control", classes.searchInput])}
           type="text"
+          title={"Search Recipes"}
           value={this.state.searchText}
           onChange={this.recipeSearchTextChangeHandler}
         />
+        <h5>All recipes</h5>
         {recipeListUI}
       </div>
     );
