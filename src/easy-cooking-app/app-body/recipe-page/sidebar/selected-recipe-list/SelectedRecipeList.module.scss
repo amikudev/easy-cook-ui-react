@@ -4,6 +4,13 @@
     display: flex;
     button {
       margin-right: 10px;
+      border-radius: 6px;
+      padding-top: 0px;
+      border-width: 1px;
+      div {
+        margin: 0px;
+        padding: 0px;
+      }
     }
   }
 }
