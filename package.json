@@ -40,7 +40,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "firebase deploy",
+    "deploy": "firebase deploy && firebase deploy",
     "build-and-netlify-deploy": "npm run build && netlify deploy --open --prod --dir=build",
     "netlify-deploy": "netlify deploy --open --prod --dir=build",
     "deploy:staging": "netlify deploy",
