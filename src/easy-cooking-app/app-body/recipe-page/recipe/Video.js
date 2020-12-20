@@ -6,12 +6,6 @@ export default class Video extends React.Component {
   render() {
     console.log("this.props.url", this.props.url);
 
-    //check if it is a youtube url
-    const youtubeVideoId = getYoutubeVideoId(this.props.url);
-    if (!youtubeVideoId) {
-      return null;
-    }
-
     const opts = {
       height: "190",
       width: "320",
@@ -22,7 +16,11 @@ export default class Video extends React.Component {
     };
     return (
       <React.Fragment>
-        <YouTube videoId={youtubeVideoId} opts={opts} onReady={this._onReady} />
+        <YouTube
+          videoId={this.props.youtubeVideoId}
+          opts={opts}
+          onReady={this._onReady}
+        />
         {/*<p>{this.props.url}</p>*/}
         {/*<p>{youtubeVideoId}</p>*/}
       </React.Fragment>

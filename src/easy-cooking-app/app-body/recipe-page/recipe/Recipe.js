@@ -1,6 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
-import Video from "./Video";
+import Source from "./Source";
 
 import { updateIngredientsInRecipe } from "../../../../utils/recipeCalculations";
 
@@ -58,7 +58,7 @@ class Recipe extends React.Component {
               }
             />
           </div>
-          <Video url={recipe.source.url}></Video>
+          <Source source={recipe.source}></Source>
         </div>
         <div>
           <IngredientGrid recipe={recipe}></IngredientGrid>
