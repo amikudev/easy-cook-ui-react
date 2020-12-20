@@ -31,9 +31,16 @@ class RecipeSearch extends React.Component {
       searchText === ""
         ? this.props.allRecipes
         : this.props.allRecipes.filter((recipe) => {
-            return (
-              recipe.title.toLowerCase().indexOf(searchText.toLowerCase()) >= 0
-            );
+            let titleMatch =
+              recipe.title.toLowerCase().indexOf(searchText.toLowerCase()) >= 0;
+            let cookMatch = false;
+            if (recipe.source.cook) {
+              cookMatch =
+                recipe.source.cook
+                  .toLowerCase()
+                  .indexOf(searchText.toLowerCase()) >= 0;
+            }
+            return titleMatch || cookMatch;
           });
     return filteredRecipes;
   };
