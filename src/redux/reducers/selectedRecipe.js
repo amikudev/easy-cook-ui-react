@@ -54,7 +54,6 @@ export default function (state = initialState, action) {
         const selectedRecipes = draft.selectedRecipes;
         delete selectedRecipes[recipeId];
       });
-      return state;
     }
     default:
       return state;

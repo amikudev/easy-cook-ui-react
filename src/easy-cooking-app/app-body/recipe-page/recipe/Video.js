@@ -1,6 +1,5 @@
 import React from "react";
 import YouTube from "react-youtube";
-import { getYoutubeVideoId } from "../../../../utils/videoCalculations";
 
 export default class Video extends React.Component {
   render() {

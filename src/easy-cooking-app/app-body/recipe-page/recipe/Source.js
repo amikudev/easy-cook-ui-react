@@ -16,7 +16,11 @@ export default class Source extends React.Component {
           {this.props.source?.url ? (
             <div>
               <span className={classes.title}>Url: </span>
-              <a href={this.props.source.url} target="_blank">
+              <a
+                href={this.props.source.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Go to recipe source
               </a>
             </div>
