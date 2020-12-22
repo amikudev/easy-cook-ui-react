@@ -1,12 +1,15 @@
 import { UPDATE_RECIPE_LIST } from "../actionTypes";
 
 import produce from "immer";
+import RecipeModel from "../../easy-cooking-app/model/Recipe.model";
 
-const initialState = {
+const initialState: {
+  recipeList: RecipeModel[];
+} = {
   recipeList: [],
 };
 
-export default function (state = initialState, action) {
+export default function (state = initialState, action: any) {
   switch (action.type) {
     case UPDATE_RECIPE_LIST: {
       const { recipeList } = action.payload;

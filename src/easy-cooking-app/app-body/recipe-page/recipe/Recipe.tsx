@@ -15,7 +15,16 @@ import {
   getSelectedRecipePreferences,
 } from "../../../../redux/selectors";
 
-class Recipe extends React.Component {
+import RecipeModel from "../../../model/Recipe.model";
+interface RecipeComponentInterface {
+  recipe: RecipeModel;
+  //todo: improvise typing
+  recipePreferences: any;
+  //todo: improvise typing
+  updateRecipeQuantity: Function;
+}
+
+class Recipe extends React.Component<RecipeComponentInterface> {
   render() {
     // return if recipe props is not initialized yet
     if (this.props.recipe === null) {
@@ -68,7 +77,8 @@ class Recipe extends React.Component {
   }
 }
 
-let mapStateToProps = (state) => {
+//todo: improvise state type, remove any
+let mapStateToProps = (state: any) => {
   const recipe = getSelectedRecipe(state);
   const recipePreferences = getSelectedRecipePreferences(state);
   return {

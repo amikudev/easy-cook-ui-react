@@ -3,7 +3,9 @@
  * @param url
  * @returns return youtube video id if it is a youtube video. else it returns null
  */
-const getYoutubeVideoId = (url) => {
+import RecipeModel from "../easy-cooking-app/model/Recipe.model";
+
+const getYoutubeVideoId = (url: string | null) => {
   //handle default error cases
   if (
     url === null ||
@@ -32,7 +34,7 @@ const getYoutubeVideoId = (url) => {
   }
 };
 
-const printAllRecipies = (recipeList) => {
+const printAllRecipies = (recipeList: RecipeModel[]) => {
   recipeList.forEach((recipe) => {
     console.log(recipe.source.url);
   });

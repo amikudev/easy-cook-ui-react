@@ -1,9 +1,11 @@
-export const getSelectedRecipe = (store) => {
+import RecipeModel from "../easy-cooking-app/model/Recipe.model";
+
+export const getSelectedRecipe = (store: any) => {
   const selectedRecipeId = store.selectedRecipe.selectedRecipeId;
   const recipeList = store.recipeList.recipeList;
 
   let selectedRecipeList = recipeList.filter(
-    (recipe) => recipe._id === selectedRecipeId
+    (recipe: RecipeModel) => recipe._id === selectedRecipeId
   );
   if (selectedRecipeList.length === 1) {
     return selectedRecipeList[0];
@@ -12,7 +14,7 @@ export const getSelectedRecipe = (store) => {
   }
 };
 
-export const getSelectedRecipePreferences = (store) => {
+export const getSelectedRecipePreferences = (store: any) => {
   if (store.selectedRecipe.selectedRecipeId) {
     return store.selectedRecipe.selectedRecipes[
       store.selectedRecipe.selectedRecipeId
@@ -22,13 +24,13 @@ export const getSelectedRecipePreferences = (store) => {
   }
 };
 
-export const getSelectedRecipeList = (store) => {
+export const getSelectedRecipeList = (store: any) => {
   const selectedRecipeIdList = Object.keys(
     store.selectedRecipe.selectedRecipes
   );
   const recipeList = store.recipeList.recipeList;
 
-  let selectedRecipeList = recipeList.filter((recipe) =>
+  let selectedRecipeList = recipeList.filter((recipe: RecipeModel) =>
     selectedRecipeIdList.includes(recipe._id)
   );
 

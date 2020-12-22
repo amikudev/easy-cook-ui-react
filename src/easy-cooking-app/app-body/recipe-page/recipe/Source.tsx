@@ -2,8 +2,13 @@ import React from "react";
 import { getYoutubeVideoId } from "../../../../utils/videoCalculations";
 import Video from "./Video";
 import classes from "./Source.module.scss";
+import RecipeSource from "../../../model/RecipeSource.model";
 
-export default class Source extends React.Component {
+interface SourceInterface {
+  source: RecipeSource;
+}
+
+export default class Source extends React.Component<SourceInterface> {
   render() {
     console.log("this.props.source.url", this.props?.source?.url);
 

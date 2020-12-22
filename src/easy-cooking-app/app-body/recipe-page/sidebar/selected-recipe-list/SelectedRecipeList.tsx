@@ -7,8 +7,15 @@ import {
   removeRecipeFromSelectedList,
 } from "../../../../../redux/actions";
 import { getSelectedRecipeList } from "../../../../../redux/selectors";
+import RecipeModel from "../../../../model/Recipe.model";
 
-class SelectedRecipeList extends React.Component {
+interface SelectedRecipeListComponentInterface {
+  selectedRecipeList: RecipeModel[];
+  removeRecipeFromSelectedList: Function;
+  selectRecipe: Function;
+}
+
+class SelectedRecipeList extends React.Component<SelectedRecipeListComponentInterface> {
   render() {
     return this.props.selectedRecipeList.length > 0 ? (
       <div>
@@ -34,7 +41,8 @@ class SelectedRecipeList extends React.Component {
   }
 }
 
-const mapStateToProps = (state) => {
+//todo: remove any type from state
+const mapStateToProps = (state: any) => {
   const selectedRecipeList = getSelectedRecipeList(state);
   return {
     selectedRecipeList,

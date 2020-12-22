@@ -11,8 +11,21 @@ import cn from "classnames";
 
 import RecipeSummary from "./recipe-summary/RecipeSummary";
 
-class RecipeSearch extends React.Component {
-  constructor(props) {
+import RecipeModel from "../../../../model/Recipe.model";
+
+interface RecipeSearchInterface {
+  allRecipes: RecipeModel[];
+  fetchRecipeList: Function;
+  addRecipeToSelectedList: Function;
+}
+
+class RecipeSearch extends React.Component<RecipeSearchInterface> {
+  state: {
+    searchText: string;
+  };
+  searchBoxRef: any;
+
+  constructor(props: RecipeSearchInterface) {
     super(props);
     this.state = {
       searchText: "",
@@ -45,13 +58,13 @@ class RecipeSearch extends React.Component {
     return filteredRecipes;
   };
 
-  recipeSearchTextChangeHandler = (event) => {
+  recipeSearchTextChangeHandler = (event: any) => {
     this.setState({
-      searchText: event.target.value,
+      searchText: event?.target?.value,
     });
   };
 
-  recipeClickHandler = (recipe) => {
+  recipeClickHandler = (recipe: RecipeModel) => {
     console.log("clicked on a recipe named: " + recipe.title);
     this.props.addRecipeToSelectedList(recipe._id);
   };
@@ -59,11 +72,10 @@ class RecipeSearch extends React.Component {
   render() {
     let recipes = this.getFilteredRecipes();
 
-    let recipeListUI = recipes.map((recipe) => {
+    let recipeListUI = recipes.map((recipe: RecipeModel) => {
       return (
         <div
           key={recipe._id}
-          recipe={recipe}
           onClick={this.recipeClickHandler.bind(this, recipe)}
         >
           <RecipeSummary recipe={recipe}></RecipeSummary>
@@ -88,7 +100,8 @@ class RecipeSearch extends React.Component {
   }
 }
 
-const mapStateToProps = (state) => {
+//todo: add proper type to state
+const mapStateToProps = (state: any) => {
   const recipeList = state.recipeList.recipeList;
   return {
     allRecipes: recipeList,

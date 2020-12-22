@@ -7,12 +7,15 @@ import {
 
 import produce from "immer";
 
-const initialState = {
+const initialState: {
+  selectedRecipes: any;
+  selectedRecipeId: string | null;
+} = {
   selectedRecipes: {},
   selectedRecipeId: null,
 };
 
-export default function (state = initialState, action) {
+export default function (state = initialState, action: any) {
   switch (action.type) {
     case ADD_RECIPE_TO_SELECTED_LIST: {
       const { recipeId } = action.payload;

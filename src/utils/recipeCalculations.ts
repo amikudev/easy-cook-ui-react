@@ -1,4 +1,6 @@
-const getRecipeQuantityNumber = (quantity) => {
+import RecipeModel from "../easy-cooking-app/model/Recipe.model";
+
+const getRecipeQuantityNumber = (quantity: number | string | null) => {
   //return null if it is falsy
   if (
     quantity === null ||
@@ -17,7 +19,10 @@ const getRecipeQuantityNumber = (quantity) => {
   }
 };
 
-const updateIngredientsInRecipe = (recipe, recipePreferences) => {
+const updateIngredientsInRecipe = (
+  recipe: RecipeModel,
+  recipePreferences: any
+) => {
   const baseRecipeQuantity = getRecipeQuantityNumber(recipe.baseRecipe);
   const recipeTargetQuantity = getRecipeQuantityNumber(
     recipePreferences.targetRecipe
@@ -35,14 +40,14 @@ const updateIngredientsInRecipe = (recipe, recipePreferences) => {
   recipe.ingredients.forEach((ingredient) => {
     if (ingredient.quantity) {
       ingredient.displayQuantity = (
-        ingredient.quantity * multiplicationRatio
+        +ingredient.quantity * multiplicationRatio
       ).toFixed(2);
       let roundedOffQuantity = formatQuantityNumber(ingredient.displayQuantity);
       ingredient.displayQuantity = roundedOffQuantity;
 
       //error checkup.
       let changePercentage = Math.abs(
-        (roundedOffQuantity - ingredient.quantity) / ingredient.quantity
+        (+roundedOffQuantity - +ingredient.quantity) / +ingredient.quantity
       );
       if (changePercentage > 10) {
         console.log(
@@ -63,7 +68,7 @@ const updateIngredientsInRecipe = (recipe, recipePreferences) => {
   });
 };
 
-const formatQuantityNumber = (quantity) => {
+const formatQuantityNumber = (quantity: number) => {
   if (quantity < 1) {
     return Number(quantity).toPrecision(1);
   } else if (quantity < 7) {

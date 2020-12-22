@@ -3,7 +3,12 @@ import { composeWithDevTools } from "redux-devtools-extension";
 import rootReducer from "./reducers";
 import reduxThunk from "redux-thunk";
 
-let appStateFromLocalStorage = JSON.parse(localStorage.getItem("appState"));
+const appStateString = localStorage.getItem("appState");
+let appStateFromLocalStorage: any = null;
+if (!!appStateString) {
+  appStateFromLocalStorage = JSON.parse(appStateString);
+}
+
 if (appStateFromLocalStorage) {
   console.log("appStateFromLocalStorage", appStateFromLocalStorage);
 } else {

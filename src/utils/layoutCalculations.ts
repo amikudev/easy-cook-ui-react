@@ -1,6 +1,7 @@
 import { constants } from "./Constants";
+import RecipeModel from "../easy-cooking-app/model/Recipe.model";
 
-const getGridHeight = (recipe) => {
+const getGridHeight = (recipe: RecipeModel) => {
   console.log("window.innerHeight: " + window.innerHeight);
   const appHeaderHeightInPx = 70;
   const extraMarginHeightInPx = 30;
@@ -20,7 +21,7 @@ const getGridHeight = (recipe) => {
   return gridHeight;
 };
 
-const getGridColumns = (gridWidth) => {
+const getGridColumns = (gridWidth: number) => {
   //todo: Show the columns width based on width of available text in the columns
   return [
     {

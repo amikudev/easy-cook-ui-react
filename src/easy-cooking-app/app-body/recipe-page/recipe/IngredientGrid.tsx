@@ -5,8 +5,13 @@ import {
   getGridColumns,
   getGridHeight,
 } from "../../../../utils/layoutCalculations";
+import RecipeModel from "../../../model/Recipe.model";
 
-export default class IngredientGrid extends React.Component {
+interface IngredientGridInterface {
+  recipe: RecipeModel;
+}
+
+export default class IngredientGrid extends React.Component<IngredientGridInterface> {
   render() {
     let gridHeight = getGridHeight(this.props.recipe);
     let gridStyle = {

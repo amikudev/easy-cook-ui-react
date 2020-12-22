@@ -1,11 +1,16 @@
-import React from "react";
+import * as React from "react";
 import YouTube from "react-youtube";
+import { Options } from "react-youtube";
+// import YouTubePlayer from "youtube-player";
 
-export default class Video extends React.Component {
+interface VideoProps {
+  youtubeVideoId: string;
+}
+export default class Video extends React.Component<VideoProps> {
   render() {
-    console.log("this.props.url", this.props.url);
+    console.log("this.props.youtubeVideoId", this.props.youtubeVideoId);
 
-    const opts = {
+    const opts: Options = {
       height: "190",
       width: "320",
       playerVars: {
@@ -13,6 +18,7 @@ export default class Video extends React.Component {
         autoplay: 0,
       },
     };
+    // @ts-ignore
     return (
       <React.Fragment>
         <YouTube
@@ -26,7 +32,7 @@ export default class Video extends React.Component {
     );
   }
 
-  _onReady = (event) => {
+  _onReady = (event: any) => {
     console.log("_onReady fired");
     // access to player in all event handlers via event.target
     event.target.pauseVideo();
