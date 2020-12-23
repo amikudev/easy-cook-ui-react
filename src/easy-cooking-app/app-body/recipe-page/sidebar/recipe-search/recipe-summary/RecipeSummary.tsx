@@ -1,15 +1,14 @@
 import React from "react";
 import styles from "./RecipeSummary.module.scss";
 import RecipeModel from "../../../../../model/Recipe.model";
+import exp from "constants";
 
 interface RecipeSummaryInterface {
   recipe: RecipeModel;
 }
 
-export default class RecipeSummary extends React.Component<RecipeSummaryInterface> {
-  render() {
-    return (
-      <div className={styles.recipeSmallCard}>{this.props.recipe.title}</div>
-    );
-  }
-}
+const RecipeSummary: React.FC<RecipeSummaryInterface> = (props) => {
+  return <div className={styles.recipeSmallCard}>{props.recipe.title}</div>;
+};
+
+export default RecipeSummary;

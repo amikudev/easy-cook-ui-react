@@ -3,14 +3,15 @@ import React from "react";
 import classes from "./Sidebar.module.scss";
 import SelectedRecipeList from "./selected-recipe-list/SelectedRecipeList";
 import RecipeSearch from "./recipe-search/RecipeSearch";
+import exp from "constants";
 
-export default class SideBar extends React.Component {
-  render() {
-    return (
-      <div className={classes.sideBar}>
-        <SelectedRecipeList></SelectedRecipeList>
-        <RecipeSearch></RecipeSearch>
-      </div>
-    );
-  }
-}
+const SideBar: React.FC = () => {
+  return (
+    <div className={classes.sideBar}>
+      <SelectedRecipeList></SelectedRecipeList>
+      <RecipeSearch></RecipeSearch>
+    </div>
+  );
+};
+
+export default SideBar;

@@ -5,12 +5,12 @@ interface AppHeaderInterface {
   appName: string;
 }
 
-export default class AppHeader extends React.Component<AppHeaderInterface> {
-  render() {
-    return (
-      <header className={classes.appHeader}>
-        <h1>{this.props.appName}</h1>
-      </header>
-    );
-  }
-}
+const AppHeader: React.FC<AppHeaderInterface> = (props) => {
+  return (
+    <header className={classes.appHeader}>
+      <h1>{props.appName}</h1>
+    </header>
+  );
+};
+
+export default AppHeader;

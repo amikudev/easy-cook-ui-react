@@ -11,23 +11,23 @@ interface IngredientGridInterface {
   recipe: RecipeModel;
 }
 
-export default class IngredientGrid extends React.Component<IngredientGridInterface> {
-  render() {
-    let gridHeight = getGridHeight(this.props.recipe);
-    let gridStyle = {
-      height: gridHeight,
-      width: 400,
-    };
-    let gridColumns = getGridColumns(500);
-    return (
-      <div className="ag-theme-alpine" style={gridStyle}>
-        <AgGridReact
-          rowData={this.props.recipe.ingredients}
-          rowSelection="multiple"
-          rowHeight={constants.gridRowHeight}
-          columnDefs={gridColumns}
-        ></AgGridReact>
-      </div>
-    );
-  }
-}
+const IngredientGrid: React.FC<IngredientGridInterface> = (props) => {
+  let gridHeight = getGridHeight(props.recipe);
+  let gridStyle = {
+    height: gridHeight,
+    width: 400,
+  };
+  let gridColumns = getGridColumns(500);
+  return (
+    <div className="ag-theme-alpine" style={gridStyle}>
+      <AgGridReact
+        rowData={props.recipe.ingredients}
+        rowSelection="multiple"
+        rowHeight={constants.gridRowHeight}
+        columnDefs={gridColumns}
+      ></AgGridReact>
+    </div>
+  );
+};
+
+export default IngredientGrid;
