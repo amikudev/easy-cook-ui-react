@@ -1,6 +1,6 @@
 import React from "react";
 import { getYoutubeVideoId } from "../../../../utils/videoCalculations";
-import Video from "./Video";
+import MyYoutubePlayer from "./MyYoutubePlayer";
 import classes from "./Source.module.scss";
 import RecipeSource from "../../../model/RecipeSource.model";
 
@@ -57,7 +57,7 @@ export default class Source extends React.Component<SourceInterface> {
     if (youtubeVideoId) {
       return (
         <div>
-          <Video youtubeVideoId={youtubeVideoId}></Video>
+          <MyYoutubePlayer youtubeVideoId={youtubeVideoId}></MyYoutubePlayer>
         </div>
       );
     }
