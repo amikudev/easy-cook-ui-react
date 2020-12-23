@@ -8,58 +8,57 @@ interface SourceInterface {
   source: RecipeSource;
 }
 
-export default class Source extends React.Component<SourceInterface> {
-  render() {
-    console.log("this.props.source.url", this.props?.source?.url);
+const Source: React.FC<SourceInterface> = (props) => {
+  console.log("props.source.url", props?.source?.url);
 
-    //check if it is a youtube url
-    const youtubeVideoId = getYoutubeVideoId(this.props.source.url);
-    if (!youtubeVideoId) {
-      return (
-        <div className={classes.nonVideoSourceBox}>
-          {/*url*/}
-          {this.props.source?.url ? (
-            <div>
-              <span className={classes.title}>Url: </span>
-              <a
-                href={this.props.source.url}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Go to recipe source
-              </a>
-            </div>
-          ) : null}
-          {/*author*/}
-          {this.props.source?.cook ? (
-            <div>
-              <span className={classes.title}>Cook: </span>
-              <span>{this.props.source?.cook}</span>
-            </div>
-          ) : null}
-          {/*book*/}
-          {this.props.source?.book ? (
-            <div>
-              <span className={classes.title}>Book: </span>
-              <span>{this.props.source?.book}</span>
-            </div>
-          ) : null}
-          {/*page*/}
-          {this.props.source?.page ? (
-            <div>
-              <span className={classes.title}>Page No.: </span>
-              <span>{this.props.source?.page}</span>
-            </div>
-          ) : null}
-        </div>
-      );
-    }
-    if (youtubeVideoId) {
-      return (
-        <div>
-          <MyYoutubePlayer youtubeVideoId={youtubeVideoId}></MyYoutubePlayer>
-        </div>
-      );
-    }
+  const youtubeVideoId = getYoutubeVideoId(props.source.url);
+
+  if (youtubeVideoId) {
+    return (
+      <div>
+        <MyYoutubePlayer youtubeVideoId={youtubeVideoId}></MyYoutubePlayer>
+      </div>
+    );
+  } else {
+    return (
+      <div className={classes.nonVideoSourceBox}>
+        {/*url*/}
+        {props.source?.url ? (
+          <div>
+            <span className={classes.title}>Url: </span>
+            <a
+              href={props.source.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Go to recipe source
+            </a>
+          </div>
+        ) : null}
+        {/*author*/}
+        {props.source?.cook ? (
+          <div>
+            <span className={classes.title}>Cook: </span>
+            <span>{props.source?.cook}</span>
+          </div>
+        ) : null}
+        {/*book*/}
+        {props.source?.book ? (
+          <div>
+            <span className={classes.title}>Book: </span>
+            <span>{props.source?.book}</span>
+          </div>
+        ) : null}
+        {/*page*/}
+        {props.source?.page ? (
+          <div>
+            <span className={classes.title}>Page No.: </span>
+            <span>{props.source?.page}</span>
+          </div>
+        ) : null}
+      </div>
+    );
   }
-}
+};
+
+export default Source;
