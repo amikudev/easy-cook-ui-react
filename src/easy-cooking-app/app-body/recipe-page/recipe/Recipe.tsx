@@ -45,7 +45,7 @@ class Recipe extends React.Component<RecipeComponentInterface> {
 
     return (
       <div className={classes.recipe}>
-        <div className={classes.recipeLeftcol}>
+        <div className={classes.recipeLeftCol}>
           <h5>{recipe.title}</h5>
           <div className={classes.recipeTextData}>
             <label>Recipe Quantity</label>
@@ -62,14 +62,14 @@ class Recipe extends React.Component<RecipeComponentInterface> {
               type="number"
               className="form form-control"
               value={recipePreferences.targetRecipe}
-              onChange={(event) =>
+              onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
                 this.props.updateRecipeQuantity(recipe._id, event.target.value)
               }
             />
           </div>
           <Source source={recipe.source}></Source>
         </div>
-        <div>
+        <div className={classes.recipeRightCol}>
           <IngredientGrid recipe={recipe}></IngredientGrid>
         </div>
       </div>

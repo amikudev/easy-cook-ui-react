@@ -43,11 +43,10 @@
     "youtube-player": "^5.5.2"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "firebase deploy && firebase deploy",
+    "deploy:prod": "firebase deploy",
+    "deploy:staging": "firebase hosting:channel:deploy staging --expires 7d",
     "build-and-netlify-deploy": "npm run build && netlify deploy --open --prod --dir=build",
     "netlify-deploy": "netlify deploy --open --prod --dir=build",
-    "deploy:staging": "netlify deploy",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

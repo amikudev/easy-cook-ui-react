@@ -16,7 +16,10 @@ const getGridHeight = (recipe: RecipeModel) => {
     gridHeaderHeightInPx +
     scrollbarHeightInPx;
   console.log("maxGridHeight: " + maxGridHeight);
-  const gridHeight = Math.min(availableViewportHeight, maxGridHeight);
+  let gridHeight = Math.min(availableViewportHeight, maxGridHeight);
+  if (window.innerWidth < 992) {
+    gridHeight = maxGridHeight;
+  }
   console.log("gridHeight: " + gridHeight);
   return gridHeight;
 };

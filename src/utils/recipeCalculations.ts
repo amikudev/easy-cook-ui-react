@@ -21,7 +21,9 @@ const getRecipeQuantityNumber = (quantity: number | string | null) => {
 
 const updateIngredientsInRecipe = (
   recipe: RecipeModel,
-  recipePreferences: any
+  recipePreferences: {
+    targetRecipe: string;
+  }
 ) => {
   const baseRecipeQuantity = getRecipeQuantityNumber(recipe.baseRecipe);
   const recipeTargetQuantity = getRecipeQuantityNumber(

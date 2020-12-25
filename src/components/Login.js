@@ -18,8 +18,6 @@ export default class Login extends React.Component {
 
     return (
       <div>
-        <h1>Easy Cooking</h1>
-        <p>Please sign-in:</p>
         <StyledFirebaseAuth
           uiConfig={uiConfig}
           firebaseAuth={firebase.auth()}

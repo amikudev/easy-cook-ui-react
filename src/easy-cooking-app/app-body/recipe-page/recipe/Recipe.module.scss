@@ -2,12 +2,25 @@
   display: flex;
   margin: 0px 30px;
 
-  .recipeLeftcol {
+  .recipeLeftCol {
     margin-right: 30px;
     width: 300px;
 
     .recipeTextData {
       display: flex;
+    }
+  }
+  .recipeRightCol {
+  }
+}
+
+@media all and (max-width: 992px) {
+  .recipe {
+    display: flex;
+    flex-direction: column;
+
+    .recipeRightCol {
+      margin-top: 20px;
     }
   }
 }

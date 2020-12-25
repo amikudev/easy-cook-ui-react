@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./RecipeSummary.module.scss";
 import RecipeModel from "../../../../../model/Recipe.model";
-import exp from "constants";
 
 interface RecipeSummaryInterface {
   recipe: RecipeModel;

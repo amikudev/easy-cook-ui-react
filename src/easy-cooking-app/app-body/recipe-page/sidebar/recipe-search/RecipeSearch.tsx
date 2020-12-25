@@ -23,18 +23,20 @@ class RecipeSearch extends React.Component<RecipeSearchInterface> {
   state: {
     searchText: string;
   };
-  searchBoxRef: any;
+  searchBoxRef: React.RefObject<HTMLInputElement>;
 
   constructor(props: RecipeSearchInterface) {
     super(props);
     this.state = {
       searchText: "",
     };
-    this.searchBoxRef = React.createRef();
+    this.searchBoxRef = React.createRef<HTMLInputElement>();
   }
 
   componentDidMount() {
-    this.searchBoxRef.current.focus();
+    if (this.searchBoxRef.current) {
+      this.searchBoxRef.current.focus();
+    }
     this.props.fetchRecipeList();
   }
 
@@ -58,9 +60,11 @@ class RecipeSearch extends React.Component<RecipeSearchInterface> {
     return filteredRecipes;
   };
 
-  recipeSearchTextChangeHandler = (event: any) => {
+  recipeSearchTextChangeHandler = (
+    event: React.ChangeEvent<HTMLInputElement>
+  ) => {
     this.setState({
-      searchText: event?.target?.value,
+      searchText: event.target.value,
     });
   };
 
@@ -93,8 +97,7 @@ class RecipeSearch extends React.Component<RecipeSearchInterface> {
           value={this.state.searchText}
           onChange={this.recipeSearchTextChangeHandler}
         />
-
-        {recipeListUI}
+        <div className={classes.RecipeList}>{recipeListUI}</div>
       </div>
     );
   }

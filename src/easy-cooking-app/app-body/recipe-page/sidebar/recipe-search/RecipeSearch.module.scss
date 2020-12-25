@@ -2,4 +2,8 @@
   .searchInput {
     margin-bottom: 5px;
   }
+  .RecipeList {
+    max-height: 500px;
+    overflow: auto;
+  }
 }
