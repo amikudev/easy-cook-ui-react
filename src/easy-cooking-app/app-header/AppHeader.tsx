@@ -8,7 +8,7 @@ interface AppHeaderInterface {
 const AppHeader: React.FC<AppHeaderInterface> = (props) => {
   return (
     <header className={classes.appHeader}>
-      <h2>{props.appName}</h2>
+      <h2 className={classes.appTitle}>{props.appName}</h2>
     </header>
   );
 };
