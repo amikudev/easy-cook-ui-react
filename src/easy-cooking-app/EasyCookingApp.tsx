@@ -7,12 +7,10 @@ import Recipe from "./app-body/recipe-page/recipe/Recipe";
 export default class EasyCookingApp extends React.Component {
   render() {
     return (
-      <div className="App">
-        <main className={styles.appBody}>
-          <SideBar />
-          <Recipe />
-        </main>
-      </div>
+      <main className={styles.appBody}>
+        <SideBar />
+        <Recipe />
+      </main>
     );
   }
 }

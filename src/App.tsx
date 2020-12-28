@@ -25,7 +25,6 @@ export default class App extends React.Component {
             </Switch>
           </Router>
         </div>
-        <div className={classes.AppFooter}>{/*<div>App footer</div>*/}</div>
       </div>
     );
   };

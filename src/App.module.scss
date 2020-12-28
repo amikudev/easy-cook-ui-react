@@ -1,22 +1,18 @@
-$headerHeight: 50px;
-$footerHeight: 30px;
-$bodyHeight: 600px;
+@import "./utils/saas-variables";
 
 .App {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: $headerHeight 1fr $footerHeight;
+  grid-template-rows: $headerHeight calc(100vh - #{$headerHeight});
   grid-template-areas:
     "header"
     "body"
     "footer";
+  place-items: stretch;
   .AppHeader {
     grid-area: header;
   }
   .AppBody {
     grid-area: body;
-  }
-  .AppFooter {
-    grid-area: footer;
   }
 }
