@@ -33,11 +33,13 @@ const getGridColumns = (gridWidth: number) => {
       width: 250,
       checkboxSelection: true,
       filter: true,
+      suppressMovable: true,
     },
     {
       headerName: "Quantity",
       field: "quantityAndUom",
       width: 131,
+      suppressMovable: true,
     },
   ];
 };
