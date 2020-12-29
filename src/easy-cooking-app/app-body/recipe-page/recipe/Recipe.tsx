@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import Source from "./Source";
+// import { WhatsappShareButton } from "react-share";
 
 import { updateIngredientsInRecipe } from "../../../../utils/recipeCalculations";
 
@@ -68,6 +69,10 @@ class Recipe extends React.Component<RecipeComponentInterface> {
             />
           </div>
           <Source source={recipe.source}></Source>
+          {/*share on whatsapp*/}
+          {/*<WhatsappShareButton title="Share Whatsapp" url="www.google.com">*/}
+          {/*  Share on Whatsapp*/}
+          {/*</WhatsappShareButton>*/}
         </div>
         <div className={classes.recipeRightCol}>
           <IngredientGrid recipe={recipe}></IngredientGrid>
