@@ -18,3 +18,9 @@
     grid-area: body;
   }
 }
+
+@media screen and (min-width: 900px) {
+  .App {
+    background-size: 100% 100%;
+  }
+}
