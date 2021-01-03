@@ -3,9 +3,15 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: gray;
+  background-color: white;
+  opacity: 0.4;
   height: 100%;
+  border-bottom: 1px solid #555;
+
   .appTitle {
     margin-top: 5px;
+    color: black;
+    font-style: italic;
+    opacity: 1;
   }
 }

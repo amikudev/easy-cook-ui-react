@@ -5,6 +5,7 @@ import "fontsource-roboto";
 import Login from "./components/Login";
 import AppHeader from "./easy-cooking-app/app-header/AppHeader";
 import classes from "./App.module.scss";
+// import background from "./";
 
 export default class App extends React.Component {
   render = () => {
