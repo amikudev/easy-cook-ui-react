@@ -12,7 +12,7 @@ if (!!appStateString) {
   //clear the localStorage if appStoreVersion is not meeting specific value
   if (
     !appStateFromLocalStorage.storeVersion ||
-    appStateFromLocalStorage.storeVersion.storeStructureVersion <=
+    appStateFromLocalStorage.storeVersion.storeStructureVersion <
       constants.store.storeStructureVersion
   ) {
     localStorage.clear();
