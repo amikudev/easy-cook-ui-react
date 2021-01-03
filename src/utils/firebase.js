@@ -20,20 +20,20 @@ firebase.initializeApp(firebaseConfig);
 firebase.analytics();
 
 // enable firestore configuration
-const db = firebase.firestore();
+// const db = firebase.firestore();
 // firebase.firestore.setLogLevel('debug');
-firebase.firestore().settings({ experimentalForceLongPolling: true });
+// firebase.firestore().settings({ experimentalForceLongPolling: true });
 
-db.collection("tests")
-  .get()
-  .then((snapshot) => {
-    snapshot.forEach((test) => {
-      console.log(test.data());
-      console.log(test.id);
-    });
-  })
-  .catch((e) => {
-    console.error(e);
-  });
+// db.collection("tests")
+//   .get()
+//   .then((snapshot) => {
+//     snapshot.forEach((test) => {
+//       console.log(test.data());
+//       console.log(test.id);
+//     });
+//   })
+//   .catch((e) => {
+//     console.error(e);
+//   });
 
 export default firebase;
