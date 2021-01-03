@@ -9,9 +9,11 @@ import produce from "immer";
 
 const initialState: {
   selectedRecipesMap: any;
+  selectedRecipeIdList: string[];
   selectedRecipeId: string | null;
 } = {
   selectedRecipesMap: {},
+  selectedRecipeIdList: [],
   selectedRecipeId: null,
 };
 
@@ -28,6 +30,7 @@ export default function (state = initialState, action: any) {
           draft.selectedRecipesMap[recipeId] = {
             targetRecipe: "",
           };
+          draft.selectedRecipeIdList.push(recipeId);
         }
         draft.selectedRecipeId = recipeId;
       });
@@ -54,6 +57,10 @@ export default function (state = initialState, action: any) {
         if (draft.selectedRecipeId === recipeId) {
           draft.selectedRecipeId = null;
         }
+        draft.selectedRecipeIdList.splice(
+          draft.selectedRecipeIdList.indexOf(recipeId),
+          1
+        );
         const selectedRecipesMap = draft.selectedRecipesMap;
         delete selectedRecipesMap[recipeId];
       });

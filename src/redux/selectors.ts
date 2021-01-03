@@ -24,15 +24,15 @@ export const getSelectedRecipePreferences = (store: any) => {
   }
 };
 
-export const getSelectedRecipeList = (store: any) => {
-  const selectedRecipeIdList = Object.keys(
-    store.selectedRecipe.selectedRecipesMap
-  );
-  const recipeList = store.recipeList.recipeList;
+export const getSelectedRecipeList = (store: any): RecipeModel[] => {
+  const selectedRecipeIdList: string[] =
+    store.selectedRecipe.selectedRecipeIdList;
+  const recipeList: RecipeModel[] = store.recipeList.recipeList;
 
-  let selectedRecipeList = recipeList.filter((recipe: RecipeModel) =>
-    selectedRecipeIdList.includes(recipe._id)
+  let selectedRecipeList: (RecipeModel | undefined)[] = [];
+  selectedRecipeList = selectedRecipeIdList.map((recipeId) =>
+    recipeList.find((recipe) => recipe._id === recipeId)
   );
 
-  return selectedRecipeList;
+  return selectedRecipeList as RecipeModel[];
 };

@@ -2,7 +2,7 @@ import RecipeSource from "./RecipeSource.model";
 import IngredientsModel from "./Ingredients.Model";
 
 export default interface RecipeModel {
-  id: string;
+  _id: string;
   title: string;
   source: RecipeSource;
   healthRating?: string | number | null;
