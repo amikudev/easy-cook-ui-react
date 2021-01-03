@@ -8,10 +8,10 @@ import {
 import produce from "immer";
 
 const initialState: {
-  selectedRecipes: any;
+  selectedRecipesMap: any;
   selectedRecipeId: string | null;
 } = {
-  selectedRecipes: {},
+  selectedRecipesMap: {},
   selectedRecipeId: null,
 };
 
@@ -19,13 +19,13 @@ export default function (state = initialState, action: any) {
   switch (action.type) {
     case ADD_RECIPE_TO_SELECTED_LIST: {
       const { recipeId } = action.payload;
-      let isRecipeAlreadySelected = state.selectedRecipes[recipeId]
+      let isRecipeAlreadySelected = state.selectedRecipesMap[recipeId]
         ? true
         : false;
 
       return produce(state, (draft) => {
         if (!isRecipeAlreadySelected) {
-          draft.selectedRecipes[recipeId] = {
+          draft.selectedRecipesMap[recipeId] = {
             targetRecipe: "",
           };
         }
@@ -36,7 +36,7 @@ export default function (state = initialState, action: any) {
     case UPDATE_RECIPE_QUANTITY: {
       const { recipeId, recipeQuantity } = action.payload;
       return produce(state, (draft) => {
-        draft.selectedRecipes[recipeId] = {
+        draft.selectedRecipesMap[recipeId] = {
           targetRecipe: recipeQuantity,
         };
       });
@@ -54,8 +54,8 @@ export default function (state = initialState, action: any) {
         if (draft.selectedRecipeId === recipeId) {
           draft.selectedRecipeId = null;
         }
-        const selectedRecipes = draft.selectedRecipes;
-        delete selectedRecipes[recipeId];
+        const selectedRecipesMap = draft.selectedRecipesMap;
+        delete selectedRecipesMap[recipeId];
       });
     }
     default:

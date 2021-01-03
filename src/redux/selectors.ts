@@ -16,7 +16,7 @@ export const getSelectedRecipe = (store: any) => {
 
 export const getSelectedRecipePreferences = (store: any) => {
   if (store.selectedRecipe.selectedRecipeId) {
-    return store.selectedRecipe.selectedRecipes[
+    return store.selectedRecipe.selectedRecipesMap[
       store.selectedRecipe.selectedRecipeId
     ];
   } else {
@@ -26,7 +26,7 @@ export const getSelectedRecipePreferences = (store: any) => {
 
 export const getSelectedRecipeList = (store: any) => {
   const selectedRecipeIdList = Object.keys(
-    store.selectedRecipe.selectedRecipes
+    store.selectedRecipe.selectedRecipesMap
   );
   const recipeList = store.recipeList.recipeList;
 
