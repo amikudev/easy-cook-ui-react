@@ -25,13 +25,12 @@ const Source: React.FC<SourceInterface> = (props) => {
         {/*url*/}
         {props.source?.url ? (
           <div>
-            <span className={classes.title}>Url: </span>
             <a
               href={props.source.url}
               target="_blank"
               rel="noopener noreferrer"
             >
-              Go to recipe source
+              Click me to go to recipe source
             </a>
           </div>
         ) : null}
