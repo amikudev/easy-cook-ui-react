@@ -1,7 +1,6 @@
 # Github issues summary
 
 * Cosmetic issues
-    * [App title is coming out too transparent](https://github.com/amikudev/easy-cook-ui-react/issues/14)
     * [Image background does not covers all of the background of the page](https://github.com/amikudev/easy-cook-ui-react/issues/9)
 * Bugs
     * [Add a material UI spinner if no recipes are available initially and recipes are being fetched](https://github.com/amikudev/easy-cook-ui-react/issues/5)
@@ -13,6 +12,15 @@
 * Features
     * [Deep link for url of a recipe](https://github.com/amikudev/easy-cook-ui-react/issues/12)
         * [share button on the recipe](https://github.com/amikudev/easy-cook-ui-react/issues/13)
+    * Lucky recipe. (if user has not selected any reicpe, give them a lucky recipe.)
+        * it gives a good experience to a new user also.
+        * choose new recipe only among the recipe which has a youtube video.
+        * the recipe should go away once the user selects a recipe.
+    * Login feature
+        * All backend calls should be authenticated.
+        * have 2 kind of users.
+            * Recipe Readers
+            * Recipe maintainers.
     * [We should be able to create and save the recipe from our UI](https://github.com/amikudev/easy-cook-ui-react/issues/11)
         * [more fields desirable in the recipe](https://github.com/amikudev/easy-cook-ui-react/issues/10)
 
