@@ -8,21 +8,37 @@ import {
 } from "../../../../../redux/actions";
 import { getSelectedRecipeList } from "../../../../../redux/selectors";
 import RecipeModel from "../../../../model/Recipe.model";
+import classnames from "classnames";
 
 interface SelectedRecipeListComponentInterface {
   selectedRecipeList: RecipeModel[];
   removeRecipeFromSelectedList: Function;
   selectRecipe: Function;
+  selectedRecipeId: string | null;
 }
 
 class SelectedRecipeList extends React.Component<SelectedRecipeListComponentInterface> {
   render() {
+    const classesForNotSelectedRecipe = classnames({
+      [classes.recipeHolder]: true,
+    });
+    const classesForSelectedRecipe = classnames({
+      [classes.recipeHolder]: true,
+      [classes.selectedRecipe]: true,
+    });
     return this.props.selectedRecipeList.length > 0 ? (
       <div>
         <h5>Selected Recipes</h5>
         <div className={classes.selectedRecipes}>
           {this.props.selectedRecipeList.map((recipe) => (
-            <div className={classes.recipeHolder} key={recipe._id}>
+            <div
+              key={recipe._id}
+              className={
+                recipe._id === this.props.selectedRecipeId
+                  ? classesForSelectedRecipe
+                  : classesForNotSelectedRecipe
+              }
+            >
               <button
                 onClick={() =>
                   this.props.removeRecipeFromSelectedList(recipe._id)
@@ -46,6 +62,7 @@ const mapStateToProps = (state: any) => {
   const selectedRecipeList = getSelectedRecipeList(state);
   return {
     selectedRecipeList,
+    selectedRecipeId: state.selectedRecipe.selectedRecipeId,
   };
 };
 
