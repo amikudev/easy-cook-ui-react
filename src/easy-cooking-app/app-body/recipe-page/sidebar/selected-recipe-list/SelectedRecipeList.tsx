@@ -39,6 +39,12 @@ class SelectedRecipeList extends React.Component<SelectedRecipeListComponentInte
                   : classesForNotSelectedRecipe
               }
             >
+              <div
+                className={classes.recipeSummary}
+                onClick={() => this.props.selectRecipe(recipe._id)}
+              >
+                <RecipeSummary recipe={recipe} />
+              </div>
               <button
                 onClick={() =>
                   this.props.removeRecipeFromSelectedList(recipe._id)
@@ -46,9 +52,6 @@ class SelectedRecipeList extends React.Component<SelectedRecipeListComponentInte
               >
                 x
               </button>
-              <div onClick={() => this.props.selectRecipe(recipe._id)}>
-                <RecipeSummary recipe={recipe} />
-              </div>
             </div>
           ))}
         </div>

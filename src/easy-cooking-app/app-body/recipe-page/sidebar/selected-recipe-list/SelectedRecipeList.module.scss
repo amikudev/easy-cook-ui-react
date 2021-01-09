@@ -2,8 +2,13 @@
   margin-bottom: 20px;
   .recipeHolder {
     display: flex;
+    justify-content: space-between;
+    width: 100%;
+    .recipeSummary {
+      margin-left: 7px;
+    }
     button {
-      margin-right: 10px;
+      margin-right: 7px;
       border-radius: 6px;
       padding-top: 0px;
       border-width: 1px;
