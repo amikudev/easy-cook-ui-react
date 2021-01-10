@@ -1,6 +1,47 @@
 import { constants } from "./Constants";
 import RecipeModel from "../easy-cooking-app/model/Recipe.model";
 
+const getSidebarHeight: () => number = () => {
+  const appBodyElement: HTMLElement = document.getElementById("app-body")!;
+  const sidebarTopMarginInPx = 20;
+  const sidebarBottomMarginInPx = 20;
+  const appHeaderHeight = 56;
+  if (appBodyElement) {
+    const appBodyHeight = appBodyElement.offsetHeight;
+
+    return appBodyHeight - (sidebarTopMarginInPx + sidebarBottomMarginInPx);
+  } else {
+    return (
+      window.innerHeight -
+      (appHeaderHeight + sidebarTopMarginInPx + sidebarTopMarginInPx)
+    );
+  }
+};
+
+const getRecipeSearchComponentHeight: (
+  sidebarHeightInPx: number,
+  selectedRecipeCount: number
+) => number = (sidebarHeightInPx, selectedRecipeCount) => {
+  let recipeSearchComponentHeight = 10;
+  const appBodyElement: HTMLElement = document.getElementById(
+    "selected-recipes-container"
+  )!;
+  if (appBodyElement) {
+    recipeSearchComponentHeight =
+      sidebarHeightInPx - appBodyElement.offsetHeight;
+  } else {
+    if (selectedRecipeCount === 0) {
+      recipeSearchComponentHeight = sidebarHeightInPx - 20; //10 padding
+      // pixel up and down
+    } else {
+      recipeSearchComponentHeight =
+        sidebarHeightInPx - (32 + 29 * selectedRecipeCount) - 20;
+    }
+  }
+  console.log("recipeSearchComponentHeight", recipeSearchComponentHeight);
+  return recipeSearchComponentHeight;
+};
+
 const getGridHeight = (recipe: RecipeModel) => {
   console.log("window.innerHeight: " + window.innerHeight);
   const appHeaderHeightInPx = 70;
@@ -44,4 +85,9 @@ const getGridColumns = (gridWidth: number) => {
   ];
 };
 
-export { getGridHeight, getGridColumns };
+export {
+  getGridHeight,
+  getGridColumns,
+  getSidebarHeight,
+  getRecipeSearchComponentHeight,
+};

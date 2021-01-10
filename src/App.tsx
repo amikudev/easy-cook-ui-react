@@ -14,7 +14,7 @@ export default class App extends React.Component {
         <div className={classes.AppHeader}>
           <AppHeader appName="Easy Cooking"></AppHeader>
         </div>
-        <div className={classes.AppBody}>
+        <div className={classes.AppBody} id="app-body">
           <Router>
             <Switch>
               <Route path="/login">

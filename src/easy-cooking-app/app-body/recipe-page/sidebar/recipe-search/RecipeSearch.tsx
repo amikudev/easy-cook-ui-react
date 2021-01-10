@@ -17,6 +17,7 @@ interface RecipeSearchInterface {
   allRecipes: RecipeModel[];
   fetchRecipeList: Function;
   addRecipeToSelectedList: Function;
+  maxHeight: number;
 }
 
 class RecipeSearch extends React.Component<RecipeSearchInterface> {

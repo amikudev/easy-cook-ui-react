@@ -15,7 +15,7 @@ const Source: React.FC<SourceInterface> = (props) => {
 
   if (youtubeVideoId) {
     return (
-      <div>
+      <div className={classes.youtubeVideoContainer}>
         <MyYoutubePlayer youtubeVideoId={youtubeVideoId}></MyYoutubePlayer>
       </div>
     );

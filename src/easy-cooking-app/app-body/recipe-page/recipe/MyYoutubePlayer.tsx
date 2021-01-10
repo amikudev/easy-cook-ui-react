@@ -10,7 +10,7 @@ interface VideoProps {
 const MyYoutubePlayer: React.FC<VideoProps> = (props) => {
   const youtubePlayerOptions: Options = {
     height: "190",
-    width: "320",
+    width: "100%",
     playerVars: {
       // https://developers.google.com/youtube/player_parameters
       autoplay: 0,

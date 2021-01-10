@@ -27,7 +27,7 @@ class SelectedRecipeList extends React.Component<SelectedRecipeListComponentInte
       [classes.selectedRecipe]: true,
     });
     return this.props.selectedRecipeList.length > 0 ? (
-      <div>
+      <div id="selected-recipes-container">
         <h5>Selected Recipes</h5>
         <div className={classes.selectedRecipes}>
           {this.props.selectedRecipeList.map((recipe) => (
