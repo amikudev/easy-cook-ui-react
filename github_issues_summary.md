@@ -2,6 +2,9 @@
 
 * Cosmetic issues
     * [Image background does not covers all of the background of the page](https://github.com/amikudev/easy-cook-ui-react/issues/9)
+    * Shadows for cards in the UI. (sidebar + left component, ingredient bar.)
+    * Sidebar should not have 2 sliders in it.
+    
 * Bugs
     * [Add a material UI spinner if no recipes are available initially and recipes are being fetched](https://github.com/amikudev/easy-cook-ui-react/issues/5)
     * [Recipe search section should not be visible till there are no recipes.](https://github.com/amikudev/easy-cook-ui-react/issues/6)
@@ -21,6 +24,10 @@
         * have 2 kind of users.
             * Recipe Readers
             * Recipe maintainers.
-    * [We should be able to create and save the recipe from our UI](https://github.com/amikudev/easy-cook-ui-react/issues/11)
+    * [Admins should be able to create and save the recipe from our UI]
+      (https://github.com/amikudev/easy-cook-ui-react/issues/11)
         * [more fields desirable in the recipe](https://github.com/amikudev/easy-cook-ui-react/issues/10)
+    * User should be able to customize a recipe and save it.
+    * Contact us on email.
+    * 
 
