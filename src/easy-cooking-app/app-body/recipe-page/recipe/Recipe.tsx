@@ -20,7 +20,12 @@ import {
 } from "../../../../redux/selectors";
 
 import RecipeModel from "../../../model/Recipe.model";
-import { IonButton } from "@ionic/react";
+
+import {
+  saveOutline as saveIcon,
+  createOutline as createIcon,
+} from "ionicons/icons";
+import { IonButton, IonIcon } from "@ionic/react";
 interface RecipeComponentInterface {
   recipe: RecipeModel;
   //todo: improvise typing
@@ -87,13 +92,21 @@ class Recipe extends React.Component<RecipeComponentInterface> {
           {/*Edit buttons*/}
           <div>
             {!this.props.recipeEditable ? (
-              <IonButton onClick={this.enableRecipeEdit}>Edit recipe</IonButton>
+              <IonButton onClick={this.enableRecipeEdit}>
+                Edit recipe
+                <IonIcon icon={createIcon} slot="start"></IonIcon>
+              </IonButton>
             ) : null}
             {this.props.recipeEditable ? (
-              <IonButton onClick={this.saveRecipe}>Save Recipe</IonButton>
+              <IonButton onClick={this.saveRecipe}>
+                Save Recipe
+                <IonIcon icon={saveIcon} slot="start"></IonIcon>
+              </IonButton>
             ) : null}
             {this.props.recipeEditable ? (
-              <IonButton onClick={this.cancelRecipeEdit}>Cancel</IonButton>
+              <IonButton onClick={this.cancelRecipeEdit}>
+                Cancel<IonIcon name="close-sharp" slot=""></IonIcon>
+              </IonButton>
             ) : null}
           </div>
 
