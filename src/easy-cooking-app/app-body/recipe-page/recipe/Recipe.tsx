@@ -9,7 +9,10 @@ import "ag-grid-community/dist/styles/ag-grid.css";
 import "ag-grid-community/dist/styles/ag-theme-alpine.css";
 import classes from "./Recipe.module.scss";
 
-import { updateRecipeQuantity } from "../../../../redux/actions";
+import {
+  updateRecipeQuantity,
+  updateRecipeEditability,
+} from "../../../../redux/actions";
 import IngredientGrid from "./IngredientGrid";
 import {
   getSelectedRecipe,
@@ -17,15 +20,28 @@ import {
 } from "../../../../redux/selectors";
 
 import RecipeModel from "../../../model/Recipe.model";
+import { IonButton } from "@ionic/react";
 interface RecipeComponentInterface {
   recipe: RecipeModel;
   //todo: improvise typing
   recipePreferences: any;
   //todo: improvise typing
+  recipeEditable: boolean;
   updateRecipeQuantity: Function;
+  updateRecipeEditability: Function;
 }
 
 class Recipe extends React.Component<RecipeComponentInterface> {
+  enableRecipeEdit = () => {
+    this.props.updateRecipeEditability(true);
+  };
+  cancelRecipeEdit = () => {
+    this.props.updateRecipeEditability(false);
+  };
+  saveRecipe = () => {
+    this.props.updateRecipeEditability(false);
+  };
+
   render() {
     // return if recipe props is not initialized yet
     if (this.props.recipe === null) {
@@ -68,6 +84,19 @@ class Recipe extends React.Component<RecipeComponentInterface> {
               }
             />
           </div>
+          {/*Edit buttons*/}
+          <div>
+            {!this.props.recipeEditable ? (
+              <IonButton onClick={this.enableRecipeEdit}>Edit recipe</IonButton>
+            ) : null}
+            {this.props.recipeEditable ? (
+              <IonButton onClick={this.saveRecipe}>Save Recipe</IonButton>
+            ) : null}
+            {this.props.recipeEditable ? (
+              <IonButton onClick={this.cancelRecipeEdit}>Cancel</IonButton>
+            ) : null}
+          </div>
+
           <Source source={recipe.source}></Source>
           {/*share on whatsapp*/}
           {/*<WhatsappShareButton title="Share Whatsapp" url="www.google.com">*/}
@@ -86,12 +115,15 @@ class Recipe extends React.Component<RecipeComponentInterface> {
 let mapStateToProps = (state: any) => {
   const recipe = getSelectedRecipe(state);
   const recipePreferences = getSelectedRecipePreferences(state);
+  const recipeEditable = state.appState.recipeEditable;
   return {
     recipe,
     recipePreferences,
+    recipeEditable,
   };
 };
 
 export default connect(mapStateToProps, {
   updateRecipeQuantity,
+  updateRecipeEditability,
 })(Recipe);

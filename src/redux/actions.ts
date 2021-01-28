@@ -6,6 +6,7 @@ import {
   REMOVE_RECIPE_FROM_SELECTED_LIST,
   UPDATE_RECIPE_LIST,
   UPDATE_RECIPE_QUANTITY,
+  UPDATE_RECIPE_EDITABILITY,
 } from "./actionTypes";
 import axios from "axios";
 import { constants } from "../utils/Constants";
@@ -55,4 +56,9 @@ export const updateRecipeQuantity = (
     recipeId,
     recipeQuantity,
   },
+});
+
+export const updateRecipeEditability = (editable: boolean) => ({
+  type: UPDATE_RECIPE_EDITABILITY,
+  editable,
 });
