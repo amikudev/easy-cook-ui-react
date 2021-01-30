@@ -22,21 +22,6 @@ export default function (state = initialState, action: any) {
     case UPDATE_RECIPE: {
       const { recipeId, fieldPath, updatedValue } = action.payload;
 
-      //important: this is a debugging code and should not be deleted
-      // if (fieldPath.length === 1) {
-      //   let result = {
-      //     ...state,
-      //     selectedRecipesMap: {
-      //       ...state.selectedRecipesMap,
-      //       [recipeId]: {
-      //         ...state.selectedRecipesMap[recipeId],
-      //         [fieldPath[0]]: updatedValue,
-      //       },
-      //     },
-      //   };
-      //   return result;
-      // }
-
       return produce(state, (draft) => {
         const recipe = draft.recipeList.find(
           (recipe) => recipe._id === recipeId
