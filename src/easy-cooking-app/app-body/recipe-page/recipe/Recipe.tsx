@@ -104,8 +104,8 @@ class Recipe extends React.Component<RecipeComponentInterface> {
               </IonButton>
             ) : null}
             {this.props.recipeEditable ? (
-              <IonButton onClick={this.cancelRecipeEdit}>
-                Cancel<IonIcon name="close-sharp" slot=""></IonIcon>
+              <IonButton color="light" onClick={this.cancelRecipeEdit}>
+                Cancel<IonIcon name="close-sharp" slot="start"></IonIcon>
               </IonButton>
             ) : null}
           </div>

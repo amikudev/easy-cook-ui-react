@@ -13,7 +13,7 @@ export default function (state = initialState, action: any) {
   switch (action.type) {
     case UPDATE_RECIPE_EDITABILITY: {
       const newState = produce(state, (draftState) => {
-        draftState.recipeEditable = action.editable;
+        draftState.recipeEditable = action.recipeEditable;
       });
       return newState;
     }

@@ -8,6 +8,7 @@ import { Provider } from "react-redux";
 import store from "./redux/store";
 
 import "@ionic/react/css/core.css";
+// import "./theme/variables.scss";
 
 ReactDOM.render(
   <React.StrictMode>

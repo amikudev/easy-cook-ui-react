@@ -58,7 +58,7 @@ export const updateRecipeQuantity = (
   },
 });
 
-export const updateRecipeEditability = (editable: boolean) => ({
+export const updateRecipeEditability = (recipeEditable: boolean) => ({
   type: UPDATE_RECIPE_EDITABILITY,
-  editable,
+  recipeEditable,
 });
