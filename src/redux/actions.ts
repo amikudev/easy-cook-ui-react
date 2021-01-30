@@ -6,6 +6,7 @@ import {
   REMOVE_RECIPE_FROM_SELECTED_LIST,
   UPDATE_RECIPE_LIST,
   UPDATE_RECIPE_QUANTITY,
+  UPDATE_RECIPE,
   UPDATE_RECIPE_EDITABILITY,
 } from "./actionTypes";
 import axios from "axios";
@@ -55,6 +56,19 @@ export const updateRecipeQuantity = (
   payload: {
     recipeId,
     recipeQuantity,
+  },
+});
+
+export const updateRecipe = (
+  recipeId: string,
+  fieldPath: string[],
+  updatedValue: number | string
+) => ({
+  type: UPDATE_RECIPE,
+  payload: {
+    recipeId,
+    fieldPath,
+    updatedValue,
   },
 });
 

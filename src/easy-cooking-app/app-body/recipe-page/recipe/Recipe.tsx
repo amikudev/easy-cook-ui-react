@@ -11,6 +11,7 @@ import classes from "./Recipe.module.scss";
 
 import {
   updateRecipeQuantity,
+  updateRecipe,
   updateRecipeEditability,
 } from "../../../../redux/actions";
 import IngredientGrid from "./IngredientGrid";
@@ -33,6 +34,7 @@ interface RecipeComponentInterface {
   //todo: improvise typing
   recipeEditable: boolean;
   updateRecipeQuantity: Function;
+  updateRecipe: Function;
   updateRecipeEditability: Function;
 }
 
@@ -69,6 +71,8 @@ class Recipe extends React.Component<RecipeComponentInterface> {
       <div className={classes.recipe}>
         <div className={classes.recipeLeftCol}>
           <h5>{recipe.title}</h5>
+
+          {/*Recipe Quantity*/}
           <div className={classes.recipeTextData}>
             <label>Recipe Quantity</label>
             <input
@@ -76,8 +80,17 @@ class Recipe extends React.Component<RecipeComponentInterface> {
               className="form form-control"
               value={recipe.baseRecipe}
               disabled={!this.props.recipeEditable}
+              onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
+                this.props.updateRecipe(
+                  recipe._id,
+                  ["baseRecipe"],
+                  event.target.value
+                )
+              }
             />
           </div>
+
+          {/*Desired Quantity*/}
           {this.props.recipeEditable ? null : (
             <div className={classes.recipeTextData}>
               <label>Desired Quantity</label>
@@ -150,5 +163,6 @@ let mapStateToProps = (state: any) => {
 
 export default connect(mapStateToProps, {
   updateRecipeQuantity,
+  updateRecipe,
   updateRecipeEditability,
 })(Recipe);
