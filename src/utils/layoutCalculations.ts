@@ -1,5 +1,6 @@
 import { constants } from "./Constants";
 import RecipeModel from "../easy-cooking-app/model/Recipe.model";
+import { ColDef } from "ag-grid-community";
 
 const getSidebarHeight: () => number = () => {
   const appBodyElement: HTMLElement = document.getElementById("app-body")!;
@@ -42,7 +43,14 @@ const getRecipeSearchComponentHeight: (
   return recipeSearchComponentHeight;
 };
 
-const getGridHeight = (recipe: RecipeModel) => {
+interface GridLayoutInfo {
+  agGridLayoutType: "normal" | "autoHeight";
+  height: number;
+}
+
+const getGridHeight: (recipe: RecipeModel) => GridLayoutInfo = (
+  recipe: RecipeModel
+) => {
   console.log("window.innerHeight: " + window.innerHeight);
   const appHeaderHeightInPx = 70;
   const extraMarginHeightInPx = 30;
@@ -57,32 +65,72 @@ const getGridHeight = (recipe: RecipeModel) => {
     gridHeaderHeightInPx +
     scrollbarHeightInPx;
   console.log("maxGridHeight: " + maxGridHeight);
-  let gridHeight = Math.min(availableViewportHeight, maxGridHeight);
-  if (window.innerWidth < 992) {
-    gridHeight = maxGridHeight;
+  if (availableViewportHeight > maxGridHeight) {
+    return {
+      agGridLayoutType: "autoHeight",
+      height: availableViewportHeight,
+    };
+  } else {
+    return {
+      agGridLayoutType: "normal",
+      height: availableViewportHeight,
+    };
   }
-  console.log("gridHeight: " + gridHeight);
-  return gridHeight;
 };
 
-const getGridColumns = (gridWidth: number) => {
+const getGridColumns: (gridWidth: number, editable: boolean) => ColDef[] = (
+  gridWidth: number,
+  editable: boolean
+) => {
   //todo: Show the columns width based on width of available text in the columns
-  return [
-    {
-      headerName: "Item",
-      field: "name",
-      width: 250,
-      checkboxSelection: true,
-      filter: true,
-      suppressMovable: true,
-    },
-    {
-      headerName: "Quantity",
-      field: "quantityAndUom",
-      width: 131,
-      suppressMovable: true,
-    },
-  ];
+  let columnDefinitions: ColDef[] = [];
+
+  if (editable) {
+    columnDefinitions = [
+      {
+        headerName: "Item",
+        field: "name",
+        width: 220,
+        checkboxSelection: true,
+        filter: true,
+        suppressMovable: true,
+        editable: true,
+      },
+      {
+        headerName: "Quantity",
+        field: "quantity",
+        width: 70,
+        suppressMovable: true,
+        editable: true,
+      },
+      {
+        headerName: "UOM",
+        field: "uom",
+        width: 90,
+        suppressMovable: true,
+        editable: true,
+      },
+    ];
+  } else {
+    columnDefinitions = [
+      {
+        headerName: "Item",
+        field: "name",
+        width: 250,
+        checkboxSelection: true,
+        filter: true,
+        suppressMovable: true,
+      },
+      {
+        headerName: "Quantity",
+        field: "quantityAndUom",
+        width: 130,
+        suppressMovable: true,
+      },
+    ];
+  }
+
+  return columnDefinitions;
 };
 
 export {
@@ -91,3 +139,4 @@ export {
   getSidebarHeight,
   getRecipeSearchComponentHeight,
 };
+export type { GridLayoutInfo };

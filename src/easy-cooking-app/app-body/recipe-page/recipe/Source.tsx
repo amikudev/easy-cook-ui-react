@@ -6,6 +6,7 @@ import RecipeSource from "../../../model/RecipeSource.model";
 
 interface SourceInterface {
   source: RecipeSource;
+  editable: boolean;
 }
 
 const Source: React.FC<SourceInterface> = (props) => {

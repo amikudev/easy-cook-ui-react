@@ -75,20 +75,26 @@ class Recipe extends React.Component<RecipeComponentInterface> {
               type="text"
               className="form form-control"
               value={recipe.baseRecipe}
-              disabled
+              disabled={!this.props.recipeEditable}
             />
           </div>
-          <div className={classes.recipeTextData}>
-            <label>Desired Quantity</label>
-            <input
-              type="number"
-              className="form form-control"
-              value={recipePreferences.targetRecipe}
-              onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
-                this.props.updateRecipeQuantity(recipe._id, event.target.value)
-              }
-            />
-          </div>
+          {this.props.recipeEditable ? null : (
+            <div className={classes.recipeTextData}>
+              <label>Desired Quantity</label>
+              <input
+                type="number"
+                className="form form-control"
+                value={recipePreferences.targetRecipe}
+                onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
+                  this.props.updateRecipeQuantity(
+                    recipe._id,
+                    event.target.value
+                  )
+                }
+              />
+            </div>
+          )}
+
           {/*Edit buttons*/}
           <div>
             {!this.props.recipeEditable ? (
@@ -110,14 +116,20 @@ class Recipe extends React.Component<RecipeComponentInterface> {
             ) : null}
           </div>
 
-          <Source source={recipe.source}></Source>
+          <Source
+            source={recipe.source}
+            editable={this.props.recipeEditable}
+          ></Source>
           {/*share on whatsapp*/}
           {/*<WhatsappShareButton title="Share Whatsapp" url="www.google.com">*/}
           {/*  Share on Whatsapp*/}
           {/*</WhatsappShareButton>*/}
         </div>
         <div className={classes.recipeRightCol}>
-          <IngredientGrid recipe={recipe}></IngredientGrid>
+          <IngredientGrid
+            recipe={recipe}
+            editable={this.props.recipeEditable}
+          ></IngredientGrid>
         </div>
       </div>
     );
