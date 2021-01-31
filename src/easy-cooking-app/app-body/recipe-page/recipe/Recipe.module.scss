@@ -12,7 +12,17 @@
 
     .recipeTextData {
       display: grid;
-      grid-template-rows: auto 1fr;
+      grid-template-columns: auto 1fr;
+      grid-auto-rows: auto;
+
+      label {
+        margin-top: 3px;
+      }
+      input {
+        margin-left: 10px !important;
+        box-sizing: border-box;
+        margin-bottom: 3px;
+      }
     }
   }
   .recipeRightCol {

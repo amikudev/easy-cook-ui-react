@@ -72,8 +72,8 @@ class Recipe extends React.Component<RecipeComponentInterface> {
         <div className={classes.recipeLeftCol}>
           <h5>{recipe.title}</h5>
 
-          {/*Recipe Quantity*/}
           <div className={classes.recipeTextData}>
+            {/*Recipe Quantity*/}
             <label>Recipe Quantity</label>
             <input
               type="text"
@@ -88,147 +88,147 @@ class Recipe extends React.Component<RecipeComponentInterface> {
                 )
               }
             />
+
+            {/*Desired Quantity*/}
+            {!this.props.recipeEditable ? (
+              <React.Fragment>
+                <label>Desired Quantity</label>
+                <input
+                  type="number"
+                  className="form form-control"
+                  value={recipePreferences.targetRecipe}
+                  onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
+                    this.props.updateRecipeQuantity(
+                      recipe._id,
+                      event.target.value
+                    )
+                  }
+                />
+              </React.Fragment>
+            ) : null}
+
+            {/*Health Rating*/}
+            {this.props.recipeEditable ? (
+              <React.Fragment>
+                <label>Health Rating</label>
+                <input
+                  type="number"
+                  className="form form-control"
+                  value={recipe.healthRating}
+                  onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
+                    this.props.updateRecipe(
+                      recipe._id,
+                      ["healthRating"],
+                      event.target.value
+                    )
+                  }
+                />
+              </React.Fragment>
+            ) : null}
+
+            {/*Taste Rating*/}
+            {this.props.recipeEditable ? (
+              <React.Fragment>
+                <label>Taste Rating</label>
+                <input
+                  type="number"
+                  className="form form-control"
+                  value={recipe.tasteRating}
+                  onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
+                    this.props.updateRecipe(
+                      recipe._id,
+                      ["tasteRating"],
+                      event.target.value
+                    )
+                  }
+                />
+              </React.Fragment>
+            ) : null}
+
+            {/*Cook*/}
+            {this.props.recipeEditable ? (
+              <React.Fragment>
+                <label>Cook</label>
+                <input
+                  type="string"
+                  className="form form-control"
+                  value={recipe.source.cook as string}
+                  onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
+                    this.props.updateRecipe(
+                      recipe._id,
+                      ["source", "cook"],
+                      event.target.value
+                    )
+                  }
+                />
+              </React.Fragment>
+            ) : null}
+
+            {/*Book*/}
+            {this.props.recipeEditable ? (
+              <React.Fragment>
+                <label>Book</label>
+                <input
+                  type="string"
+                  className="form form-control"
+                  value={recipe.source.book as string}
+                  onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
+                    this.props.updateRecipe(
+                      recipe._id,
+                      ["source", "book"],
+                      event.target.value
+                    )
+                  }
+                />
+              </React.Fragment>
+            ) : null}
+
+            {/*Page*/}
+            {this.props.recipeEditable ? (
+              <React.Fragment>
+                <label>Page No. </label>
+                <input
+                  type="number"
+                  className="form form-control"
+                  value={recipe.source.page}
+                  onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
+                    this.props.updateRecipe(
+                      recipe._id,
+                      ["source", "page"],
+                      event.target.value
+                    )
+                  }
+                />
+              </React.Fragment>
+            ) : null}
+
+            {/*Url*/}
+            {this.props.recipeEditable ? (
+              <React.Fragment>
+                <label>Website </label>
+                <input
+                  type="string"
+                  className="form form-control"
+                  value={recipe.source.url}
+                  onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
+                    this.props.updateRecipe(
+                      recipe._id,
+                      ["source", "url"],
+                      event.target.value
+                    )
+                  }
+                />
+              </React.Fragment>
+            ) : null}
+
+            {/*Signature*/}
+            {this.props.recipeEditable ? (
+              <React.Fragment>
+                <label>Signature </label>
+                <input type="string" className="form form-control" />
+              </React.Fragment>
+            ) : null}
           </div>
-
-          {/*Desired Quantity*/}
-          {!this.props.recipeEditable ? (
-            <div className={classes.recipeTextData}>
-              <label>Desired Quantity</label>
-              <input
-                type="number"
-                className="form form-control"
-                value={recipePreferences.targetRecipe}
-                onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
-                  this.props.updateRecipeQuantity(
-                    recipe._id,
-                    event.target.value
-                  )
-                }
-              />
-            </div>
-          ) : null}
-
-          {/*Health Rating*/}
-          {this.props.recipeEditable ? (
-            <div className={classes.recipeTextData}>
-              <label>Health Rating</label>
-              <input
-                type="number"
-                className="form form-control"
-                value={recipe.healthRating}
-                onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
-                  this.props.updateRecipe(
-                    recipe._id,
-                    ["healthRating"],
-                    event.target.value
-                  )
-                }
-              />
-            </div>
-          ) : null}
-
-          {/*Taste Rating*/}
-          {this.props.recipeEditable ? (
-            <div className={classes.recipeTextData}>
-              <label>Taste Rating</label>
-              <input
-                type="number"
-                className="form form-control"
-                value={recipe.tasteRating}
-                onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
-                  this.props.updateRecipe(
-                    recipe._id,
-                    ["tasteRating"],
-                    event.target.value
-                  )
-                }
-              />
-            </div>
-          ) : null}
-
-          {/*Cook*/}
-          {this.props.recipeEditable ? (
-            <div className={classes.recipeTextData}>
-              <label>Cook</label>
-              <input
-                type="string"
-                className="form form-control"
-                value={recipe.source.cook as string}
-                onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
-                  this.props.updateRecipe(
-                    recipe._id,
-                    ["source", "cook"],
-                    event.target.value
-                  )
-                }
-              />
-            </div>
-          ) : null}
-
-          {/*Book*/}
-          {this.props.recipeEditable ? (
-            <div className={classes.recipeTextData}>
-              <label>Book</label>
-              <input
-                type="string"
-                className="form form-control"
-                value={recipe.source.book as string}
-                onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
-                  this.props.updateRecipe(
-                    recipe._id,
-                    ["source", "book"],
-                    event.target.value
-                  )
-                }
-              />
-            </div>
-          ) : null}
-
-          {/*Page*/}
-          {this.props.recipeEditable ? (
-            <div className={classes.recipeTextData}>
-              <label>Page No. </label>
-              <input
-                type="number"
-                className="form form-control"
-                value={recipe.source.page}
-                onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
-                  this.props.updateRecipe(
-                    recipe._id,
-                    ["source", "page"],
-                    event.target.value
-                  )
-                }
-              />
-            </div>
-          ) : null}
-
-          {/*Url*/}
-          {this.props.recipeEditable ? (
-            <div className={classes.recipeTextData}>
-              <label>Website </label>
-              <input
-                type="string"
-                className="form form-control"
-                value={recipe.source.url}
-                onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
-                  this.props.updateRecipe(
-                    recipe._id,
-                    ["source", "url"],
-                    event.target.value
-                  )
-                }
-              />
-            </div>
-          ) : null}
-
-          {/*Signature*/}
-          {this.props.recipeEditable ? (
-            <div className={classes.recipeTextData}>
-              <label>Signature </label>
-              <input type="string" className="form form-control" />
-            </div>
-          ) : null}
 
           {/*Edit buttons*/}
           <div>
