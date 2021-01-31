@@ -95,6 +95,7 @@ class Recipe extends React.Component<RecipeComponentInterface> {
                 <label>Desired Quantity</label>
                 <input
                   type="number"
+                  min={0}
                   className="form form-control"
                   value={recipePreferences.targetRecipe}
                   onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
