@@ -1,7 +1,7 @@
 export default interface RecipeSource {
-  cook: string | null;
-  book: string | null;
-  url: string | null;
-  page: string | number | null;
+  cook: string | undefined;
+  book: string | undefined;
+  url: string | undefined;
+  page: string | number | undefined;
   [field: string]: any;
 }

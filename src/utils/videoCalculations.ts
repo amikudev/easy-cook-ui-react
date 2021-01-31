@@ -5,7 +5,7 @@
  */
 import RecipeModel from "../easy-cooking-app/model/Recipe.model";
 
-const getYoutubeVideoId = (url: string | null) => {
+const getYoutubeVideoId = (url: string | undefined) => {
   //handle default error cases
   if (
     url === null ||

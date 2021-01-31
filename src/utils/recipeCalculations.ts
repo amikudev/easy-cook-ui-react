@@ -1,6 +1,6 @@
 import RecipeModel from "../easy-cooking-app/model/Recipe.model";
 
-const getRecipeQuantityNumber = (quantity: number | string | null) => {
+const getRecipeQuantityNumber = (quantity: number | string | undefined) => {
   //return null if it is falsy
   if (
     quantity === null ||

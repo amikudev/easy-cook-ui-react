@@ -11,7 +11,8 @@
     padding: 10px 20px;
 
     .recipeTextData {
-      display: flex;
+      display: grid;
+      grid-template-rows: auto 1fr;
     }
   }
   .recipeRightCol {

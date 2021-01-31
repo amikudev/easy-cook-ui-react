@@ -5,10 +5,10 @@ export default interface RecipeModel {
   _id: string;
   title: string;
   source: RecipeSource;
-  healthRating?: string | number | null;
-  tasteRating?: string | number | null;
-  baseRecipe: string | number | null;
-  targetRecipe: string | number | null;
+  healthRating?: string | number | undefined;
+  tasteRating?: string | number | undefined;
+  baseRecipe: string | number | undefined;
+  targetRecipe: string | number | undefined;
   ingredients: IngredientsModel[];
   [field: string]: any;
 }

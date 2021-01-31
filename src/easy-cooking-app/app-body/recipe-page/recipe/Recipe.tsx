@@ -55,7 +55,7 @@ class Recipe extends React.Component<RecipeComponentInterface> {
       return null;
     }
 
-    let recipe = JSON.parse(JSON.stringify(this.props.recipe));
+    let recipe: RecipeModel = JSON.parse(JSON.stringify(this.props.recipe));
     let recipePreferences = JSON.parse(
       JSON.stringify(this.props.recipePreferences)
     );
@@ -91,7 +91,7 @@ class Recipe extends React.Component<RecipeComponentInterface> {
           </div>
 
           {/*Desired Quantity*/}
-          {this.props.recipeEditable ? null : (
+          {!this.props.recipeEditable ? (
             <div className={classes.recipeTextData}>
               <label>Desired Quantity</label>
               <input
@@ -106,7 +106,129 @@ class Recipe extends React.Component<RecipeComponentInterface> {
                 }
               />
             </div>
-          )}
+          ) : null}
+
+          {/*Health Rating*/}
+          {this.props.recipeEditable ? (
+            <div className={classes.recipeTextData}>
+              <label>Health Rating</label>
+              <input
+                type="number"
+                className="form form-control"
+                value={recipe.healthRating}
+                onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
+                  this.props.updateRecipe(
+                    recipe._id,
+                    ["healthRating"],
+                    event.target.value
+                  )
+                }
+              />
+            </div>
+          ) : null}
+
+          {/*Taste Rating*/}
+          {this.props.recipeEditable ? (
+            <div className={classes.recipeTextData}>
+              <label>Taste Rating</label>
+              <input
+                type="number"
+                className="form form-control"
+                value={recipe.tasteRating}
+                onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
+                  this.props.updateRecipe(
+                    recipe._id,
+                    ["tasteRating"],
+                    event.target.value
+                  )
+                }
+              />
+            </div>
+          ) : null}
+
+          {/*Cook*/}
+          {this.props.recipeEditable ? (
+            <div className={classes.recipeTextData}>
+              <label>Cook</label>
+              <input
+                type="string"
+                className="form form-control"
+                value={recipe.source.cook as string}
+                onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
+                  this.props.updateRecipe(
+                    recipe._id,
+                    ["source", "cook"],
+                    event.target.value
+                  )
+                }
+              />
+            </div>
+          ) : null}
+
+          {/*Book*/}
+          {this.props.recipeEditable ? (
+            <div className={classes.recipeTextData}>
+              <label>Book</label>
+              <input
+                type="string"
+                className="form form-control"
+                value={recipe.source.book as string}
+                onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
+                  this.props.updateRecipe(
+                    recipe._id,
+                    ["source", "book"],
+                    event.target.value
+                  )
+                }
+              />
+            </div>
+          ) : null}
+
+          {/*Page*/}
+          {this.props.recipeEditable ? (
+            <div className={classes.recipeTextData}>
+              <label>Page No. </label>
+              <input
+                type="number"
+                className="form form-control"
+                value={recipe.source.page}
+                onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
+                  this.props.updateRecipe(
+                    recipe._id,
+                    ["source", "page"],
+                    event.target.value
+                  )
+                }
+              />
+            </div>
+          ) : null}
+
+          {/*Url*/}
+          {this.props.recipeEditable ? (
+            <div className={classes.recipeTextData}>
+              <label>Website </label>
+              <input
+                type="string"
+                className="form form-control"
+                value={recipe.source.url}
+                onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
+                  this.props.updateRecipe(
+                    recipe._id,
+                    ["source", "url"],
+                    event.target.value
+                  )
+                }
+              />
+            </div>
+          ) : null}
+
+          {/*Signature*/}
+          {this.props.recipeEditable ? (
+            <div className={classes.recipeTextData}>
+              <label>Signature </label>
+              <input type="string" className="form form-control" />
+            </div>
+          ) : null}
 
           {/*Edit buttons*/}
           <div>
